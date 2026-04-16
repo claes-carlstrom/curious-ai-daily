@@ -18,80 +18,51 @@ const description = "Get the weekly AI developer news roundup in your inbox ever
       The top AI developer stories of the week, delivered to your inbox every Friday morning. No spam, unsubscribe anytime.
     </p>
 
-    <form id="subscribe-form" class="flex flex-col gap-3">
-      <input
-        type="email"
-        id="email-input"
-        placeholder="you@example.com"
-        required
-        class="bg-[var(--color-bg)] border border-[var(--color-border-section)] text-[var(--color-text)] px-4 py-3 rounded-sm text-sm focus:outline-none focus:border-[var(--color-accent)] transition-colors placeholder:text-[var(--color-text-muted)]"
-      />
-      <button
-        type="submit"
-        id="subscribe-btn"
-        class="bg-[var(--color-accent)] text-[var(--color-bg)] font-semibold text-sm px-4 py-3 rounded-sm hover:opacity-90 transition-opacity cursor-pointer tracking-wide"
+    <div id="subscribe-form">
+      <iframe hidden name="buttondown-frame"></iframe>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/tordar"
+        method="post"
+        target="buttondown-frame"
+        class="flex flex-col gap-3"
+        id="bd-form"
       >
-        Subscribe
-      </button>
-    </form>
+        <input
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+          class="bg-[var(--color-bg)] border border-[var(--color-border-section)] text-[var(--color-text)] px-4 py-3 rounded-sm text-sm focus:outline-none focus:border-[var(--color-accent)] transition-colors placeholder:text-[var(--color-text-muted)]"
+        />
+        <button
+          type="submit"
+          id="subscribe-btn"
+          class="bg-[var(--color-accent)] text-[var(--color-bg)] font-semibold text-sm px-4 py-3 rounded-sm hover:opacity-90 transition-opacity cursor-pointer tracking-wide"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
 
     <p id="subscribe-success" class="hidden text-sm text-[var(--color-accent)] mt-4 font-medium">
-      Check your inbox to confirm your subscription.
-    </p>
-    <p id="subscribe-error" class="hidden text-sm text-red-400 mt-4">
-      Something went wrong. Please try again.
+      Thanks! Check your inbox to confirm your subscription.
     </p>
   </main>
 
   <Footer />
 </Base>
 
-<script>
-  function initSubscribe() {
-    const form = document.getElementById('subscribe-form') as HTMLFormElement | null;
-    const input = document.getElementById('email-input') as HTMLInputElement | null;
-    const btn = document.getElementById('subscribe-btn') as HTMLButtonElement | null;
-    const success = document.getElementById('subscribe-success');
-    const error = document.getElementById('subscribe-error');
-    if (!form || !input || !btn || !success || !error) return;
-
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      success.classList.add('hidden');
-      error.classList.add('hidden');
-      btn.textContent = 'Subscribing...';
-      btn.disabled = true;
-
-      try {
-        const res = await fetch('https://api.buttondown.com/v1/subscribers', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: input.value, tags: ['weekly'] }),
-        });
-
-        if (res.ok || res.status === 201) {
-          form.classList.add('hidden');
-          success.classList.remove('hidden');
-        } else {
-          const data = await res.json().catch(() => null);
-          if (data?.email?.[0]?.includes('already')) {
-            form.classList.add('hidden');
-            success.textContent = 'You\'re already subscribed!';
-            success.classList.remove('hidden');
-          } else {
-            error.classList.remove('hidden');
-            btn.textContent = 'Subscribe';
-            btn.disabled = false;
-          }
-        }
-      } catch {
-        error.classList.remove('hidden');
-        btn.textContent = 'Subscribe';
-        btn.disabled = false;
-      }
-    });
-  }
-
-  initSubscribe();
-  document.addEventListener('astro:page-load', initSubscribe);
+<script is:inline>
+  document.addEventListener('submit', function(e) {
+    var form = e.target.closest('#bd-form');
+    if (!form) return;
+    var btn = document.getElementById('subscribe-btn');
+    var formDiv = document.getElementById('subscribe-form');
+    var success = document.getElementById('subscribe-success');
+    if (btn) btn.textContent = 'Subscribing...';
+    setTimeout(function() {
+      if (formDiv) formDiv.classList.add('hidden');
+      if (success) success.classList.remove('hidden');
+    }, 1000);
+  });
 </script>
