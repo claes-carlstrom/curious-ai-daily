@@ -1,0 +1,97 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import ShortcutBar from "../components/ShortcutBar.astro";
+import Footer from "../components/Footer.astro";
+
+const title = "AI Daily Dev — Subscribe";
+const description = "Get the weekly AI developer news roundup in your inbox every Friday.";
+---
+
+<Base title={title} description={description}>
+  <Header />
+  <ShortcutBar />
+
+  <main class="px-6 py-12 max-w-md mx-auto">
+    <h1 class="text-2xl font-bold text-[var(--color-story-title)] tracking-tight mb-3">Weekly Roundup</h1>
+    <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-8">
+      The top AI developer stories of the week, delivered to your inbox every Friday morning. No spam, unsubscribe anytime.
+    </p>
+
+    <form id="subscribe-form" class="flex flex-col gap-3">
+      <input
+        type="email"
+        id="email-input"
+        placeholder="you@example.com"
+        required
+        class="bg-[var(--color-bg)] border border-[var(--color-border-section)] text-[var(--color-text)] px-4 py-3 rounded-sm text-sm focus:outline-none focus:border-[var(--color-accent)] transition-colors placeholder:text-[var(--color-text-muted)]"
+      />
+      <button
+        type="submit"
+        id="subscribe-btn"
+        class="bg-[var(--color-accent)] text-[var(--color-bg)] font-semibold text-sm px-4 py-3 rounded-sm hover:opacity-90 transition-opacity cursor-pointer tracking-wide"
+      >
+        Subscribe
+      </button>
+    </form>
+
+    <p id="subscribe-success" class="hidden text-sm text-[var(--color-accent)] mt-4 font-medium">
+      Check your inbox to confirm your subscription.
+    </p>
+    <p id="subscribe-error" class="hidden text-sm text-red-400 mt-4">
+      Something went wrong. Please try again.
+    </p>
+  </main>
+
+  <Footer />
+</Base>
+
+<script>
+  function initSubscribe() {
+    const form = document.getElementById('subscribe-form') as HTMLFormElement | null;
+    const input = document.getElementById('email-input') as HTMLInputElement | null;
+    const btn = document.getElementById('subscribe-btn') as HTMLButtonElement | null;
+    const success = document.getElementById('subscribe-success');
+    const error = document.getElementById('subscribe-error');
+    if (!form || !input || !btn || !success || !error) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      success.classList.add('hidden');
+      error.classList.add('hidden');
+      btn.textContent = 'Subscribing...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('https://api.buttondown.com/v1/subscribers', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: input.value, tags: ['weekly'] }),
+        });
+
+        if (res.ok || res.status === 201) {
+          form.classList.add('hidden');
+          success.classList.remove('hidden');
+        } else {
+          const data = await res.json().catch(() => null);
+          if (data?.email?.[0]?.includes('already')) {
+            form.classList.add('hidden');
+            success.textContent = 'You\'re already subscribed!';
+            success.classList.remove('hidden');
+          } else {
+            error.classList.remove('hidden');
+            btn.textContent = 'Subscribe';
+            btn.disabled = false;
+          }
+        }
+      } catch {
+        error.classList.remove('hidden');
+        btn.textContent = 'Subscribe';
+        btn.disabled = false;
+      }
+    });
+  }
+
+  initSubscribe();
+  document.addEventListener('astro:page-load', initSubscribe);
+</script>

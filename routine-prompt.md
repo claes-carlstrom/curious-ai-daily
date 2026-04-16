@@ -57,3 +57,35 @@ git add src/content/digests/ public/og/
 git commit -m "digest: YYYY-MM-DD"
 git push
 ```
+
+## Friday: Weekly Newsletter
+
+If today is **Friday**, also send the weekly roundup as a newsletter via Buttondown after pushing the digest.
+
+1. Collect all stories from this week's digests (Mon–Fri)
+2. Sort by significance descending, take top 10
+3. Format as Markdown:
+   ```
+   # AI Daily Dev — Week N
+
+   The top AI developer stories this week.
+
+   ## 1. Story Title
+   Summary text. [Read more →](url)
+
+   ## 2. Story Title
+   ...
+
+   ---
+
+   [View the full weekly roundup on ai-daily.dev](https://ai-daily.dev/weekly/YYYY-WNN)
+   ```
+4. Send via the Buttondown API:
+   ```bash
+   curl -X POST "https://api.buttondown.com/v1/emails" \
+     -H "Authorization: Token $BUTTONDOWN_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d "{\"subject\": \"AI Daily Dev — Week N Top Stories\", \"body\": \"MARKDOWN_CONTENT\", \"status\": \"draft\"}"
+   ```
+
+Note: Set `"status": "draft"` so the newsletter can be reviewed before sending. Change to `"status": "about_to_send"` to auto-send without review.
