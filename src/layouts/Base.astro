@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { ClientRouter } from "astro:transitions";
+import Analytics from "@vercel/analytics/astro";
 
 interface Story {
   title: string;
@@ -80,5 +81,6 @@ const itemListSchema = stories?.length ? {
       <slot />
     </div>
     <script src="../scripts/keyboard.ts"></script>
+    <Analytics />
   </body>
 </html>
