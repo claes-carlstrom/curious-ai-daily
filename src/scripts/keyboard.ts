@@ -136,6 +136,7 @@
       ['o / Enter', 'Open story in new tab'],
       ['h / ←', 'Previous day / period'],
       ['l / →', 'Next day / period'],
+      ['d', 'Go to today\'s digest'],
       ['w', 'Go to this week\'s rollup'],
       ['m', 'Go to this month\'s rollup'],
       ['a', 'Go to archive'],
@@ -283,6 +284,11 @@
       case 'm':
         e.preventDefault();
         navigateMonth();
+        break;
+
+      case 'd':
+        e.preventDefault();
+        window.location.href = '/';
         break;
 
       case 'a':

@@ -16,6 +16,7 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
   </a>
   <nav class="flex items-center gap-6">
     <a href="/archive" class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">archive</a>
+    <a href="/" class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">daily</a>
     <a href={`/weekly/${latestWeek}`} class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">weekly</a>
     <a href={`/monthly/${latestMonth}`} class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">monthly</a>
     <button
