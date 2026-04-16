@@ -77,17 +77,19 @@
   }
 
   function navigateWeek() {
+    const link = document.querySelector('a[href*="/weekly/"]') as HTMLAnchorElement | null;
+    if (link) { window.location.href = link.href; return; }
     const dateStr = getDateFromUrl();
     if (!dateStr) return;
-    const week = getISOWeek(dateStr);
-    window.location.href = `/weekly/${week}`;
+    window.location.href = `/weekly/${getISOWeek(dateStr)}`;
   }
 
   function navigateMonth() {
+    const link = document.querySelector('a[href*="/monthly/"]') as HTMLAnchorElement | null;
+    if (link) { window.location.href = link.href; return; }
     const dateStr = getDateFromUrl();
     if (!dateStr) return;
-    const month = dateStr.slice(0, 7); // YYYY-MM
-    window.location.href = `/monthly/${month}`;
+    window.location.href = `/monthly/${dateStr.slice(0, 7)}`;
   }
 
   function createHelpOverlay(): HTMLElement {
