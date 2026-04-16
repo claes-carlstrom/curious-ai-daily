@@ -146,8 +146,7 @@
     const shortcuts: [string, string][] = [
       ['↑ / ↓', 'Next / previous story'],
       ['Enter', 'Open story in new tab'],
-      ['←', 'Previous day / period'],
-      ['→', 'Next day / period'],
+      ['← / →', 'Previous / next day or period'],
       ['d', 'Go to today\'s digest'],
       ['w', 'Go to this week\'s rollup'],
       ['m', 'Go to this month\'s rollup'],
