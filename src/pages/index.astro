@@ -1,0 +1,10 @@
+---
+// Find the most recent digest and redirect to it
+import { getCollection } from "astro:content";
+
+const digests = await getCollection("digests");
+const sorted = digests.sort((a, b) => b.data.date.localeCompare(a.data.date));
+const latest = sorted[0];
+
+return Astro.redirect(`/digest/${latest.data.date}`);
+---

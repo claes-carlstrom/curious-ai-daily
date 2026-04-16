@@ -1,0 +1,82 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import ShortcutBar from "../../components/ShortcutBar.astro";
+import StoryCard from "../../components/StoryCard.astro";
+import Footer from "../../components/Footer.astro";
+
+function formatMonthLabel(yyyyMM: string): string {
+  const [year, month] = yyyyMM.split("-");
+  const d = new Date(Number(year), Number(month) - 1, 1);
+  return d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+}
+
+export async function getStaticPaths() {
+  const digests = await getCollection("digests");
+  const monthMap: Record<string, any[]> = {};
+
+  for (const entry of digests) {
+    const month = entry.data.date.slice(0, 7);
+    if (!monthMap[month]) monthMap[month] = [];
+    monthMap[month].push(entry);
+  }
+
+  const sortedMonths = Object.keys(monthMap).sort();
+
+  return sortedMonths.map((month, idx) => ({
+    params: { month },
+    props: {
+      month,
+      entries: monthMap[month],
+      prevMonth: sortedMonths[idx - 1] ?? null,
+      nextMonth: sortedMonths[idx + 1] ?? null,
+    },
+  }));
+}
+
+const { month, entries, prevMonth, nextMonth } = Astro.props;
+
+const allStories = entries.flatMap((entry: any) => entry.data.stories);
+const topStories = allStories
+  .sort((a: any, b: any) => b.significance - a.significance)
+  .slice(0, 10);
+
+const monthLabel = formatMonthLabel(month);
+const title = `AI Daily Dev — ${monthLabel}`;
+const description = topStories.length > 1
+  ? `Top stories: ${topStories[0].title}, ${topStories[1].title}.`
+  : "Monthly rollup.";
+---
+
+<Base title={title} description={description}>
+  <Header />
+  <ShortcutBar />
+
+  <div class="flex items-center justify-between px-5 py-5 border-b border-[var(--color-border-section)]">
+    {prevMonth ? (
+      <a href={`/monthly/${prevMonth}`} data-nav="prev" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">←</a>
+    ) : (
+      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">←</span>
+    )}
+
+    <div class="text-center">
+      <div class="uppercase text-[9px] tracking-[2px] text-[var(--color-text-muted)] mb-0.5">Monthly Rollup</div>
+      <div class="text-[var(--color-text)] text-sm font-medium tracking-tight">{monthLabel}</div>
+    </div>
+
+    {nextMonth ? (
+      <a href={`/monthly/${nextMonth}`} data-nav="next" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">→</a>
+    ) : (
+      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">→</span>
+    )}
+  </div>
+
+  <main class="px-5 py-6">
+    {topStories.map((story: any, idx: number) => (
+      <StoryCard story={story} index={idx + 1} />
+    ))}
+  </main>
+
+  <Footer />
+</Base>

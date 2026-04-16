@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import ShortcutBar from "../../components/ShortcutBar.astro";
+import DateNav from "../../components/DateNav.astro";
+import StoryCard from "../../components/StoryCard.astro";
+import Footer from "../../components/Footer.astro";
+
+export async function getStaticPaths() {
+  const digests = await getCollection("digests");
+  const sorted = digests.sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+  return sorted.map((entry, idx) => ({
+    params: { date: entry.data.date },
+    props: {
+      entry,
+      prevDate: sorted[idx + 1]?.data.date ?? null,
+      nextDate: sorted[idx - 1]?.data.date ?? null,
+    },
+  }));
+}
+
+const { entry, prevDate, nextDate } = Astro.props;
+const { date, stories } = entry.data;
+
+const dateObj = new Date(date + "T00:00:00");
+const formattedDate = dateObj.toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const title = `AI Daily Dev — ${formattedDate}`;
+const description = `Today: ${stories[0].title}, ${stories[1].title}, and more.`;
+---
+
+<Base title={title} description={description}>
+  <Header />
+  <ShortcutBar />
+  <DateNav date={date} prevDate={prevDate} nextDate={nextDate} />
+
+  <main class="px-5 py-6">
+    <ol class="space-y-0">
+      {stories.map((story, idx) => (
+        <StoryCard story={story} index={idx + 1} />
+      ))}
+    </ol>
+  </main>
+
+  <Footer />
+</Base>

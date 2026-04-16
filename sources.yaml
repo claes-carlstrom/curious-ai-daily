@@ -1,0 +1,151 @@
+# ai-daily.dev — News Sources Configuration
+#
+# Edit this file to change where the daily routine looks for news.
+# Priority 1 sources are always checked. Priority 2 fill gaps.
+
+# ── What we're looking for ──────────────────────────────────────
+# 1. New features/products from major AI companies
+# 2. New model releases and benchmarks
+# 3. Breaking and viral AI news
+# 4. What the community is buzzing about
+
+sources:
+  # ── Major AI Companies (Priority 1) ───────────────────────────
+  - name: Anthropic
+    url: https://www.anthropic.com/news
+    type: fetch
+    priority: 1
+
+  - name: OpenAI
+    url: https://openai.com/news
+    type: fetch
+    priority: 1
+
+  - name: Google DeepMind
+    url: https://deepmind.google/discover/blog/
+    type: fetch
+    priority: 1
+
+  - name: Google AI for Developers
+    url: https://ai.google.dev/gemini-api/docs/changelog
+    type: fetch
+    priority: 1
+
+  - name: Meta AI
+    url: https://ai.meta.com/blog/
+    type: fetch
+    priority: 1
+
+  - name: Mistral
+    url: https://mistral.ai/news
+    type: fetch
+    priority: 1
+
+  - name: xAI
+    url: https://x.ai/blog
+    type: fetch
+    priority: 1
+
+  # ── Developer Platforms (Priority 1) ──────────────────────────
+  - name: HuggingFace
+    url: https://huggingface.co/blog
+    type: fetch
+    priority: 1
+
+  - name: GitHub Blog
+    url: https://github.blog/ai-and-ml/
+    type: fetch
+    priority: 1
+
+  # ── Community Buzz (Priority 1) ───────────────────────────────
+  - name: Hacker News
+    url: https://news.ycombinator.com
+    type: search
+    priority: 1
+    note: Top AI stories on HN front page — proxy for developer buzz
+
+  - name: Reddit r/LocalLLaMA
+    url: https://www.reddit.com/r/LocalLLaMA/
+    type: search
+    priority: 1
+    note: Open-source model community — first to notice new releases
+
+  - name: Reddit r/MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/
+    type: search
+    priority: 1
+    note: Research and industry ML community
+
+  - name: X/Twitter AI
+    type: search
+    priority: 1
+    query: "AI viral OR trending OR announcement"
+    note: Breaking news and viral takes
+
+  # ── GitHub Trending (Priority 1) ──────────────────────────────
+  - name: GitHub Trending
+    url: https://github.com/trending
+    type: search
+    priority: 1
+    query: "GitHub trending AI ML repository this week"
+    note: New repos blowing up — often the first signal of a breakout tool
+
+  - name: Trendshift
+    url: https://trendshift.io
+    type: search
+    priority: 2
+    note: GitHub trending analytics with star velocity
+
+  # ── YouTube AI Creators (Priority 2) ──────────────────────────
+  - name: AI Explained
+    url: https://www.youtube.com/@aiexplained-official
+    type: search
+    priority: 2
+    note: Deep dives on new models and capabilities
+
+  - name: Two Minute Papers
+    url: https://www.youtube.com/@TwoMinutePapers
+    type: search
+    priority: 2
+    note: Research paper breakdowns
+
+  - name: Matthew Berman
+    url: https://www.youtube.com/@matthew_berman
+    type: search
+    priority: 2
+    note: Model reviews and comparisons
+
+  - name: Fireship
+    url: https://www.youtube.com/@Fireship
+    type: search
+    priority: 2
+    note: Fast-paced dev news, often covers AI tooling
+
+  - name: ThePrimeagen
+    url: https://www.youtube.com/@ThePrimeagen
+    type: search
+    priority: 2
+    note: Developer perspective on AI tools
+
+  # ── Tech Press (Priority 2) ───────────────────────────────────
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/
+    type: fetch
+    priority: 2
+
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence
+    type: fetch
+    priority: 2
+
+  - name: Ars Technica AI
+    url: https://arstechnica.com/ai/
+    type: fetch
+    priority: 2
+
+  # ── Aggregators (Priority 2) ──────────────────────────────────
+  - name: AI News Search
+    type: search
+    priority: 1
+    query: "AI news today breaking new release model launch"
+    note: Catch-all for stories missed by specific sources

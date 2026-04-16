@@ -1,0 +1,32 @@
+date: "2026-04-14"
+stories:
+  - title: "OpenAI Splits Codex into Basic and Advanced Tiers with New Features"
+    summary: "OpenAI restructured Codex into Basic and Advanced tiers and added developer-facing features including app preview, a scratchpad, a Pull Requests section, and inline comments on previewed UI. The tiering gives teams a lower-cost entry point while reserving more capable agents for advanced use cases."
+    url: "https://openai.com/news/"
+    source: "openai.com"
+    tag: "tools"
+    significance: 4
+  - title: "Microsoft markitdown Converts Office Docs to Markdown for LLM Context"
+    summary: "Microsoft released markitdown, an open-source tool that converts PDFs, DOCX, PPTX, and HTML files into clean Markdown formatted for LLM context windows. The project accumulated 3,600+ stars in its first week. It addresses a common preprocessing step for document-heavy RAG and agent pipelines."
+    url: "https://github.com/microsoft/markitdown"
+    source: "github.com"
+    tag: "open-source"
+    significance: 4
+  - title: "Google ADK Emerges as Leading Multi-Agent Framework with 8200+ Stars"
+    summary: "Google's Agent Development Kit (adk-python) reached 8,200+ GitHub stars, establishing it as the most complete multi-agent framework this month. Block's Goose offers a competing local-first approach with native MCP support. Both frameworks reflect diverging philosophies around cloud-managed versus local agent execution."
+    url: "https://github.com/google/adk-python"
+    source: "github.com"
+    tag: "frameworks"
+    significance: 4
+  - title: "NVIDIA Hosts Quantum Day with AI-Accelerated Quantum Hardware"
+    summary: "NVIDIA's Quantum Day event featured demonstrations of AI-accelerated quantum hardware and advances in error correction. The company outlined a hybrid quantum-GPU supercomputing roadmap. The event signals NVIDIA's intent to position its GPU infrastructure as central to quantum simulation workloads."
+    url: "https://www.nvidia.com"
+    source: "nvidia.com"
+    tag: "research"
+    significance: 3
+  - title: "MiniMax Open-Sources Music Skills for AI Agents"
+    summary: "MiniMax released open-source Music Skills for AI agents, covering track generation, persona-based singing, and playlist curation. The tools are compatible with Claude Code via the MMX-CLI integration. The release extends agentic capabilities into media creation for developers building content-focused pipelines."
+    url: "https://github.com/minimax"
+    source: "github.com"
+    tag: "open-source"
+    significance: 3

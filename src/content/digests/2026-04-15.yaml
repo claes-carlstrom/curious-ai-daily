@@ -1,0 +1,32 @@
+date: "2026-04-15"
+stories:
+  - title: "Google Releases Gemma 4 Open Models Under Apache 2.0"
+    summary: "Google launched Gemma 4, releasing gemma-4-26b-a4b-it and gemma-4-31b-it under Apache 2.0 for unrestricted commercial use. The models support on-device agentic use cases including multi-step planning, autonomous action, and audio-visual processing. Gemma 4 sets a new capability benchmark for open-weight models accessible to developers."
+    url: "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+    source: "blog.google"
+    tag: "models"
+    significance: 5
+  - title: "Anthropic Building Claude Code Desktop Overhaul 'Epitaxy'"
+    summary: "Details of Anthropic's planned Claude Code desktop redesign, codenamed Epitaxy, have emerged. The overhaul introduces Coordinator Mode for running parallel sub-agents, alongside plan, task, and diff panels, multi-repo support, and a code preview pane. The architecture targets complex multi-step engineering workflows requiring coordination across multiple agents."
+    url: "https://www.anthropic.com/news"
+    source: "anthropic.com"
+    tag: "tools"
+    significance: 4
+  - title: "Google Launches Gemini 3.1 Flash Live Preview for Real-Time Voice"
+    summary: "Google released Gemini 3.1 Flash Live Preview, an audio-to-audio model designed for real-time dialogue and voice-first AI applications. The model is accessible via the Gemini API and targets developers building low-latency conversational interfaces."
+    url: "https://ai.google.dev/gemini-api/docs/changelog"
+    source: "ai.google.dev"
+    tag: "models"
+    significance: 4
+  - title: "Google Launches Veo 3.1 Lite Preview for High-Volume Video Generation"
+    summary: "Google introduced Veo 3.1 Lite Preview, positioned as the most cost-efficient video generation model in the Gemini API lineup. It is designed for high-volume production pipelines where per-clip cost is the primary constraint."
+    url: "https://ai.google.dev/gemini-api/docs/changelog"
+    source: "ai.google.dev"
+    tag: "models"
+    significance: 3
+  - title: "Google Introduces Flex and Priority Inference Tiers for Gemini API"
+    summary: "Google added Flex and Priority inference tiers to the Gemini API, letting developers trade cost against latency according to workload requirements. Flex targets batch and background jobs while Priority is optimized for interactive, latency-sensitive applications."
+    url: "https://ai.google.dev/gemini-api/docs/changelog"
+    source: "ai.google.dev"
+    tag: "tools"
+    significance: 3

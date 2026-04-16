@@ -1,0 +1,32 @@
+date: "2026-04-10"
+stories:
+  - title: "Anthropic Annualized Revenue Crosses $30B, Surpassing OpenAI"
+    summary: "Anthropic's annualized revenue surpassed $30B, exceeding OpenAI's reported $25B for the first time. The company now counts over 1,000 enterprise customers spending at least $1M per year. The milestone reflects rapid adoption of Claude across large enterprises."
+    url: "https://www.anthropic.com/news"
+    source: "anthropic.com"
+    tag: "industry"
+    significance: 5
+  - title: "Meta and CoreWeave Sign $21B Compute Agreement Through 2032"
+    summary: "Meta and CoreWeave expanded their partnership to approximately $21B through 2032, bringing the total relationship to around $35B. The agreement includes the first commercial deployments of NVIDIA's Vera Rubin platform. The deal secures a substantial share of next-generation GPU capacity for Meta's AI infrastructure."
+    url: "https://www.cnbc.com"
+    source: "cnbc.com"
+    tag: "industry"
+    significance: 4
+  - title: "Anthropic Secures 3.5 GW of Google TPU Capacity Starting 2027"
+    summary: "Anthropic expanded its compute partnership with Google and Broadcom, locking in 3.5 GW of next-generation TPU capacity beginning in 2027. The agreement is structured around custom silicon co-developed with Broadcom. This positions Anthropic with dedicated large-scale training and inference infrastructure independent of spot GPU markets."
+    url: "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+    source: "anthropic.com"
+    tag: "industry"
+    significance: 4
+  - title: "MCP Crosses 97 Million Installs, Agentic AI Foundation Formed"
+    summary: "The Model Context Protocol surpassed 97 million installs, establishing itself as a dominant standard for AI tool integration. The Linux Foundation announced the Agentic AI Foundation to govern MCP and related agentic infrastructure standards. Vendor-neutral governance is expected to accelerate enterprise adoption."
+    url: "https://www.linuxfoundation.org"
+    source: "linuxfoundation.org"
+    tag: "frameworks"
+    significance: 4
+  - title: "Stanford AI Index 2026 Published"
+    summary: "Stanford released the AI Index 2026, a comprehensive annual report covering the state of AI research, industry, and policy. The report tracks benchmark progress, investment trends, and adoption patterns across sectors."
+    url: "https://spectrum.ieee.org/state-of-ai-index-2026"
+    source: "spectrum.ieee.org"
+    tag: "research"
+    significance: 3

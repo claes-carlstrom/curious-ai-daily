@@ -1,0 +1,32 @@
+date: "2026-04-11"
+stories:
+  - title: "MiniMax Releases M2.7 Open-Source Self-Evolving Agent Model"
+    summary: "MiniMax published M2.7, an open-source agentic model achieving 56.22% on SWE-Pro and 57.0% on Terminal Bench 2. The model uses a three-component architecture of short-term memory, self-feedback, and self-optimization to improve through deployment. It matches Gemini 3.1 with a 66.6% medal rate on competitive benchmarks."
+    url: "https://www.minimax.io"
+    source: "minimax.io"
+    tag: "open-source"
+    significance: 5
+  - title: "Anthropic Launches Claude for Word (Beta)"
+    summary: "Anthropic released a beta integration bringing Claude directly into Microsoft Word for AI-native drafting and editing. The integration supports tracked changes, allowing users to review and accept AI edits inline. It is available on Team and Enterprise plans."
+    url: "https://www.anthropic.com/news"
+    source: "anthropic.com"
+    tag: "tools"
+    significance: 4
+  - title: "Accenture Invests in Replit for Enterprise AI Development"
+    summary: "Accenture made a strategic investment in Replit and announced a partnership to bring AI-driven software development tooling to enterprise clients globally. The deal gives Replit a channel into large-scale enterprise software delivery. It positions AI-assisted coding as a mainstream enterprise capability."
+    url: "https://techcrunch.com"
+    source: "techcrunch.com"
+    tag: "industry"
+    significance: 3
+  - title: "Google Search AI Mode Restaurant Booking Expands Internationally"
+    summary: "Google expanded AI Mode restaurant booking to Australia, Canada, Hong Kong, India, New Zealand, Singapore, South Africa, and the UK. The feature integrates conversational AI directly into local search results with booking actions. The rollout extends what was previously a US-only capability to major English-speaking markets."
+    url: "https://blog.google"
+    source: "blog.google"
+    tag: "tools"
+    significance: 3
+  - title: "Notion Ships Computer Feature for AI Agent Execution"
+    summary: "Notion launched a 'Computer' feature that provides AI agents with custom VM environments inside the Notion workspace. The feature supports model selection, trusted URL allowlists, and custom scripts. It targets developers building automated workflows that require structured, sandboxed execution environments."
+    url: "https://www.notion.so"
+    source: "notion.so"
+    tag: "tools"
+    significance: 3

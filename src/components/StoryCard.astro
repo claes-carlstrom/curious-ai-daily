@@ -1,0 +1,55 @@
+---
+interface Story {
+  title: string;
+  summary: string;
+  url: string;
+  source: string;
+  tag: string;
+  significance: number;
+}
+
+interface Props {
+  index: number;
+  story: Story;
+}
+
+const { index, story } = Astro.props;
+const { title, summary, url, source, tag } = story;
+
+const indexFormatted = String(index).padStart(2, "0");
+
+const tagStyles: Record<string, { bg: string; text: string }> = {
+  models: { bg: "var(--color-tag-models-bg)", text: "var(--color-tag-models)" },
+  tools: { bg: "var(--color-tag-tools-bg)", text: "var(--color-tag-tools)" },
+  research: { bg: "var(--color-tag-research-bg)", text: "var(--color-tag-research)" },
+  industry: { bg: "var(--color-tag-industry-bg)", text: "var(--color-tag-industry)" },
+  "open-source": { bg: "var(--color-tag-open-source-bg)", text: "var(--color-tag-open-source)" },
+  frameworks: { bg: "var(--color-tag-frameworks-bg)", text: "var(--color-tag-frameworks)" },
+};
+
+const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-muted)" };
+---
+
+<div
+  class="flex gap-4 border-b border-[var(--color-border)]/50 py-4 px-5 cursor-pointer transition-all hover:bg-white/[0.02] group"
+  data-story-index={index}
+>
+  <div class="hidden md:block shrink-0 w-6 text-right">
+    <span class="text-[var(--color-accent)] font-bold text-lg opacity-30 leading-none">{indexFormatted}</span>
+  </div>
+  <div class="flex-1 min-w-0">
+    <a href={url} target="_blank" rel="noopener noreferrer" class="no-underline group-hover:underline">
+      <h2 class="text-[15px] font-semibold text-white tracking-tight leading-snug mb-1">{title}</h2>
+    </a>
+    <p class="text-xs text-[var(--color-text-secondary)] leading-relaxed mb-2">{summary}</p>
+    <div class="flex items-center gap-2">
+      <span
+        class="uppercase text-[9px] px-1.5 py-0.5 rounded-sm font-medium tracking-wide"
+        style={`background-color: ${tagStyle.bg}; color: ${tagStyle.text};`}
+      >
+        {tag}
+      </span>
+      <span class="text-[11px] text-[var(--color-text-muted)]">{source}</span>
+    </div>
+  </div>
+</div>

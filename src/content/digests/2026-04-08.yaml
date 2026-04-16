@@ -1,0 +1,32 @@
+date: "2026-04-08"
+stories:
+  - title: "Meta Debuts Muse Spark from Superintelligence Labs"
+    summary: "Meta launched Muse Spark, the first major model from its new Superintelligence Labs led by Alexandr Wang. The model matches midsize Llama 4 performance at an order of magnitude less compute. Meta has committed $115–135B in AI capex for 2026."
+    url: "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
+    source: "cnbc.com"
+    tag: "models"
+    significance: 5
+  - title: "OpenAI, Anthropic, Google Unite Against Adversarial Model Distillation"
+    summary: "The three frontier AI labs are sharing intelligence through the Frontier Model Forum to combat model theft via adversarial distillation. The coordinated effort targets systematic extraction of proprietary model behavior by adversarial actors. This is the first public acknowledgment of joint defensive measures between the major labs."
+    url: "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china"
+    source: "bloomberg.com"
+    tag: "industry"
+    significance: 4
+  - title: "Anthropic Leads Project Glasswing Cybersecurity Initiative"
+    summary: "Anthropic is leading Project Glasswing, a security initiative focused on AI-related threats to critical software infrastructure. The effort targets cybersecurity risks that emerge as AI systems become more deeply embedded in critical systems."
+    url: "https://www.anthropic.com/news"
+    source: "anthropic.com"
+    tag: "industry"
+    significance: 3
+  - title: "Poke Raises $10M for AI Agent via SMS and Messaging Apps"
+    summary: "Poke secured $10M in additional funding at a $300M valuation for its AI agent accessible over iMessage, SMS, Telegram, and WhatsApp. The product targets personal assistant tasks without requiring a dedicated app install. The round highlights continued investor appetite for messaging-native AI interfaces."
+    url: "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+  - title: "Claude AI Major Outage Spans April 7–8"
+    summary: "Anthropic's Claude experienced login failures and degraded performance across April 7 and 8. The multi-day incident affected both API access and the claude.ai web interface."
+    url: "https://www.ibtimes.com.au/claude-ai-down-again-april-8-2026-anthropic-outage-hits-users-after-yesterdays-major-incident-1865761"
+    source: "ibtimes.com.au"
+    tag: "industry"
+    significance: 2

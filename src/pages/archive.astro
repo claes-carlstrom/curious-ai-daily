@@ -1,0 +1,73 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import ShortcutBar from "../components/ShortcutBar.astro";
+import Footer from "../components/Footer.astro";
+
+const digests = await getCollection("digests");
+const sorted = digests.sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+// Group by YYYY-MM
+const grouped = new Map<string, typeof sorted>();
+for (const entry of sorted) {
+  const month = entry.data.date.slice(0, 7);
+  if (!grouped.has(month)) grouped.set(month, []);
+  grouped.get(month)!.push(entry);
+}
+
+function formatMonthLabel(yyyyMM: string): string {
+  const [year, month] = yyyyMM.split("-");
+  const d = new Date(Number(year), Number(month) - 1, 1);
+  return d.toLocaleDateString("en-US", { month: "long", year: "numeric" }).toUpperCase();
+}
+
+function formatDayLabel(dateStr: string): string {
+  const d = new Date(dateStr + "T00:00:00");
+  const dayAbbr = d.toLocaleDateString("en-US", { weekday: "short" });
+  const dayNum = d.getDate();
+  return `${dayAbbr} ${dayNum}`;
+}
+---
+
+<Base title="AI Daily Dev — Archive">
+  <Header />
+  <ShortcutBar />
+
+  <main class="px-5 py-6">
+    <h1 class="uppercase text-[10px] tracking-[3px] text-[var(--color-text-muted)] mb-8">Archive</h1>
+
+    {Array.from(grouped.entries()).map(([month, entries]) => (
+      <section class="mb-10">
+        <h2 class="uppercase text-[10px] tracking-[2px] text-[var(--color-text-muted)] mb-3 pb-2 border-b border-[var(--color-border)]">
+          {formatMonthLabel(month)}
+        </h2>
+        <div>
+          {entries.map((entry) => {
+            const titles = entry.data.stories.map((s) => s.title).join(" · ");
+            const dayLabel = formatDayLabel(entry.data.date);
+            return (
+              <a
+                href={`/digest/${entry.data.date}`}
+                data-archive-row={entry.data.date}
+                class="flex items-baseline gap-4 py-2.5 border-b border-[var(--color-border)] no-underline hover:bg-[#0f0f0f] group transition-colors"
+              >
+                <span class="shrink-0 w-14 text-[var(--color-accent)] opacity-50 text-[11px] font-mono uppercase tracking-wide">
+                  {dayLabel}
+                </span>
+                <span class="flex-1 text-[var(--color-text-secondary)] text-[12px] truncate group-hover:text-[var(--color-text)] transition-colors">
+                  {titles}
+                </span>
+                <span class="shrink-0 text-[var(--color-text-muted)] text-[11px] font-mono">
+                  {entry.data.stories.length}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </main>
+
+  <Footer />
+</Base>

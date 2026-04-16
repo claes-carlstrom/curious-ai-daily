@@ -1,0 +1,57 @@
+---
+import { getCollection } from "astro:content";
+import { groupByWeek } from "../../lib/weeks";
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import ShortcutBar from "../../components/ShortcutBar.astro";
+import StoryCard from "../../components/StoryCard.astro";
+import Footer from "../../components/Footer.astro";
+
+export async function getStaticPaths() {
+  const digests = await getCollection("digests");
+  const weekMap = groupByWeek(digests);
+  const sorted = Object.keys(weekMap).sort();
+  return sorted.map((w, i) => ({
+    params: { week: w },
+    props: {
+      week: w,
+      weekEntries: weekMap[w],
+      prevWeek: sorted[i - 1] ?? null,
+      nextWeek: sorted[i + 1] ?? null,
+    },
+  }));
+}
+
+const { week, weekEntries, prevWeek, nextWeek } = Astro.props;
+const allStories = weekEntries.flatMap((e: any) => e.data.stories);
+allStories.sort((a: any, b: any) => b.significance - a.significance);
+const topStories = allStories.slice(0, 10);
+const weekNum = Number(week.split("-W")[1]);
+---
+
+<Base title={`AI Daily Dev — Week ${weekNum}`}>
+  <Header />
+  <ShortcutBar />
+  <div class="flex items-center justify-between px-5 py-5 border-b border-[var(--color-border-section)]">
+    {prevWeek ? (
+      <a href={`/weekly/${prevWeek}`} data-nav="prev" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">&larr;</a>
+    ) : (
+      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">&larr;</span>
+    )}
+    <div class="text-center">
+      <div class="uppercase text-[9px] tracking-[2px] text-[var(--color-text-muted)] mb-0.5">Weekly Rollup</div>
+      <div class="text-[var(--color-text)] text-sm font-medium tracking-tight">Week {weekNum}</div>
+    </div>
+    {nextWeek ? (
+      <a href={`/weekly/${nextWeek}`} data-nav="next" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">&rarr;</a>
+    ) : (
+      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">&rarr;</span>
+    )}
+  </div>
+  <main class="px-5 py-6">
+    {topStories.map((story: any, idx: number) => (
+      <StoryCard story={story} index={idx + 1} />
+    ))}
+  </main>
+  <Footer />
+</Base>

@@ -1,0 +1,32 @@
+date: "2026-04-09"
+stories:
+  - title: "Anthropic Releases Advisor Strategy for Messages API"
+    summary: "Anthropic introduced the Advisor Strategy pattern for the Messages API, pairing Opus 4.6 as an advisor to Sonnet or Haiku on complex tasks. Benchmarks show 2.7% higher scores on SWE-bench Multilingual and 11.9% lower cost per task compared to using a single model. The pattern is available today in the SDK."
+    url: "https://www.anthropic.com/news"
+    source: "anthropic.com"
+    tag: "tools"
+    significance: 5
+  - title: "OpenAI Introduces $100/Month Pro Tier with 5x More Codex Usage"
+    summary: "OpenAI launched a $100/month Pro tier offering five times the Codex usage of the Plus plan. A 10x usage promotion runs through May 31 as an introductory incentive."
+    url: "https://openai.com/news/"
+    source: "openai.com"
+    tag: "tools"
+    significance: 4
+  - title: "Z.ai Releases Open-Source GLM-5.1 Under MIT License"
+    summary: "Z.ai published GLM-5.1, an open-source model designed for long-horizon autonomous engineering tasks, under the MIT License. The model targets agentic coding and multi-step planning scenarios. The permissive license and engineering focus make it a notable addition to the open-source agentic model space."
+    url: "https://github.com"
+    source: "github.com"
+    tag: "open-source"
+    significance: 4
+  - title: "LM Studio Acquires Locally AI for Mobile On-Device Inference"
+    summary: "LM Studio acquired Locally AI, a mobile-native on-device AI platform, to expand beyond desktop into mobile environments. The combined product roadmap includes cross-device model and agent experiences. The deal signals growing developer demand for local inference spanning desktop and mobile."
+    url: "https://lmstudio.ai"
+    source: "lmstudio.ai"
+    tag: "tools"
+    significance: 3
+  - title: "Intel and Google Expand Multiyear AI Compute Collaboration"
+    summary: "Intel and Google announced an expanded multiyear collaboration to increase Xeon CPU usage across Google Cloud AI workloads. The partnership also includes co-development of custom ASIC-based IPUs targeting AI inference. The deal broadens hardware options available to Google Cloud AI customers beyond GPUs."
+    url: "https://developers.googleblog.com/"
+    source: "google.com"
+    tag: "industry"
+    significance: 3

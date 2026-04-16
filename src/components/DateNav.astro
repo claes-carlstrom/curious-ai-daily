@@ -1,0 +1,50 @@
+---
+interface Props {
+  date: string;
+  prevDate?: string;
+  nextDate?: string;
+}
+
+const { date, prevDate, nextDate } = Astro.props;
+
+const dateObj = new Date(date + "T00:00:00");
+const dayOfWeek = dateObj.toLocaleDateString("en-US", { weekday: "long" }).toUpperCase();
+const fullDate = dateObj.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+---
+
+<div class="flex items-center justify-between border-b border-[var(--color-border)] py-4 px-5">
+  <div class="w-16">
+    {prevDate ? (
+      <a
+        href={`/digest/${prevDate}`}
+        data-nav="prev"
+        class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-xl no-underline"
+        aria-label="Previous day"
+      >
+        ←
+      </a>
+    ) : (
+      <span class="text-[var(--color-text-muted)]/30 text-xl cursor-default select-none">←</span>
+    )}
+  </div>
+
+  <div class="text-center">
+    <div class="uppercase text-[10px] tracking-widest text-[var(--color-text-muted)] mb-0.5">{dayOfWeek}</div>
+    <div class="text-lg font-semibold text-[var(--color-text)] tracking-tight">{fullDate}</div>
+  </div>
+
+  <div class="w-16 text-right">
+    {nextDate ? (
+      <a
+        href={`/digest/${nextDate}`}
+        data-nav="next"
+        class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-xl no-underline"
+        aria-label="Next day"
+      >
+        →
+      </a>
+    ) : (
+      <span class="text-[var(--color-text-muted)]/30 text-xl cursor-default select-none">→</span>
+    )}
+  </div>
+</div>
