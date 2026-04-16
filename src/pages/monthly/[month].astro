@@ -51,25 +51,27 @@ const description = topStories.length > 1
 
 <Base title={title} description={description}>
   <Header />
-  <ShortcutBar />
+  <ShortcutBar navLabel="change month" />
 
-  <div class="flex items-center justify-between px-5 py-5 border-b border-[var(--color-border-section)]">
-    {prevMonth ? (
-      <a href={`/monthly/${prevMonth}`} data-nav="prev" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">←</a>
-    ) : (
-      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">←</span>
-    )}
-
-    <div class="text-center">
-      <div class="uppercase text-[9px] tracking-[2px] text-[var(--color-text-muted)] mb-0.5">Monthly Rollup</div>
-      <div class="text-[var(--color-text)] text-sm font-medium tracking-tight">{monthLabel}</div>
+  <div class="flex items-center justify-between border-b border-[var(--color-border)] py-5 px-6">
+    <div class="w-16">
+      {prevMonth ? (
+        <a href={`/monthly/${prevMonth}`} data-nav="prev" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-xl no-underline">←</a>
+      ) : (
+        <span class="text-[var(--color-text-muted)]/30 text-xl cursor-default select-none">←</span>
+      )}
     </div>
-
-    {nextMonth ? (
-      <a href={`/monthly/${nextMonth}`} data-nav="next" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] text-sm no-underline">→</a>
-    ) : (
-      <span class="text-[var(--color-text-muted)] opacity-30 text-sm">→</span>
-    )}
+    <div class="text-center">
+      <div class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] mb-0.5">Monthly Rollup</div>
+      <div class="text-xl font-semibold text-[var(--color-text)] tracking-tight">{monthLabel}</div>
+    </div>
+    <div class="w-16 text-right">
+      {nextMonth ? (
+        <a href={`/monthly/${nextMonth}`} data-nav="next" class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-xl no-underline">→</a>
+      ) : (
+        <span class="text-[var(--color-text-muted)]/30 text-xl cursor-default select-none">→</span>
+      )}
+    </div>
   </div>
 
   <main class="px-5 py-6">

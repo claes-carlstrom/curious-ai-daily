@@ -12,7 +12,7 @@ const dayOfWeek = dateObj.toLocaleDateString("en-US", { weekday: "long" }).toUpp
 const fullDate = dateObj.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 ---
 
-<div class="flex items-center justify-between border-b border-[var(--color-border)] py-4 px-5">
+<div class="flex items-center justify-between border-b border-[var(--color-border)] py-5 px-6">
   <div class="w-16">
     {prevDate ? (
       <a
@@ -29,8 +29,8 @@ const fullDate = dateObj.toLocaleDateString("en-US", { month: "long", day: "nume
   </div>
 
   <div class="text-center">
-    <div class="uppercase text-[10px] tracking-widest text-[var(--color-text-muted)] mb-0.5">{dayOfWeek}</div>
-    <div class="text-lg font-semibold text-[var(--color-text)] tracking-tight">{fullDate}</div>
+    <div class="uppercase text-xs tracking-widest text-[var(--color-text-muted)] mb-0.5">{dayOfWeek}</div>
+    <div class="text-xl font-semibold text-[var(--color-text)] tracking-tight">{fullDate}</div>
   </div>
 
   <div class="w-16 text-right">

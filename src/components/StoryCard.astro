@@ -31,20 +31,20 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
 ---
 
 <div
-  class="flex gap-4 border-b border-[var(--color-border)]/50 py-4 px-5 cursor-pointer transition-all hover:bg-white/[0.02] group"
+  class="flex gap-4 border-b border-[var(--color-border)]/50 py-5 px-5 cursor-pointer transition-all hover:bg-white/[0.02] group"
   data-story-index={index}
 >
   <div class="hidden md:block shrink-0 w-6 text-right">
-    <span class="text-[var(--color-accent)] font-bold text-lg opacity-30 leading-none">{indexFormatted}</span>
+    <span class="text-[var(--color-accent)] font-bold text-xl opacity-30 leading-none">{indexFormatted}</span>
   </div>
   <div class="flex-1 min-w-0">
     <a href={url} target="_blank" rel="noopener noreferrer" class="no-underline group-hover:underline">
-      <h2 class="text-[15px] font-semibold text-white tracking-tight leading-snug mb-1">{title}</h2>
+      <h2 class="text-lg font-semibold text-white tracking-tight leading-snug mb-1.5">{title}</h2>
     </a>
-    <p class="text-xs text-[var(--color-text-secondary)] leading-relaxed mb-2">{summary}</p>
+    <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-2.5">{summary}</p>
     <div class="flex items-center gap-2">
       <span
-        class="uppercase text-[9px] px-1.5 py-0.5 rounded-sm font-medium tracking-wide"
+        class="uppercase text-[10px] px-2 py-0.5 rounded-sm font-medium tracking-wide"
         style={`background-color: ${tagStyle.bg}; color: ${tagStyle.text};`}
       >
         {tag}

@@ -1,7 +1,11 @@
 ---
+interface Props {
+  navLabel?: string;
+}
+const { navLabel = "change day" } = Astro.props;
 ---
 
-<div class="hidden md:flex items-center gap-4 border-b border-[var(--color-border)] py-2 px-5">
+<div class="hidden md:flex items-center gap-4 border-b border-[var(--color-border)] py-2 px-6">
   <span class="text-[var(--color-text-muted)] text-[10px]">
     <span class="inline-flex items-center gap-1">
       <kbd class="text-[var(--color-accent)]/40 bg-[var(--color-accent)]/5 px-1.5 rounded-sm text-[9px] font-mono">↑/↓</kbd>
@@ -15,7 +19,7 @@
     <span class="mx-2 text-[var(--color-text-muted)]">·</span>
     <span class="inline-flex items-center gap-1">
       <kbd class="text-[var(--color-accent)]/40 bg-[var(--color-accent)]/5 px-1.5 rounded-sm text-[9px] font-mono">←/→</kbd>
-      <span>change day</span>
+      <span>{navLabel}</span>
     </span>
     <span class="mx-2 text-[var(--color-text-muted)]">·</span>
     <span class="inline-flex items-center gap-1">
