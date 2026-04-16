@@ -42,22 +42,22 @@ html.light {
   --color-text: #1a1a1a;
   --color-text-secondary: #555;
   --color-text-muted: #999;
-  --color-accent: #059669;
+  --color-accent: #0d7c5f;
   --color-border: #e5e5e5;
   --color-border-section: #d4d4d4;
   --color-story-title: #111;
   --color-story-hover: rgba(0, 0, 0, 0.02);
 
-  --color-tag-models-bg: color-mix(in srgb, #059669 10%, transparent);
-  --color-tag-models: #059669;
-  --color-tag-tools-bg: color-mix(in srgb, #2563eb 10%, transparent);
-  --color-tag-tools: #2563eb;
-  --color-tag-research-bg: color-mix(in srgb, #d97706 10%, transparent);
-  --color-tag-research: #d97706;
-  --color-tag-industry-bg: color-mix(in srgb, #dc2626 10%, transparent);
-  --color-tag-industry: #dc2626;
-  --color-tag-open-source-bg: color-mix(in srgb, #7c3aed 10%, transparent);
-  --color-tag-open-source: #7c3aed;
-  --color-tag-frameworks-bg: color-mix(in srgb, #9333ea 10%, transparent);
-  --color-tag-frameworks: #9333ea;
+  --color-tag-models-bg: color-mix(in srgb, #0d7c5f 12%, transparent);
+  --color-tag-models: #0d7c5f;
+  --color-tag-tools-bg: color-mix(in srgb, #1d4ed8 12%, transparent);
+  --color-tag-tools: #1d4ed8;
+  --color-tag-research-bg: color-mix(in srgb, #b45309 12%, transparent);
+  --color-tag-research: #b45309;
+  --color-tag-industry-bg: color-mix(in srgb, #b91c1c 12%, transparent);
+  --color-tag-industry: #b91c1c;
+  --color-tag-open-source-bg: color-mix(in srgb, #6d28d9 12%, transparent);
+  --color-tag-open-source: #6d28d9;
+  --color-tag-frameworks-bg: color-mix(in srgb, #7e22ce 12%, transparent);
+  --color-tag-frameworks: #7e22ce;
 }
