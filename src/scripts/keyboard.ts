@@ -145,9 +145,9 @@
 
     const shortcuts: [string, string][] = [
       ['↑ / ↓', 'Next / previous story'],
-      ['o / Enter', 'Open story in new tab'],
-      ['h / ←', 'Previous day / period'],
-      ['l / →', 'Next day / period'],
+      ['Enter', 'Open story in new tab'],
+      ['←', 'Previous day / period'],
+      ['→', 'Next day / period'],
       ['d', 'Go to today\'s digest'],
       ['w', 'Go to this week\'s rollup'],
       ['m', 'Go to this month\'s rollup'],
@@ -263,26 +263,18 @@
         setIndex(currentIndex <= 0 ? 0 : currentIndex - 1);
         break;
 
-      case 'o':
-        e.preventDefault();
-        openCurrent();
-        break;
-
       case 'Enter':
-        // Only intercept Enter when a navigable is focused (not a native button/link focus)
         if (currentIndex >= 0) {
           e.preventDefault();
           openCurrent();
         }
         break;
 
-      case 'h':
       case 'ArrowLeft':
         e.preventDefault();
         clickNav('prev');
         break;
 
-      case 'l':
       case 'ArrowRight':
         e.preventDefault();
         clickNav('next');
