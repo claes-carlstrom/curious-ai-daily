@@ -34,7 +34,7 @@ const title = `AI Daily Dev — ${formattedDate}`;
 const description = `Today: ${stories[0].title}, ${stories[1].title}, and more.`;
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} digestDate={date}>
   <Header />
   <ShortcutBar />
   <DateNav date={date} prevDate={prevDate} nextDate={nextDate} />

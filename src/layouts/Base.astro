@@ -4,9 +4,10 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description?: string;
+  digestDate?: string;
 }
 
-const { title, description = "Top 5 developer-centric AI stories, curated daily." } = Astro.props;
+const { title, description = "Top 5 developer-centric AI stories, curated daily.", digestDate } = Astro.props;
 const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astro.url;
 ---
 
@@ -28,7 +29,7 @@ const canonicalURL = Astro.site ? new URL(Astro.url.pathname, Astro.site) : Astr
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body>
+  <body data-digest-date={digestDate}>
     <div class="max-w-[720px] mx-auto">
       <slot />
     </div>

@@ -57,9 +57,13 @@
   }
 
   function getDateFromUrl(): string | null {
-    // Matches /digest/YYYY-MM-DD
+    // Check URL first: /digest/YYYY-MM-DD
     const match = window.location.pathname.match(/\/digest\/(\d{4}-\d{2}-\d{2})/);
-    return match ? match[1] : null;
+    if (match) return match[1];
+    // Fallback: data-digest-date attribute on body (set by index and digest pages)
+    const attr = document.body.getAttribute('data-digest-date');
+    if (attr) return attr;
+    return null;
   }
 
   function getISOWeek(dateStr: string): string {
