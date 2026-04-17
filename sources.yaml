@@ -1,4 +1,4 @@
-# ai-daily.dev — News Sources Configuration
+# Curious AI Daily — News Sources Configuration
 #
 # Edit this file to change where the daily routine looks for news.
 # Priority 1 sources are always checked. Priority 2 fill gaps.
@@ -7,7 +7,10 @@
 # 1. New features/products from major AI companies
 # 2. New model releases and benchmarks
 # 3. Breaking and viral AI news
-# 4. What the community is buzzing about
+# 4. Vibecoding tools and AI-assisted building
+# 5. AI content creation tools (video, image, voice, writing)
+# 6. AI for marketing and growth
+# 7. Community buzz and standout demos
 
 sources:
   # ── Major AI Companies (Priority 1) ───────────────────────────
@@ -46,23 +49,74 @@ sources:
     type: fetch
     priority: 1
 
-  # ── Developer Platforms (Priority 1) ──────────────────────────
+  # ── Vibecoding & AI Building Tools (Priority 1) ──────────────
+  - name: Cursor Blog
+    url: https://www.cursor.com/blog
+    type: fetch
+    priority: 1
+    note: Vibecoding flagship — AI-native code editor
+
+  - name: Windsurf Blog
+    url: https://windsurf.com/blog
+    type: fetch
+    priority: 1
+    note: AI coding assistant — Cursor competitor
+
+  - name: Replit Blog
+    url: https://blog.replit.com
+    type: fetch
+    priority: 1
+    note: AI-assisted building for non-traditional developers
+
+  - name: v0 by Vercel
+    type: search
+    priority: 1
+    query: "v0.dev OR v0 by Vercel new features launch"
+    note: Prompt-to-UI tool — vibecoding poster child
+
   - name: HuggingFace
     url: https://huggingface.co/blog
     type: fetch
     priority: 1
+    note: Open models powering creative and coding tools
 
-  - name: GitHub Blog
-    url: https://github.blog/ai-and-ml/
+  # ── AI Content Creation (Priority 1) ──────────────────────────
+  - name: Runway Blog
+    url: https://runwayml.com/blog
     type: fetch
     priority: 1
+    note: Video generation leader
+
+  - name: ElevenLabs Blog
+    url: https://elevenlabs.io/blog
+    type: fetch
+    priority: 1
+    note: Voice AI — cloning, TTS, dubbing
+
+  - name: Midjourney
+    type: search
+    priority: 1
+    query: "Midjourney new version update feature announcement"
+    note: No official blog — search for announcements
+
+  - name: Canva AI
+    type: search
+    priority: 1
+    query: "Canva AI new features tools launch"
+    note: AI features in the most popular design tool
 
   # ── Community Buzz (Priority 1) ───────────────────────────────
   - name: Hacker News
     url: https://news.ycombinator.com
     type: search
     priority: 1
-    note: Top AI stories on HN front page — proxy for developer buzz
+    note: Top AI stories on HN front page — proxy for tech community buzz
+
+  - name: Reddit r/ChatGPT
+    url: https://www.reddit.com/r/ChatGPT/
+    type: search
+    priority: 1
+    note: Largest AI user community — first to notice new features
 
   - name: Reddit r/LocalLLaMA
     url: https://www.reddit.com/r/LocalLLaMA/
@@ -70,44 +124,54 @@ sources:
     priority: 1
     note: Open-source model community — first to notice new releases
 
-  - name: Reddit r/MachineLearning
-    url: https://www.reddit.com/r/MachineLearning/
+  - name: Reddit r/StableDiffusion
+    url: https://www.reddit.com/r/StableDiffusion/
     type: search
     priority: 1
-    note: Research and industry ML community
+    note: Image generation community — tool launches and workflows
+
+  - name: Reddit r/AItools
+    url: https://www.reddit.com/r/AItools/
+    type: search
+    priority: 1
+    note: AI tool discovery and reviews
 
   - name: X/Twitter AI
     type: search
     priority: 1
-    query: "AI viral OR trending OR announcement"
+    query: "AI viral OR trending OR announcement OR launch"
     note: Breaking news and viral takes
 
-  # ── GitHub Trending (Priority 1) ──────────────────────────────
-  - name: GitHub Trending
-    url: https://github.com/trending
+  - name: X/Twitter Vibecoding
     type: search
     priority: 1
-    query: "GitHub trending AI ML repository this week"
-    note: New repos blowing up — often the first signal of a breakout tool
+    query: "vibecoding OR vibe coding OR cursor AI OR AI-assisted coding OR claude code OR AI coding tools"
+    note: Vibecoding community buzz
 
-  - name: Trendshift
-    url: https://trendshift.io
+  - name: Product Hunt AI
+    url: https://www.producthunt.com/topics/artificial-intelligence
     type: search
-    priority: 2
-    note: GitHub trending analytics with star velocity
+    priority: 1
+    note: New AI tool launches daily — great for discovering creator/marketing tools
 
   # ── YouTube AI Creators (Priority 2) ──────────────────────────
+  - name: Matt Wolfe
+    url: https://www.youtube.com/@MattWolfe
+    type: search
+    priority: 2
+    note: AI tools roundup — exactly our target audience
+
+  - name: AI Advantage
+    url: https://www.youtube.com/@AIAdvantage
+    type: search
+    priority: 2
+    note: AI productivity and content workflows
+
   - name: AI Explained
     url: https://www.youtube.com/@aiexplained-official
     type: search
     priority: 2
-    note: Deep dives on new models and capabilities
-
-  - name: Two Minute Papers
-    url: https://www.youtube.com/@TwoMinutePapers
-    type: search
-    priority: 2
-    note: Research paper breakdowns
+    note: Accessible deep dives on new models and capabilities
 
   - name: Matthew Berman
     url: https://www.youtube.com/@matthew_berman
@@ -119,13 +183,19 @@ sources:
     url: https://www.youtube.com/@Fireship
     type: search
     priority: 2
-    note: Fast-paced dev news, often covers AI tooling
+    note: Fast-paced tech news, often covers AI tooling
 
-  - name: ThePrimeagen
-    url: https://www.youtube.com/@ThePrimeagen
+  - name: All About AI
+    url: https://www.youtube.com/@AllAboutAI
     type: search
     priority: 2
-    note: Developer perspective on AI tools
+    note: AI tool demos and tutorials
+
+  - name: Greg Isenberg
+    url: https://www.youtube.com/@GregIsenberg
+    type: search
+    priority: 2
+    note: AI for business, marketing, and building startups
 
   # ── Tech Press (Priority 2) ───────────────────────────────────
   - name: TechCrunch AI
@@ -144,8 +214,20 @@ sources:
     priority: 2
 
   # ── Aggregators (Priority 2) ──────────────────────────────────
+  - name: There's An AI For That
+    url: https://theresanaiforthat.com
+    type: search
+    priority: 2
+    note: AI tool directory — new tool launches
+
   - name: AI News Search
     type: search
     priority: 1
-    query: "AI news today breaking new release model launch"
+    query: "AI news today new tool launch vibecoding content creation marketing"
     note: Catch-all for stories missed by specific sources
+
+  - name: X/Twitter AI Content
+    type: search
+    priority: 2
+    query: "AI video generation OR AI voice OR AI content creation OR AI marketing tools"
+    note: Content creation and marketing tool buzz

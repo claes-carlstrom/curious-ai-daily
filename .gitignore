@@ -24,3 +24,10 @@ pnpm-debug.log*
 .idea/
 .superpowers/
 .vercel
+
+# Claude Code
+.claude/
+
+# Source brand assets (fonts and logos are committed via public/ instead)
+Font/
+Logo/

@@ -4,8 +4,8 @@ import Header from "../components/Header.astro";
 import ShortcutBar from "../components/ShortcutBar.astro";
 import Footer from "../components/Footer.astro";
 
-const title = "AI Daily Dev — Subscribe";
-const description = "Get the weekly AI developer news roundup in your inbox every Friday.";
+const title = "Curious AI Daily — Subscribe";
+const description = "Get the weekly AI news roundup for creators, builders, and marketers in your inbox every Friday.";
 ---
 
 <Base title={title} description={description}>
@@ -15,13 +15,13 @@ const description = "Get the weekly AI developer news roundup in your inbox ever
   <main class="px-6 py-12 max-w-md mx-auto">
     <h1 class="text-2xl font-bold text-[var(--color-story-title)] tracking-tight mb-3">Weekly Roundup</h1>
     <p class="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-8">
-      The top AI developer stories of the week, delivered to your inbox every Friday morning. No spam, unsubscribe anytime.
+      The top AI stories for creators, builders, and marketers — delivered to your inbox every Friday morning. No spam, unsubscribe anytime.
     </p>
 
     <div id="subscribe-form">
       <iframe hidden name="buttondown-frame"></iframe>
       <form
-        action="https://buttondown.com/api/emails/embed-subscribe/tordar"
+        action="https://buttondown.com/api/emails/embed-subscribe/YOUR-USERNAME"
         method="post"
         target="buttondown-frame"
         class="flex flex-col gap-3"

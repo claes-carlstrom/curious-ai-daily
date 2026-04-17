@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ai-daily.dev',
+  site: 'https://curious-ai-daily.vercel.app',
 
   vite: {
     plugins: [tailwindcss()]

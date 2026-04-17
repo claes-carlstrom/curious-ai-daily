@@ -1,12 +1,12 @@
-# ai-daily.dev
+# Curious AI Daily
 
-A daily AI news digest for developers. Top stories curated automatically by Claude, published every weekday at 08:00 CET.
+A daily AI news digest for power users, vibecoders, content creators, and marketers. Top stories curated automatically by Claude, published every weekday at 08:00 CET.
 
-**Live site:** [ai-daily.dev](https://ai-daily.dev)
+Forked from [tordar/ai-daily](https://github.com/tordar/ai-daily) and customized by [Curious Mind](https://curiousmind.se).
 
 ## What it does
 
-Every weekday morning, a Claude Code routine searches 20+ sources for the most important AI developer news — new model releases, features from major AI companies, trending GitHub repos, community buzz on Reddit/HN, and viral stories. It picks the top 5-7, writes concise summaries, and publishes them to the site.
+Every weekday morning, a Claude Code routine searches 30+ sources for the most important AI news — new model releases, vibecoding tools (Cursor, Windsurf, v0), content creation AI (Runway, Midjourney, ElevenLabs), marketing tools, community buzz on Reddit/HN/Product Hunt, and viral stories. It picks the top 5, writes concise summaries, and publishes them to the site.
 
 ## Features
 
@@ -17,7 +17,7 @@ Every weekday morning, a Claude Code routine searches 20+ sources for the most i
 - **Dark/light theme** toggle with `t`
 - **Dynamic OG images** generated per digest with Satori
 - **RSS feed** at `/feed.xml`
-- **Zero JavaScript shipped** (except keyboard nav and theme toggle)
+- **Weekly newsletter** via Buttondown
 
 ## Stack
 
@@ -53,11 +53,12 @@ src/
   lib/                # OG image generator, week calculation utils
 sources.yaml          # Configurable news sources
 routine-prompt.md     # Instructions for the daily routine
+routine-newsletter.md # Instructions for the Friday newsletter routine
 ```
 
 ## Configuring sources
 
-Edit `sources.yaml` to add or remove news sources. Each source has a name, URL, type (`fetch`/`search`), priority (1-3), and optional notes.
+Edit `sources.yaml` to add or remove news sources. Each source has a name, URL, type (`fetch`/`search`), priority (1-2), and optional notes.
 
 ## Local development
 
@@ -83,9 +84,9 @@ stories:
     significance: 5
 ```
 
-Tags: `models`, `tools`, `research`, `industry`, `open-source`, `frameworks`, `community`
+Tags: `models`, `tools`, `vibecoding`, `content-creation`, `marketing`, `research`, `open-source`, `community`
 
-Significance: 1 (minor) to 5 (everyone is talking about it)
+Significance: 1 (minor) to 5 (paradigm shift everyone is talking about)
 
 ## License
 

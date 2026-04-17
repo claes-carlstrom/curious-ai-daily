@@ -1,41 +1,70 @@
 @import "tailwindcss";
-@import "@fontsource/geist-sans/400.css";
-@import "@fontsource/geist-sans/500.css";
-@import "@fontsource/geist-sans/600.css";
-@import "@fontsource/geist-sans/700.css";
+
+/* Foundry Unie — Curious Mind primary typeface */
+@font-face {
+  font-family: "Foundry Unie";
+  src: url("/fonts/FoundryUnie-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Foundry Unie";
+  src: url("/fonts/FoundryUnie-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Foundry Unie";
+  src: url("/fonts/FoundryUnie-DemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Foundry Unie";
+  src: url("/fonts/FoundryUnie-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
-  --color-bg: #0a0a0a;
+  --color-bg: #000000;
   --color-text: #e0e0e0;
   --color-text-secondary: #777;
   --color-text-muted: #444;
-  --color-accent: #00ff88;
+  --color-accent: #FF754B;
   --color-border: #111;
-  --color-border-section: #1a1a2e;
+  --color-border-section: #1a1a1a;
   --color-story-title: #fff;
-  --color-story-hover: rgba(255, 255, 255, 0.02);
-  --color-accent-muted: rgba(0, 255, 136, 0.4);
-  --color-accent-subtle: rgba(0, 255, 136, 0.05);
-  --color-index: rgba(0, 255, 136, 0.3);
+  --color-story-hover: rgba(255, 117, 75, 0.04);
+  --color-accent-muted: rgba(255, 117, 75, 0.5);
+  --color-accent-subtle: rgba(255, 117, 75, 0.07);
+  --color-index: rgba(255, 117, 75, 0.35);
 
-  --color-tag-models-bg: color-mix(in srgb, #00ff88 6%, transparent);
-  --color-tag-models: #00ff88;
-  --color-tag-tools-bg: color-mix(in srgb, #3b82f6 6%, transparent);
-  --color-tag-tools: #3b82f6;
-  --color-tag-research-bg: color-mix(in srgb, #f59e0b 6%, transparent);
-  --color-tag-research: #f59e0b;
-  --color-tag-industry-bg: color-mix(in srgb, #ef4444 6%, transparent);
-  --color-tag-industry: #ef4444;
-  --color-tag-open-source-bg: color-mix(in srgb, #8b5cf6 6%, transparent);
-  --color-tag-open-source: #8b5cf6;
-  --color-tag-frameworks-bg: color-mix(in srgb, #a855f7 6%, transparent);
-  --color-tag-frameworks: #a855f7;
-  --color-tag-community-bg: color-mix(in srgb, #06b6d4 6%, transparent);
-  --color-tag-community: #06b6d4;
+  /* Tag colours — editorial categories */
+  --color-tag-models-bg: color-mix(in srgb, #FF754B 10%, transparent);
+  --color-tag-models: #FF754B;
+  --color-tag-tools-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
+  --color-tag-tools: #FFAC4A;
+  --color-tag-vibecoding-bg: color-mix(in srgb, #8320FF 10%, transparent);
+  --color-tag-vibecoding: #8320FF;
+  --color-tag-content-creation-bg: color-mix(in srgb, #f472b6 8%, transparent);
+  --color-tag-content-creation: #f472b6;
+  --color-tag-marketing-bg: color-mix(in srgb, #FFDA56 10%, transparent);
+  --color-tag-marketing: #FFDA56;
+  --color-tag-research-bg: color-mix(in srgb, #D0D0D0 10%, transparent);
+  --color-tag-research: #D0D0D0;
+  --color-tag-open-source-bg: color-mix(in srgb, #8320FF 10%, transparent);
+  --color-tag-open-source: #8320FF;
+  --color-tag-community-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
+  --color-tag-community: #FFAC4A;
 }
 
 body {
-  font-family: "Geist Sans", -apple-system, "SF Pro Display", system-ui, sans-serif;
+  font-family: "Foundry Unie", Arial, system-ui, sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   transition: background-color 0.2s, color 0.2s;
@@ -43,31 +72,33 @@ body {
 
 /* Light theme overrides */
 html.light {
-  --color-bg: #fafafa;
+  --color-bg: #F0F0F0;
   --color-text: #1a1a1a;
   --color-text-secondary: #555;
-  --color-text-muted: #999;
-  --color-accent: #0d7c5f;
-  --color-border: #e5e5e5;
-  --color-border-section: #d4d4d4;
-  --color-story-title: #111;
-  --color-story-hover: rgba(0, 0, 0, 0.02);
-  --color-accent-muted: #0d7c5f;
-  --color-accent-subtle: rgba(13, 124, 95, 0.1);
-  --color-index: #6bb8a0;
+  --color-text-muted: #888;
+  --color-accent: #FF754B;
+  --color-border: #D0D0D0;
+  --color-border-section: #D0D0D0;
+  --color-story-title: #000000;
+  --color-story-hover: rgba(255, 117, 75, 0.05);
+  --color-accent-muted: #FF754B;
+  --color-accent-subtle: rgba(255, 117, 75, 0.1);
+  --color-index: rgba(255, 117, 75, 0.45);
 
-  --color-tag-models-bg: color-mix(in srgb, #0d7c5f 12%, transparent);
-  --color-tag-models: #0d7c5f;
-  --color-tag-tools-bg: color-mix(in srgb, #1d4ed8 12%, transparent);
-  --color-tag-tools: #1d4ed8;
-  --color-tag-research-bg: color-mix(in srgb, #b45309 12%, transparent);
-  --color-tag-research: #b45309;
-  --color-tag-industry-bg: color-mix(in srgb, #b91c1c 12%, transparent);
-  --color-tag-industry: #b91c1c;
-  --color-tag-open-source-bg: color-mix(in srgb, #6d28d9 12%, transparent);
-  --color-tag-open-source: #6d28d9;
-  --color-tag-frameworks-bg: color-mix(in srgb, #7e22ce 12%, transparent);
-  --color-tag-frameworks: #7e22ce;
-  --color-tag-community-bg: color-mix(in srgb, #0891b2 12%, transparent);
-  --color-tag-community: #0891b2;
+  --color-tag-models-bg: color-mix(in srgb, #FF754B 15%, transparent);
+  --color-tag-models: #d94f25;
+  --color-tag-tools-bg: color-mix(in srgb, #FFAC4A 15%, transparent);
+  --color-tag-tools: #b86e00;
+  --color-tag-vibecoding-bg: color-mix(in srgb, #8320FF 15%, transparent);
+  --color-tag-vibecoding: #6510cc;
+  --color-tag-content-creation-bg: color-mix(in srgb, #db2777 15%, transparent);
+  --color-tag-content-creation: #db2777;
+  --color-tag-marketing-bg: color-mix(in srgb, #b09000 15%, transparent);
+  --color-tag-marketing: #8a6e00;
+  --color-tag-research-bg: color-mix(in srgb, #555 12%, transparent);
+  --color-tag-research: #555;
+  --color-tag-open-source-bg: color-mix(in srgb, #6510cc 15%, transparent);
+  --color-tag-open-source: #6510cc;
+  --color-tag-community-bg: color-mix(in srgb, #b86e00 15%, transparent);
+  --color-tag-community: #b86e00;
 }

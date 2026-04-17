@@ -10,30 +10,43 @@ import Footer from "../components/Footer.astro";
 const digests = await getCollection("digests");
 const sorted = digests.sort((a, b) => b.data.date.localeCompare(a.data.date));
 const latest = sorted[0];
-const { date, stories } = latest.data;
+
+// No digests yet — render placeholder page
+if (!latest) {
+  const title = "Curious AI Daily";
+  const description = "AI tools, vibecoding, and content creation news curated daily by Curious Mind.";
+}
+
+const { date, stories } = latest?.data ?? { date: "", stories: [] };
 
 const prevDate = sorted[1]?.data.date ?? null;
 
-const dateObj = new Date(date + "T00:00:00");
-const formattedDate = dateObj.toLocaleDateString("en-US", {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-});
-const title = `AI Daily Dev — ${formattedDate}`;
-const description = `Today: ${stories[0].title}, ${stories[1].title}, and more.`;
+const dateObj = date ? new Date(date + "T00:00:00") : null;
+const formattedDate = dateObj
+  ? dateObj.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })
+  : "";
+const title = date ? `Curious AI Daily — ${formattedDate}` : "Curious AI Daily";
+const description = stories.length > 1
+  ? `Today: ${stories[0].title}, ${stories[1].title}, and more.`
+  : "AI tools, vibecoding, and content creation news curated daily by Curious Mind.";
 ---
 
-<Base title={title} description={description} digestDate={date} stories={stories}>
+<Base title={title} description={description} digestDate={date || undefined} stories={stories}>
   <Header />
   <ShortcutBar />
-  <DateNav date={date} prevDate={prevDate} />
+  {date && <DateNav date={date} prevDate={prevDate} />}
 
   <main class="px-5 py-6">
-    <h1 class="sr-only">AI Daily Dev — {formattedDate}</h1>
-    {stories.map((story, idx) => (
-      <StoryCard story={story} index={idx + 1} />
-    ))}
+    <h1 class="sr-only">Curious AI Daily{formattedDate ? ` — ${formattedDate}` : ""}</h1>
+    {stories.length > 0 ? (
+      stories.map((story, idx) => (
+        <StoryCard story={story} index={idx + 1} />
+      ))
+    ) : (
+      <div class="py-20 text-center">
+        <p class="text-[var(--color-text-muted)] text-sm">No digest yet today — check back soon.</p>
+      </div>
+    )}
   </main>
 
   <Footer />

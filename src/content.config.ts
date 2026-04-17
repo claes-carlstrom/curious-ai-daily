@@ -10,7 +10,7 @@ const digests = defineCollection({
       summary: z.string(),
       url: z.string().url(),
       source: z.string(),
-      tag: z.enum(["models", "tools", "research", "industry", "open-source", "frameworks", "community"]),
+      tag: z.enum(["models", "tools", "vibecoding", "content-creation", "marketing", "research", "open-source", "community"]),
       significance: z.number().min(1).max(5),
     })).min(5).max(10),
   }),

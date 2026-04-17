@@ -8,14 +8,16 @@ interface Story {
   tag: string;
 }
 
+// Curious Mind brand colours mapped to editorial tags
 const TAG_COLORS: Record<string, string> = {
-  models: "#00ff88",
-  tools: "#3b82f6",
-  research: "#f59e0b",
-  industry: "#ef4444",
-  "open-source": "#8b5cf6",
-  frameworks: "#a855f7",
-  community: "#06b6d4",
+  models: "#FF754B",          // brand orange
+  tools: "#FFAC4A",           // warm yellow
+  vibecoding: "#8320FF",      // purple accent
+  "content-creation": "#f472b6",
+  marketing: "#FFDA56",       // yellow
+  research: "#D0D0D0",        // grey
+  "open-source": "#8320FF",   // purple accent
+  community: "#FFAC4A",       // warm yellow
 };
 
 function truncate(str: string, max: number): string {
@@ -30,12 +32,12 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
     year: "numeric",
   });
 
-  // Load Geist Sans font
+  // Load Foundry Unie fonts (WOFF — required by Satori)
   const fontRegular = fs.readFileSync(
-    path.resolve("node_modules/@fontsource/geist-sans/files/geist-sans-latin-400-normal.woff")
+    path.resolve("public/fonts/FoundryUnie-Regular.woff")
   );
   const fontBold = fs.readFileSync(
-    path.resolve("node_modules/@fontsource/geist-sans/files/geist-sans-latin-700-normal.woff")
+    path.resolve("public/fonts/FoundryUnie-Bold.woff")
   );
 
   const topStories = stories.slice(0, 5);
@@ -49,12 +51,12 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
           flexDirection: "column",
           width: "100%",
           height: "100%",
-          backgroundColor: "#0a0a0a",
+          backgroundColor: "#000000",
           padding: "60px",
-          fontFamily: "Geist Sans",
+          fontFamily: "Foundry Unie",
         },
         children: [
-          // Header
+          // Header — wordmark + date
           {
             type: "div",
             props: {
@@ -68,18 +70,18 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                 {
                   type: "div",
                   props: {
-                    style: { display: "flex", alignItems: "baseline" },
+                    style: { display: "flex", alignItems: "baseline", gap: "12px" },
                     children: [
                       {
                         type: "span",
                         props: {
                           style: {
-                            color: "#00ff88",
-                            fontSize: "32px",
+                            color: "#FF754B",
+                            fontSize: "28px",
                             fontWeight: 700,
-                            letterSpacing: "-0.5px",
+                            letterSpacing: "0px",
                           },
-                          children: "AI DAILY",
+                          children: "CURIOUS MIND",
                         },
                       },
                       {
@@ -87,10 +89,10 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                         props: {
                           style: {
                             color: "#444",
-                            fontSize: "32px",
+                            fontSize: "28px",
                             fontWeight: 400,
                           },
-                          children: " / DEV",
+                          children: "/ AI DAILY",
                         },
                       },
                     ],
@@ -101,7 +103,8 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                   props: {
                     style: {
                       color: "#777",
-                      fontSize: "24px",
+                      fontSize: "20px",
+                      fontWeight: 400,
                     },
                     children: formattedDate,
                   },
@@ -116,7 +119,7 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
               style: {
                 width: "100%",
                 height: "1px",
-                backgroundColor: "#1a1a2e",
+                backgroundColor: "#1a1a1a",
                 marginBottom: "36px",
               },
             },
@@ -136,7 +139,7 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                   type: "span",
                   props: {
                     style: {
-                      color: "rgba(0, 255, 136, 0.3)",
+                      color: "rgba(255, 117, 75, 0.35)",
                       fontSize: "24px",
                       fontWeight: 700,
                       width: "36px",
@@ -159,9 +162,9 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                         props: {
                           style: {
                             color: "#e0e0e0",
-                            fontSize: "22px",
-                            fontWeight: 700,
-                            letterSpacing: "-0.3px",
+                            fontSize: "21px",
+                            fontWeight: 600,
+                            letterSpacing: "-0.2px",
                             lineHeight: "1.3",
                           },
                           children: truncate(story.title, 65),
@@ -171,10 +174,11 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
                         type: "span",
                         props: {
                           style: {
-                            color: TAG_COLORS[story.tag] ?? "#666",
-                            fontSize: "13px",
+                            color: TAG_COLORS[story.tag] ?? "#777",
+                            fontSize: "12px",
                             textTransform: "uppercase" as const,
-                            letterSpacing: "1px",
+                            letterSpacing: "1.5px",
+                            fontWeight: 400,
                           },
                           children: story.tag,
                         },
@@ -192,15 +196,15 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
               style: {
                 display: "flex",
                 marginTop: "auto",
-                borderTop: "1px solid #1a1a2e",
+                borderTop: "1px solid #1a1a1a",
                 paddingTop: "20px",
               },
               children: [
                 {
                   type: "span",
                   props: {
-                    style: { color: "#444", fontSize: "16px" },
-                    children: "ai-daily.dev",
+                    style: { color: "#333", fontSize: "14px", fontWeight: 400 },
+                    children: "curiousmind.se / ai daily",
                   },
                 },
               ],
@@ -213,8 +217,8 @@ export async function generateOgImage(date: string, stories: Story[]): Promise<B
       width: 1200,
       height: 630,
       fonts: [
-        { name: "Geist Sans", data: fontRegular, weight: 400, style: "normal" as const },
-        { name: "Geist Sans", data: fontBold, weight: 700, style: "normal" as const },
+        { name: "Foundry Unie", data: fontRegular, weight: 400, style: "normal" as const },
+        { name: "Foundry Unie", data: fontBold, weight: 700, style: "normal" as const },
       ],
     }
   );

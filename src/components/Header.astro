@@ -10,9 +10,20 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
 ---
 
 <header class="flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-[var(--color-border-section)] py-4 px-5">
-  <a href="/" class="flex items-baseline gap-0 no-underline mr-auto">
-    <span class="text-[var(--color-accent)] font-bold tracking-tight text-lg">AI DAILY</span>
-    <span class="text-[var(--color-text-muted)] font-light text-lg"> / DEV</span>
+  <a href="/" class="flex items-center no-underline mr-auto" aria-label="Curious Mind — home">
+    <!-- White logo for dark mode, black logo for light mode -->
+    <img
+      src="/brand/logo-white.png"
+      alt="Curious Mind"
+      class="h-7 w-auto block dark-logo"
+      style="display: block;"
+    />
+    <img
+      src="/brand/logo-black.png"
+      alt="Curious Mind"
+      class="h-7 w-auto hidden light-logo"
+      style="display: none;"
+    />
   </a>
   <nav class="flex items-center justify-center gap-4 md:gap-6 order-last md:order-none w-full md:w-auto">
     <a href="/" class="uppercase text-[11px] tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">daily</a>
@@ -33,6 +44,13 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
 </header>
 
 <script is:inline>
+  function applyLogoTheme(isLight) {
+    var darkLogos = document.querySelectorAll('.dark-logo');
+    var lightLogos = document.querySelectorAll('.light-logo');
+    darkLogos.forEach(function(el) { el.style.display = isLight ? 'none' : 'block'; });
+    lightLogos.forEach(function(el) { el.style.display = isLight ? 'block' : 'none'; });
+  }
+
   document.addEventListener('click', function(e) {
     var btn = e.target.closest('#theme-toggle');
     if (!btn) return;
@@ -43,15 +61,16 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
     var light = document.getElementById('theme-icon-light');
     if (dark) dark.classList.toggle('hidden', !isLight);
     if (light) light.classList.toggle('hidden', isLight);
+    applyLogoTheme(isLight);
   });
 
-  // Sync icons on page load
   function syncThemeIcons() {
     var isLight = document.documentElement.classList.contains('light');
     var dark = document.getElementById('theme-icon-dark');
     var light = document.getElementById('theme-icon-light');
     if (dark) dark.classList.toggle('hidden', !isLight);
     if (light) light.classList.toggle('hidden', isLight);
+    applyLogoTheme(isLight);
   }
   syncThemeIcons();
   document.addEventListener('astro:page-load', syncThemeIcons);
