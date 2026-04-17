@@ -7,6 +7,7 @@ const DIGESTS_DIR = path.resolve("src/content/digests");
 const OUTPUT_DIR = path.resolve("public/og");
 
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+fs.mkdirSync(DIGESTS_DIR, { recursive: true });
 
 const files = fs.readdirSync(DIGESTS_DIR).filter((f) => f.endsWith(".yaml"));
 
