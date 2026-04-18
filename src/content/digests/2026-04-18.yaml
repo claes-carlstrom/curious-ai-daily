@@ -1,0 +1,32 @@
+date: "2026-04-18"
+stories:
+  - title: "Anthropic Ships Claude Opus 4.7, Retakes Top Coding Benchmark Spot"
+    summary: "Released April 16, Claude Opus 4.7 scores 87.6% on SWE-bench Verified and 94.2% on GPQA, narrowly reclaiming the lead for most capable publicly available LLM. The model adds higher-resolution vision, a new 'xhigh' reasoning effort level for finer latency control, and developer 'task budgets' for long-horizon agents. Pricing stays at $5/$25 per million tokens; available on Claude.ai, Bedrock, Vertex AI, and GitHub."
+    url: "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html"
+    source: "cnbc.com"
+    tag: "models"
+    significance: 5
+  - title: "Adobe Firefly AI Assistant Goes Agentic Across All Creative Cloud Apps"
+    summary: "Announced April 15 at NAB 2026, the Firefly AI Assistant lets creators describe an outcome in plain text and have the agent execute multi-step workflows across Photoshop, Premiere, Lightroom, Illustrator, and more in one shot. The update also adds Kling 3.0 video models to Firefly's third-party library, a Precision Flow slider for image variation sweeps, and AI Markup for brush-based inpainting control. Public beta rolls out in the coming weeks on existing Firefly credit tiers."
+    url: "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Cursor 3 Launches Agent-First IDE with Design Mode and Parallel Agents"
+    summary: "Released April 2 and now the dominant vibecoding story of the week, Cursor 3 ships a dedicated Agents Window for running parallel AI agents across local, SSH, worktree, and cloud environments simultaneously. Design Mode lets developers click-drag on live browser-rendered UI elements to annotate components instead of describing them in text. The update is powered by Composer 2, a frontier coding model; Pro stays at $20/month."
+    url: "https://cursor.com/blog/cursor-3"
+    source: "cursor.com"
+    tag: "vibecoding"
+    significance: 4
+  - title: "Alibaba's HappyHorse-1.0 Tops Global AI Video Leaderboard by Record Margin"
+    summary: "Entering the Artificial Analysis Video Arena anonymously, HappyHorse-1.0 reached #1 in both text-to-video (Elo 1,347) and image-to-video (Elo 1,406) before Alibaba claimed it. The margin over second-place Seedance 2.0 — 74 Elo points — is the largest gap ever recorded on the leaderboard. The 15B-parameter model is still in beta and comes from a new internal unit led by the former Kling AI technical lead."
+    url: "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html"
+    source: "cnbc.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Hightouch Hits $100M ARR on AI Marketing Agent Boom"
+    summary: "Hightouch reached $100M ARR after adding $70M in annualized revenue over just 20 months, driven by its AI agent platform that auto-generates brand-consistent ad creative for clients including Domino's, Spotify, and PetSmart. The system connects to Figma, photo libraries, and CMSes to learn a brand's visual identity and produces personalized images and video without designers. The $1.2B-valued company employs around 380 people."
+    url: "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/"
+    source: "techcrunch.com"
+    tag: "marketing"
+    significance: 3
