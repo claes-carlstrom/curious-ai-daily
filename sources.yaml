@@ -7,7 +7,7 @@
 # 1. New features/products from major AI companies
 # 2. New model releases and benchmarks
 # 3. Breaking and viral AI news
-# 4. Vibecoding tools and AI-assisted building
+# 4. AI tools for CMS, CRM and other content operations
 # 5. AI content creation tools (video, image, voice, writing)
 # 6. AI for marketing and growth
 # 7. Community buzz and standout demos
@@ -49,61 +49,141 @@ sources:
     type: fetch
     priority: 1
 
-  # ── Vibecoding & AI Building Tools (Priority 1) ──────────────
-  - name: Cursor Blog
-    url: https://www.cursor.com/blog
-    type: fetch
-    priority: 1
-    note: Vibecoding flagship — AI-native code editor
+  # ── AI tools for CMS, CRM and other content operations (Priority 1) ──────────────
 
-  - name: Windsurf Blog
-    url: https://windsurf.com/blog
-    type: fetch
-    priority: 1
-    note: AI coding assistant — Cursor competitor
+ - name: CMSWire
+url: https://www.cmswire.com
+type: fetch
+priority: 1
+note: Content Ops & CMS authority — deep coverage of AI-driven workflows, digital experience, and headless architecture.
 
-  - name: Replit Blog
-    url: https://blog.replit.com
-    type: fetch
-    priority: 1
-    note: AI-assisted building for non-traditional developers
+- name: Marketing AI Institute
+url: https://www.marketingaiinstitute.com
+type: fetch
+priority: 1
+note: AI Marketing specialist — practical focus on AI tools for content generation, SEO automation, and CRM analytics.
 
-  - name: v0 by Vercel
-    type: search
-    priority: 1
-    query: "v0.dev OR v0 by Vercel new features launch"
-    note: Prompt-to-UI tool — vibecoding poster child
+- name: MarTech
+url: https://martech.org
+type: fetch
+priority: 2
+note: CRM & Stack central — tracks AI product roadmaps and platform integrations across the marketing technology landscape.
 
-  - name: HuggingFace
-    url: https://huggingface.co/blog
-    type: fetch
-    priority: 1
-    note: Open models powering creative and coding tools
+- name: VentureBeat (AI)
+url: https://venturebeat.com/ai
+type: fetch
+priority: 2
+note: Enterprise tool pulse — breaking news on LLM developments, agentic workflows, and major enterprise software rollouts.
+
+- name: The Rundown AI
+url: https://www.therundown.ai
+type: fetch
+priority: 3
+note: The AI tool firehose — high-frequency digest of new software launches, productivity hacks, and daily feature updates.
 
   # ── AI Content Creation (Priority 1) ──────────────────────────
-  - name: Runway Blog
-    url: https://runwayml.com/blog
+  That makes total sense. If we are tracking the actual state-of-the-art generation models and the tools used to implement them, cutting out text generation and focusing purely on audiovisual and image generation is the way to go.
+
+Here is the revised and realigned list based exactly on your layout:
+
+# ── AI Video ──────────────────────────
+
+  - name: Kling AI Blog
+    url: [https://kling.ai/blog](https://kling.ai/blog)
     type: fetch
     priority: 1
-    note: Video generation leader
+    note: Next-gen video models and features from Kuaishou
+
+  - name: Seedance AI
+    type: search
+    priority: 1
+    query: "Seedance AI video new model update"
+    note: ByteDance's cinematic video model announcements
+
+  - name: Google DeepMind Blog
+    url: [https://deepmind.google/discover/blog/](https://deepmind.google/discover/blog/)
+    type: fetch
+    priority: 1
+    note: Updates on Google Veo and foundational models
+
+  - name: Runway Blog
+    url: [https://runwayml.com/blog](https://runwayml.com/blog)
+    type: fetch
+    priority: 1
+    note: Video generation leader and creative toolkit
+
+  - name: Luma Labs News
+    url: [https://lumalabs.ai/news](https://lumalabs.ai/news)
+    type: fetch
+    priority: 1
+    note: Dream Machine updates and multimodal video features
+
+# ── AI Audio ──────────────────────────
 
   - name: ElevenLabs Blog
-    url: https://elevenlabs.io/blog
+    url: [https://elevenlabs.io/blog](https://elevenlabs.io/blog)
     type: fetch
     priority: 1
-    note: Voice AI — cloning, TTS, dubbing
+    note: Leading voice AI — cloning, TTS, dubbing, and sound effects
 
-  - name: Midjourney
+  - name: Suno Blog
+    url: [https://suno.com/blog](https://suno.com/blog)
+    type: fetch
+    priority: 1
+    note: High-fidelity AI music generation and audio creation
+
+  - name: Adobe AI Blog
+    url: [https://blog.adobe.com/en/topics/ai](https://www.google.com/search?q=https://blog.adobe.com/en/topics/ai)
+    type: fetch
+    priority: 1
+    note: Adobe's native AI audio tools and generative sound
+
+
+# ── AI Image Models ──────────────────────────
+
+  - name: Google AI Blog
+    url: [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
+    type: fetch
+    priority: 1
+    note: Official updates on Google Nano Banana
+
+  - name: Black Forest Labs
     type: search
     priority: 1
-    query: "Midjourney new version update feature announcement"
-    note: No official blog — search for announcements
+    query: "Black Forest Labs Flux image model update"
+    note: State-of-the-art open-weights image model advancements
 
-  - name: Canva AI
+  - name: Seedream
     type: search
     priority: 1
-    query: "Canva AI new features tools launch"
-    note: AI features in the most popular design tool
+    query: "Seedream AI image model update"
+    note: Emerging AI image generation developments
+
+  - name: Adobe Firefly News
+    type: search
+    priority: 1
+    query: "Adobe Firefly image model update"
+    note: Native, commercially safe image generation model
+
+# ── AI Image Tools ──────────────────────────
+
+  - name: Figma Blog
+    url: [https://www.figma.com/blog/](https://www.figma.com/blog/)
+    type: fetch
+    priority: 1
+    note: AI design tools including Figma Weave / Weavy.ai
+
+  - name: Canva Newsroom
+    url: [https://www.canva.com/newsroom/](https://www.google.com/search?q=https://www.canva.com/newsroom/)
+    type: fetch
+    priority: 1
+    note: Broad AI feature integration in consumer design
+
+  - name: ComfyUI
+    type: search
+    priority: 1
+    query: "ComfyUI new nodes features update"
+    note: Advanced node-based UI for running local image models
 
   # ── Community Buzz (Priority 1) ───────────────────────────────
   - name: Hacker News
@@ -141,12 +221,6 @@ sources:
     priority: 1
     query: "AI viral OR trending OR announcement OR launch"
     note: Breaking news and viral takes
-
-  - name: X/Twitter Vibecoding
-    type: search
-    priority: 1
-    query: "vibecoding OR vibe coding OR cursor AI OR AI-assisted coding OR claude code OR AI coding tools"
-    note: Vibecoding community buzz
 
   - name: Product Hunt AI
     url: https://www.producthunt.com/topics/artificial-intelligence
