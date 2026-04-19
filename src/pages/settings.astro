@@ -1,0 +1,354 @@
+---
+export const prerender = false;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>Settings — Curious AI Daily</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        --color-bg: #000000;
+        --color-surface: #111111;
+        --color-border: #222222;
+        --color-accent: #FF754B;
+        --color-text: #f0f0f0;
+        --color-text-muted: #888888;
+        --color-error: #ff4444;
+        --color-success: #44cc88;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        background: var(--color-bg);
+        color: var(--color-text);
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-size: 14px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 20px;
+      }
+      .container {
+        width: 100%;
+        max-width: 800px;
+      }
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--color-text-muted);
+        text-decoration: none;
+        font-size: 12px;
+        margin-bottom: 32px;
+        transition: color 0.15s;
+      }
+      .back-link:hover { color: var(--color-text); }
+      h1 {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-text);
+        letter-spacing: -0.02em;
+        margin-bottom: 6px;
+      }
+      .subtitle {
+        color: var(--color-text-muted);
+        font-size: 12px;
+        margin-bottom: 32px;
+      }
+      .accent { color: var(--color-accent); }
+
+      /* Auth form */
+      #auth-section {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-width: 340px;
+      }
+      label {
+        font-size: 11px;
+        color: var(--color-text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        display: block;
+        margin-bottom: 6px;
+      }
+      input[type="password"] {
+        width: 100%;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        color: var(--color-text);
+        padding: 10px 12px;
+        font-size: 14px;
+        font-family: inherit;
+        border-radius: 6px;
+        outline: none;
+        transition: border-color 0.15s;
+      }
+      input[type="password"]:focus {
+        border-color: var(--color-accent);
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 10px 18px;
+        border-radius: 6px;
+        font-size: 13px;
+        font-family: inherit;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        transition: opacity 0.15s, background 0.15s;
+      }
+      .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+      .btn-primary {
+        background: var(--color-accent);
+        color: #000;
+      }
+      .btn-primary:hover:not(:disabled) { opacity: 0.85; }
+      .btn-ghost {
+        background: var(--color-surface);
+        color: var(--color-text);
+        border: 1px solid var(--color-border);
+      }
+      .btn-ghost:hover:not(:disabled) { border-color: var(--color-accent); color: var(--color-accent); }
+
+      .error-msg {
+        color: var(--color-error);
+        font-size: 12px;
+        display: none;
+      }
+      .error-msg.visible { display: block; }
+
+      /* Editor section */
+      #editor-section { display: none; }
+      #editor-section.visible { display: block; }
+
+      .editor-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .editor-label {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--color-text-muted);
+      }
+      .editor-actions { display: flex; gap: 8px; }
+
+      textarea#yaml-editor {
+        width: 100%;
+        height: 520px;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        color: var(--color-text);
+        padding: 16px;
+        font-size: 12.5px;
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        line-height: 1.6;
+        border-radius: 6px;
+        resize: vertical;
+        outline: none;
+        tab-size: 2;
+        transition: border-color 0.15s;
+      }
+      textarea#yaml-editor:focus { border-color: var(--color-accent); }
+
+      .status-bar {
+        margin-top: 10px;
+        font-size: 11px;
+        color: var(--color-text-muted);
+        min-height: 18px;
+      }
+      .status-bar.success { color: var(--color-success); }
+      .status-bar.error { color: var(--color-error); }
+
+      .help-text {
+        margin-top: 24px;
+        padding: 14px 16px;
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: 6px;
+        font-size: 11.5px;
+        color: var(--color-text-muted);
+        line-height: 1.7;
+      }
+      .help-text code {
+        color: var(--color-text);
+        background: #1a1a1a;
+        padding: 1px 5px;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/" class="back-link">← Back to digest</a>
+
+      <h1>Sources <span class="accent">Settings</span></h1>
+      <p class="subtitle">Edit sources.yaml — saving commits directly to GitHub and triggers a Vercel redeploy.</p>
+
+      <!-- Auth form -->
+      <section id="auth-section">
+        <div>
+          <label for="password-input">Password</label>
+          <input type="password" id="password-input" placeholder="Enter password" autocomplete="current-password" />
+        </div>
+        <div>
+          <button class="btn btn-primary" id="auth-btn" type="button">Unlock</button>
+        </div>
+        <p class="error-msg" id="auth-error">Incorrect password — try again.</p>
+      </section>
+
+      <!-- Editor (shown after auth) -->
+      <section id="editor-section">
+        <div class="editor-header">
+          <span class="editor-label">sources.yaml</span>
+          <div class="editor-actions">
+            <button class="btn btn-ghost" id="reload-btn" type="button">↺ Reload</button>
+            <button class="btn btn-primary" id="save-btn" type="button">Save &amp; Deploy</button>
+          </div>
+        </div>
+        <textarea id="yaml-editor" spellcheck="false"></textarea>
+        <div class="status-bar" id="status-bar"></div>
+
+        <div class="help-text">
+          <strong style="color: var(--color-text)">Quick reference</strong><br />
+          Each source needs <code>name</code>, <code>type</code> (<code>fetch</code> or <code>search</code>), and <code>priority</code> (<code>1</code> = always checked, <code>2</code> = fills gaps).<br />
+          For <code>fetch</code> sources add a <code>url</code>. For <code>search</code> sources add a <code>query</code> instead.<br />
+          Saving commits the file to GitHub. Vercel redeploys automatically (~30s). The next digest run will use the updated sources.
+        </div>
+      </section>
+    </div>
+
+    <script>
+      let sessionPassword = '';
+      let currentSha = '';
+
+      const authSection = document.getElementById('auth-section');
+      const editorSection = document.getElementById('editor-section');
+      const passwordInput = document.getElementById('password-input');
+      const authBtn = document.getElementById('auth-btn');
+      const authError = document.getElementById('auth-error');
+      const yamlEditor = document.getElementById('yaml-editor');
+      const saveBtn = document.getElementById('save-btn');
+      const reloadBtn = document.getElementById('reload-btn');
+      const statusBar = document.getElementById('status-bar');
+
+      function setStatus(msg, type = '') {
+        statusBar.textContent = msg;
+        statusBar.className = 'status-bar' + (type ? ' ' + type : '');
+      }
+
+      async function loadSources() {
+        setStatus('Loading sources.yaml…');
+        try {
+          const res = await fetch('/api/sources');
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const { yaml, sha } = await res.json();
+          yamlEditor.value = yaml;
+          currentSha = sha;
+          setStatus('');
+        } catch (e) {
+          setStatus('Failed to load sources.yaml — ' + e.message, 'error');
+        }
+      }
+
+      async function unlock() {
+        const pwd = passwordInput.value.trim();
+        if (!pwd) return;
+
+        authBtn.disabled = true;
+        authBtn.textContent = 'Checking…';
+
+        try {
+          const res = await fetch('/api/auth', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ password: pwd }),
+          });
+
+          if (res.ok) {
+            sessionPassword = pwd;
+            authError.classList.remove('visible');
+            authSection.style.display = 'none';
+            editorSection.classList.add('visible');
+            await loadSources();
+          } else {
+            authError.classList.add('visible');
+            passwordInput.value = '';
+            passwordInput.focus();
+          }
+        } catch {
+          authError.textContent = 'Network error — try again.';
+          authError.classList.add('visible');
+        } finally {
+          authBtn.disabled = false;
+          authBtn.textContent = 'Unlock';
+        }
+      }
+
+      async function save() {
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Saving…';
+        setStatus('Committing to GitHub…');
+
+        try {
+          const res = await fetch('/api/sources', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              yaml: yamlEditor.value,
+              password: sessionPassword,
+              sha: currentSha,
+            }),
+          });
+
+          if (res.ok) {
+            setStatus('✓ Saved — site will redeploy in ~30 seconds', 'success');
+            // Refresh SHA so next save works
+            await loadSources();
+          } else {
+            const err = await res.json().catch(() => ({}));
+            setStatus('Save failed: ' + (err.error ?? `HTTP ${res.status}`), 'error');
+          }
+        } catch (e) {
+          setStatus('Save failed: ' + e.message, 'error');
+        } finally {
+          saveBtn.disabled = false;
+          saveBtn.textContent = 'Save & Deploy';
+        }
+      }
+
+      // Events
+      authBtn.addEventListener('click', unlock);
+      passwordInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') unlock();
+      });
+      saveBtn.addEventListener('click', save);
+      reloadBtn.addEventListener('click', loadSources);
+
+      // Tab key inserts 2 spaces in editor
+      yamlEditor.addEventListener('keydown', (e) => {
+        if (e.key === 'Tab') {
+          e.preventDefault();
+          const start = yamlEditor.selectionStart;
+          const end = yamlEditor.selectionEnd;
+          yamlEditor.value = yamlEditor.value.slice(0, start) + '  ' + yamlEditor.value.slice(end);
+          yamlEditor.selectionStart = yamlEditor.selectionEnd = start + 2;
+        }
+      });
+    </script>
+  </body>
+</html>
