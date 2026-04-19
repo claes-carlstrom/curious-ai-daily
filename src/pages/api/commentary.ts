@@ -1,9 +1,9 @@
 export const prerender = false;
 
 import type { APIRoute } from "astro";
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 
-const client = new Anthropic({ apiKey: import.meta.env.ANTHROPIC_API_KEY });
+const client = new OpenAI({ apiKey: import.meta.env.OPENAI_API_KEY });
 
 export const POST: APIRoute = async ({ request }) => {
   try {
@@ -39,8 +39,8 @@ Source: ${source} | Tag: ${tag}
 
 Write 3–4 sentences with a measured, skeptical eye. Point out what might be missing, oversold, or harder than advertised. Be incisive but fair — not cynical for its own sake. No bullet points — flowing prose only. Do NOT start with "This".`;
 
-    const message = await client.messages.create({
-      model: "claude-haiku-4-5",
+    const message = await client.chat.completions.create({
+      model: "gpt-4o-mini",
       max_tokens: 200,
       messages: [
         {
@@ -50,8 +50,7 @@ Write 3–4 sentences with a measured, skeptical eye. Point out what might be mi
       ],
     });
 
-    const commentary =
-      message.content[0].type === "text" ? message.content[0].text : "";
+    const commentary = message.choices[0]?.message?.content ?? "";
 
     return new Response(JSON.stringify({ commentary }), {
       status: 200,

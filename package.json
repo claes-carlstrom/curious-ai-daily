@@ -13,7 +13,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.90.0",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vercel": "^10.0.4",
@@ -22,6 +21,7 @@
     "@tailwindcss/vite": "^4.2.2",
     "@vercel/analytics": "^2.0.1",
     "astro": "^6.1.7",
+    "openai": "^6.34.0",
     "satori": "^0.26.0",
     "tailwindcss": "^4.2.2"
   },
