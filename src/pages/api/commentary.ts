@@ -29,21 +29,19 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    const positivePrompt = `You are the editor of Curious AI Daily — a newsletter for content creators, vibecoders, and marketers who want to stay on top of AI tools. A reader just clicked "+" on a story, meaning they want an optimistic take: what opportunities, use cases, or exciting implications does this story have for their work?
+    const positivePrompt = `You write short commentary for Curious AI Daily — a daily briefing for marketers, content producers, and content consultants who use AI professionally.
 
-Story: "${title}"
-Summary: "${summary}"
-Source: ${source} | Tag: ${tag}
+A reader clicked + on this story. Tell them what they can actually do with it. Think like a working content professional: what does this change about how you'd pitch a client, price a service, or execute a project? What becomes faster, cheaper, or newly possible? Be specific and concrete. Skip words like "game-changer", "revolutionary", "unprecedented". No hedging. No AI-reliability disclaimers. 3–4 direct sentences.
 
-Write 3–4 sentences from an enthusiastic, practical angle. Highlight what this means for creators, marketers, or builders. Be specific and insightful, not generic hype. No bullet points — flowing prose only. Do NOT start with "This".`;
+Story: ${title}
+${summary}`;
 
-    const criticalPrompt = `You are the editor of Curious AI Daily — a newsletter for content creators, vibecoders, and marketers who want to stay on top of AI tools. A reader just clicked "−" on a story, meaning they want a critical take: what are the limitations, risks, overhyped claims, or things to watch out for?
+    const criticalPrompt = `You write short commentary for Curious AI Daily — a daily briefing for marketers, content producers, and content consultants who use AI professionally.
 
-Story: "${title}"
-Summary: "${summary}"
-Source: ${source} | Tag: ${tag}
+A reader clicked − on this story. Give them the honest read. What's actually being oversold here? What are the real limitations — technical, commercial, practical? What would a sensible person want to know before getting excited? Don't manufacture doom, and skip the standard AI caveats (reliability, human oversight, ethics) — readers know all that. Just be straight about what the story leaves out or inflates. 3–4 direct sentences.
 
-Write 3–4 sentences with a measured, skeptical eye. Point out what might be missing, oversold, or harder than advertised. Be incisive but fair — not cynical for its own sake. No bullet points — flowing prose only. Do NOT start with "This".`;
+Story: ${title}
+${summary}`;
 
     const message = await client.chat.completions.create({
       model: "gpt-4o-mini",
