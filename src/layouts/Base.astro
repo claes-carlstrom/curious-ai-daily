@@ -74,7 +74,7 @@ const itemListSchema = stories?.length ? {
     {itemListSchema && <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />}
     <ClientRouter />
     <script is:inline>
-      if (localStorage.getItem('theme') === 'light') document.documentElement.classList.add('light');
+      if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark');
     </script>
   </head>
   <body data-digest-date={digestDate}>

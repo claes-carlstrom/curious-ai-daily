@@ -15,14 +15,14 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
     <img
       src="/brand/logo-white.png"
       alt="Curious Mind"
-      class="h-7 w-auto block dark-logo"
-      style="display: block;"
+      class="h-7 w-auto dark-logo"
+      style="display: none;"
     />
     <img
       src="/brand/logo-black.png"
       alt="Curious Mind"
-      class="h-7 w-auto hidden light-logo"
-      style="display: none;"
+      class="h-7 w-auto light-logo"
+      style="display: block;"
     />
   </a>
   <nav class="flex items-center justify-center gap-4 md:gap-6 order-last md:order-none w-full md:w-auto">
@@ -62,23 +62,23 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
   document.addEventListener('click', function(e) {
     var btn = e.target.closest('#theme-toggle');
     if (!btn) return;
-    var isLight = !document.documentElement.classList.contains('light');
-    document.documentElement.classList.toggle('light', isLight);
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    var isDark = !document.documentElement.classList.contains('dark');
+    document.documentElement.classList.toggle('dark', isDark);
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
     var dark = document.getElementById('theme-icon-dark');
     var light = document.getElementById('theme-icon-light');
-    if (dark) dark.classList.toggle('hidden', !isLight);
-    if (light) light.classList.toggle('hidden', isLight);
-    applyLogoTheme(isLight);
+    if (dark) dark.classList.toggle('hidden', isDark);
+    if (light) light.classList.toggle('hidden', !isDark);
+    applyLogoTheme(!isDark);
   });
 
   function syncThemeIcons() {
-    var isLight = document.documentElement.classList.contains('light');
+    var isDark = document.documentElement.classList.contains('dark');
     var dark = document.getElementById('theme-icon-dark');
     var light = document.getElementById('theme-icon-light');
-    if (dark) dark.classList.toggle('hidden', !isLight);
-    if (light) light.classList.toggle('hidden', isLight);
-    applyLogoTheme(isLight);
+    if (dark) dark.classList.toggle('hidden', isDark);
+    if (light) light.classList.toggle('hidden', !isDark);
+    applyLogoTheme(!isDark);
   }
   syncThemeIcons();
   document.addEventListener('astro:page-load', syncThemeIcons);

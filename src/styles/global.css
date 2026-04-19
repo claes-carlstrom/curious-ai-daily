@@ -31,47 +31,7 @@
 }
 
 @theme {
-  --color-bg: #000000;
-  --color-text: #e0e0e0;
-  --color-text-secondary: #777;
-  --color-text-muted: #444;
-  --color-accent: #FF754B;
-  --color-border: #111;
-  --color-border-section: #1a1a1a;
-  --color-story-title: #fff;
-  --color-story-hover: rgba(255, 117, 75, 0.04);
-  --color-accent-muted: rgba(255, 117, 75, 0.5);
-  --color-accent-subtle: rgba(255, 117, 75, 0.07);
-  --color-index: rgba(255, 117, 75, 0.35);
-
-  /* Tag colours — editorial categories */
-  --color-tag-models-bg: color-mix(in srgb, #FF754B 10%, transparent);
-  --color-tag-models: #FF754B;
-  --color-tag-tools-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
-  --color-tag-tools: #FFAC4A;
-  --color-tag-vibecoding-bg: color-mix(in srgb, #8320FF 10%, transparent);
-  --color-tag-vibecoding: #8320FF;
-  --color-tag-content-creation-bg: color-mix(in srgb, #f472b6 8%, transparent);
-  --color-tag-content-creation: #f472b6;
-  --color-tag-marketing-bg: color-mix(in srgb, #FFDA56 10%, transparent);
-  --color-tag-marketing: #FFDA56;
-  --color-tag-research-bg: color-mix(in srgb, #D0D0D0 10%, transparent);
-  --color-tag-research: #D0D0D0;
-  --color-tag-open-source-bg: color-mix(in srgb, #8320FF 10%, transparent);
-  --color-tag-open-source: #8320FF;
-  --color-tag-community-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
-  --color-tag-community: #FFAC4A;
-}
-
-body {
-  font-family: "Foundry Unie", Arial, system-ui, sans-serif;
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  transition: background-color 0.2s, color 0.2s;
-}
-
-/* Light theme overrides */
-html.light {
+  /* Default: light mode */
   --color-bg: #F0F0F0;
   --color-text: #1a1a1a;
   --color-text-secondary: #555;
@@ -85,6 +45,7 @@ html.light {
   --color-accent-subtle: rgba(255, 117, 75, 0.1);
   --color-index: rgba(255, 117, 75, 0.45);
 
+  /* Tag colours */
   --color-tag-models-bg: color-mix(in srgb, #FF754B 15%, transparent);
   --color-tag-models: #d94f25;
   --color-tag-tools-bg: color-mix(in srgb, #FFAC4A 15%, transparent);
@@ -101,4 +62,43 @@ html.light {
   --color-tag-open-source: #6510cc;
   --color-tag-community-bg: color-mix(in srgb, #b86e00 15%, transparent);
   --color-tag-community: #b86e00;
+}
+
+body {
+  font-family: "Foundry Unie", Arial, system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Dark theme overrides */
+html.dark {
+  --color-bg: #000000;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #777;
+  --color-text-muted: #444;
+  --color-border: #111;
+  --color-border-section: #1a1a1a;
+  --color-story-title: #fff;
+  --color-story-hover: rgba(255, 117, 75, 0.04);
+  --color-accent-muted: rgba(255, 117, 75, 0.5);
+  --color-accent-subtle: rgba(255, 117, 75, 0.07);
+  --color-index: rgba(255, 117, 75, 0.35);
+
+  --color-tag-models-bg: color-mix(in srgb, #FF754B 10%, transparent);
+  --color-tag-models: #FF754B;
+  --color-tag-tools-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
+  --color-tag-tools: #FFAC4A;
+  --color-tag-vibecoding-bg: color-mix(in srgb, #8320FF 10%, transparent);
+  --color-tag-vibecoding: #8320FF;
+  --color-tag-content-creation-bg: color-mix(in srgb, #f472b6 8%, transparent);
+  --color-tag-content-creation: #f472b6;
+  --color-tag-marketing-bg: color-mix(in srgb, #FFDA56 10%, transparent);
+  --color-tag-marketing: #FFDA56;
+  --color-tag-research-bg: color-mix(in srgb, #D0D0D0 10%, transparent);
+  --color-tag-research: #D0D0D0;
+  --color-tag-open-source-bg: color-mix(in srgb, #8320FF 10%, transparent);
+  --color-tag-open-source: #8320FF;
+  --color-tag-community-bg: color-mix(in srgb, #FFAC4A 10%, transparent);
+  --color-tag-community: #FFAC4A;
 }

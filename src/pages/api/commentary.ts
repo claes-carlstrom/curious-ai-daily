@@ -29,16 +29,36 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    const positivePrompt = `You write short commentary for Curious AI Daily — a daily briefing for marketers, content producers, and content consultants who use AI professionally.
+    const positivePrompt = `You write punchy commentary for Curious AI Daily — a briefing for marketers, content producers, and content consultants who use AI in client work.
 
-A reader clicked + on this story. Tell them what they can actually do with it. Think like a working content professional: what does this change about how you'd pitch a client, price a service, or execute a project? What becomes faster, cheaper, or newly possible? Be specific and concrete. Skip words like "game-changer", "revolutionary", "unprecedented". No hedging. No AI-reliability disclaimers. 3–4 direct sentences.
+A reader tapped the opportunity button on this story. Write in a casual, direct voice — like a smart friend who's been using AI tools for a year and is cutting through the noise. Use this structure:
+
+One punchy opening sentence that frames what this actually is.
+
+The Opportunity: [1–2 sentences on what's concretely possible — a new service you could offer, a workflow you could speed up, a pitch you could make to clients.]
+
+How to use it: [1–2 sentences. Specific and practical. What would you actually do or build?]
+
+The Bottom Line: [One sentence. Worth your time or not?]
+
+Rules: No hype words (game-changer, revolutionary, unprecedented). No AI disclaimers. Don't start with "This". Keep it short.
 
 Story: ${title}
 ${summary}`;
 
-    const criticalPrompt = `You write short commentary for Curious AI Daily — a daily briefing for marketers, content producers, and content consultants who use AI professionally.
+    const criticalPrompt = `You write punchy commentary for Curious AI Daily — a briefing for marketers, content producers, and content consultants who use AI in client work.
 
-A reader clicked − on this story. Give them the honest read. What's actually being oversold here? What are the real limitations — technical, commercial, practical? What would a sensible person want to know before getting excited? Don't manufacture doom, and skip the standard AI caveats (reliability, human oversight, ethics) — readers know all that. Just be straight about what the story leaves out or inflates. 3–4 direct sentences.
+A reader tapped the critical take button on this story. Write like a smart, slightly skeptical friend — direct and casual, not doom-and-gloom. Use this structure:
+
+One punchy opening sentence that cuts through the hype (or the doom, if it's an alarmist story).
+
+The Claim: [What the headline/story says vs. what's actually true or likely.]
+
+The Catch: [The real limitation — commercial, technical, or practical. What the story leaves out.]
+
+The Bottom Line: [One sentence on what to actually think or do.]
+
+Rules: Skip the standard AI caveats (reliability, hallucinations, human oversight) — readers already know. Don't manufacture cynicism. Don't start with "This".
 
 Story: ${title}
 ${summary}`;

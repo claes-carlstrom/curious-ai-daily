@@ -56,10 +56,11 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
         <span class="text-[11px] text-[var(--color-text-muted)]">{source}</span>
       </div>
 
-      <!-- +/- commentary buttons -->
-      <div class="flex items-center gap-1.5 shrink-0">
+      <!-- Commentary bubble buttons -->
+      <div class="flex items-center gap-2 shrink-0">
+        <!-- + opportunity bubble -->
         <button
-          class="commentary-btn w-6 h-6 rounded-full flex items-center justify-center text-[13px] font-bold leading-none transition-all border border-transparent hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] text-[var(--color-text-muted)]"
+          class="commentary-btn transition-colors text-[var(--color-text-muted)] hover:text-[var(--color-accent)] cursor-pointer"
           data-type="positive"
           data-title={title}
           data-summary={summary}
@@ -67,9 +68,17 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
           data-tag={tag}
           aria-label="Opportunity take"
           title="What can I do with this?"
-        >+</button>
+        >
+          <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0.75" y="0.75" width="24.5" height="16.5" rx="3.25" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M5 17.25 L5 22.5 L10.5 17.25" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <line x1="13" y1="5.5" x2="13" y2="13.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="9" y1="9.5" x2="17" y2="9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <!-- − critical bubble -->
         <button
-          class="commentary-btn w-6 h-6 rounded-full flex items-center justify-center text-[13px] font-bold leading-none transition-all border border-transparent hover:border-[var(--color-text-muted)] hover:text-[var(--color-text)] text-[var(--color-text-muted)]"
+          class="commentary-btn transition-colors text-[var(--color-text-muted)] hover:text-[var(--color-text)] cursor-pointer"
           data-type="critical"
           data-title={title}
           data-summary={summary}
@@ -77,7 +86,13 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
           data-tag={tag}
           aria-label="Critical take"
           title="What's the catch?"
-        >−</button>
+        >
+          <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0.75" y="0.75" width="24.5" height="16.5" rx="3.25" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M5 17.25 L5 22.5 L10.5 17.25" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <line x1="9" y1="9.5" x2="17" y2="9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
       </div>
     </div>
   </div>
