@@ -3,10 +3,16 @@ export const prerender = false;
 import type { APIRoute } from "astro";
 import OpenAI from "openai";
 
-const client = new OpenAI({ apiKey: import.meta.env.OPENAI_API_KEY });
-
 export const POST: APIRoute = async ({ request }) => {
   try {
+    const apiKey = import.meta.env.OPENAI_API_KEY;
+    if (!apiKey) {
+      return new Response(JSON.stringify({ error: "OPENAI_API_KEY not configured" }), {
+        status: 503,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+    const client = new OpenAI({ apiKey });
     const body = await request.json();
     const { title, summary, source, tag, type } = body as {
       title: string;

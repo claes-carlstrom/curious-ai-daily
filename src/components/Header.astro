@@ -32,15 +32,23 @@ const latestMonth = latestDate ? latestDate.slice(0, 7) : "";
     <a href="/archive" class="uppercase text-[11px] tracking-widest text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors no-underline">archive</a>
     <a href="/subscribe" class="uppercase text-[11px] tracking-widest text-[var(--color-accent)] hover:text-[var(--color-accent)] transition-colors no-underline">subscribe</a>
   </nav>
-  <button
-    id="theme-toggle"
-    class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-sm cursor-pointer"
-    aria-label="Toggle theme"
-    title="Toggle theme (t)"
-  >
-    <span id="theme-icon-dark" class="hidden">&#9788;</span>
-    <span id="theme-icon-light">&#9790;</span>
-  </button>
+  <div class="flex items-center gap-3">
+    <a
+      href="/settings"
+      class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-sm no-underline"
+      aria-label="Settings"
+      title="Sources settings"
+    >&#9881;</a>
+    <button
+      id="theme-toggle"
+      class="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors text-sm cursor-pointer"
+      aria-label="Toggle theme"
+      title="Toggle theme (t)"
+    >
+      <span id="theme-icon-dark" class="hidden">&#9788;</span>
+      <span id="theme-icon-light">&#9790;</span>
+    </button>
+  </div>
 </header>
 
 <script is:inline>

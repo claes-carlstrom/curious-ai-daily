@@ -34,7 +34,7 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
 ---
 
 <div
-  class="relative flex gap-4 border-b border-[var(--color-border)]/50 py-5 px-5 cursor-pointer transition-all hover:bg-[var(--color-story-hover)] group"
+  class="flex gap-4 border-b border-[var(--color-border)]/50 py-5 px-5 cursor-pointer transition-all hover:bg-[var(--color-story-hover)] group"
   data-story-index={index}
   id={cardId}
 >
@@ -85,55 +85,59 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
         >−</button>
       </div>
     </div>
-  </div>
 
-  <!-- Commentary popup (hidden by default) -->
-  <div
-    class="commentary-popup hidden absolute right-4 z-50 w-72 rounded-lg border border-[var(--color-border)] bg-[var(--color-bg)] shadow-xl p-4"
-    style="bottom: calc(100% - 12px);"
-    data-card={cardId}
-  >
-    <div class="flex items-start justify-between gap-2 mb-2">
-      <span class="commentary-popup-label text-[11px] font-semibold uppercase tracking-wide"></span>
-      <button
-        class="commentary-popup-close text-[var(--color-text-muted)] hover:text-[var(--color-text)] leading-none text-lg"
-        aria-label="Close"
-      >×</button>
+    <!-- Commentary panel — appears inline below the tag row -->
+    <div
+      class="commentary-panel hidden mt-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-surface,#111)] p-4"
+      data-card={cardId}
+    >
+      <div class="flex items-start justify-between gap-2 mb-2">
+        <span class="commentary-panel-label text-[11px] font-semibold uppercase tracking-wide"></span>
+        <button
+          class="commentary-panel-close text-[var(--color-text-muted)] hover:text-[var(--color-text)] leading-none text-lg shrink-0"
+          aria-label="Close"
+        >×</button>
+      </div>
+      <p class="commentary-panel-body text-[13px] text-[var(--color-text-secondary)] leading-relaxed"></p>
     </div>
-    <p class="commentary-popup-body text-[13px] text-[var(--color-text-secondary)] leading-relaxed"></p>
   </div>
 </div>
 
 <script>
-  // Run once per page, not per card (guard with a flag)
   if (!(window as any).__commentaryInit) {
     (window as any).__commentaryInit = true;
 
-    let activePopup: HTMLElement | null = null;
+    let activePanel: HTMLElement | null = null;
+    let activeType: string | null = null;
 
-    function closePopup() {
-      if (activePopup) {
-        activePopup.classList.add("hidden");
-        activePopup = null;
+    function closePanel() {
+      if (activePanel) {
+        activePanel.classList.add("hidden");
+        activePanel = null;
+        activeType = null;
       }
     }
 
-    document.addEventListener("click", (e) => {
-      if (!activePopup) return;
-      // Close if click is outside the active popup and not on a commentary button
-      const target = e.target as HTMLElement;
-      if (!activePopup.contains(target) && !target.closest(".commentary-btn")) {
-        closePopup();
-      }
-    });
-
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closePopup();
+      if (e.key === "Escape") closePanel();
     });
 
     document.addEventListener("click", async (e) => {
       const btn = (e.target as HTMLElement).closest(".commentary-btn") as HTMLElement | null;
-      if (!btn) return;
+
+      // Close button inside panel
+      if ((e.target as HTMLElement).closest(".commentary-panel-close")) {
+        closePanel();
+        return;
+      }
+
+      if (!btn) {
+        // Click outside any button — close panel
+        if (activePanel && !(e.target as HTMLElement).closest(".commentary-panel")) {
+          closePanel();
+        }
+        return;
+      }
 
       e.stopPropagation();
 
@@ -142,22 +146,22 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
       const card = document.getElementById(cardId);
       if (!card) return;
 
-      const popup = card.querySelector<HTMLElement>(".commentary-popup[data-card='" + cardId + "']");
-      if (!popup) return;
+      const panel = card.querySelector<HTMLElement>(`.commentary-panel[data-card='${cardId}']`);
+      if (!panel) return;
 
-      // Toggle: if same popup already open for this type, close it
-      if (activePopup === popup && popup.dataset.activeType === type) {
-        closePopup();
+      // Toggle off if same button clicked again
+      if (activePanel === panel && activeType === type) {
+        closePanel();
         return;
       }
 
-      // Close any other open popup
-      closePopup();
-      activePopup = popup;
-      popup.dataset.activeType = type;
+      // Close any other open panel
+      closePanel();
+      activePanel = panel;
+      activeType = type;
 
-      const label = popup.querySelector<HTMLElement>(".commentary-popup-label")!;
-      const body = popup.querySelector<HTMLElement>(".commentary-popup-body")!;
+      const label = panel.querySelector<HTMLElement>(".commentary-panel-label")!;
+      const body = panel.querySelector<HTMLElement>(".commentary-panel-body")!;
 
       if (type === "positive") {
         label.textContent = "💡 Opportunity";
@@ -168,7 +172,7 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
       }
 
       body.textContent = "Thinking…";
-      popup.classList.remove("hidden");
+      panel.classList.remove("hidden");
 
       try {
         const res = await fetch("/api/commentary", {
@@ -183,23 +187,21 @@ const tagStyle = tagStyles[tag] ?? { bg: "transparent", text: "var(--color-text-
           }),
         });
 
-        const data = await res.json();
-        if (res.ok && data.commentary) {
-          body.textContent = data.commentary;
-        } else {
-          body.textContent = "Couldn't generate a take right now — try again in a moment.";
+        if (!res.ok) {
+          const ct = res.headers.get("content-type") ?? "";
+          if (ct.includes("application/json")) {
+            const err = await res.json();
+            body.textContent = err.error ?? "Couldn't generate a take right now — try again in a moment.";
+          } else {
+            body.textContent = "Couldn't generate a take right now — try again in a moment.";
+          }
+          return;
         }
-      } catch {
-        body.textContent = "Network error — check your connection.";
-      }
-    });
 
-    // Close button
-    document.addEventListener("click", (e) => {
-      const closeBtn = (e.target as HTMLElement).closest(".commentary-popup-close");
-      if (closeBtn) {
-        e.stopPropagation();
-        closePopup();
+        const data = await res.json();
+        body.textContent = data.commentary || "No response — try again.";
+      } catch {
+        body.textContent = "Couldn't reach the server — check your connection.";
       }
     });
   }
