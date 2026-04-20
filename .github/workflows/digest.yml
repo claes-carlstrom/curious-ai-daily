@@ -1,0 +1,30 @@
+name: Daily Digest
+
+on:
+  schedule:
+    - cron: '0 4 * * 1-5'   # 06:00 CEST (04:00 UTC) weekdays
+  workflow_dispatch:          # also triggerable manually from GitHub UI
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate digest
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 scripts/generate-digest.py
+
+      - name: Commit and push
+        run: |
+          git config user.email "digest@curiousmind.se"
+          git config user.name "Curious AI Daily"
+          git add src/content/digests/
+          git diff --staged --quiet && echo "Nothing to commit" || (
+            git commit -m "digest: $(date +%Y-%m-%d)"
+            git push
+          )

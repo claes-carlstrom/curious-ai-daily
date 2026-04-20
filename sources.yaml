@@ -49,47 +49,40 @@ sources:
     type: fetch
     priority: 1
 
-  # ── AI tools for CMS, CRM and other content operations (Priority 1) ──────────────
+  # ── AI Tools for CMS, CRM and Content Operations (Priority 1) ──
+  - name: CMSWire
+    url: https://www.cmswire.com
+    type: fetch
+    priority: 1
+    note: Content Ops & CMS authority — AI-driven workflows, digital experience, headless architecture
 
- - name: CMSWire
-url: https://www.cmswire.com
-type: fetch
-priority: 1
-note: Content Ops & CMS authority — deep coverage of AI-driven workflows, digital experience, and headless architecture.
+  - name: Marketing AI Institute
+    url: https://www.marketingaiinstitute.com
+    type: fetch
+    priority: 1
+    note: Practical AI tools for content generation, SEO automation, and CRM analytics
 
-- name: Marketing AI Institute
-url: https://www.marketingaiinstitute.com
-type: fetch
-priority: 1
-note: AI Marketing specialist — practical focus on AI tools for content generation, SEO automation, and CRM analytics.
+  - name: MarTech
+    url: https://martech.org
+    type: fetch
+    priority: 2
+    note: CRM & Stack — AI product roadmaps and platform integrations across marketing technology
 
-- name: MarTech
-url: https://martech.org
-type: fetch
-priority: 2
-note: CRM & Stack central — tracks AI product roadmaps and platform integrations across the marketing technology landscape.
+  - name: VentureBeat AI
+    url: https://venturebeat.com/ai
+    type: fetch
+    priority: 2
+    note: Enterprise tool pulse — LLM developments, agentic workflows, enterprise software rollouts
 
-- name: VentureBeat (AI)
-url: https://venturebeat.com/ai
-type: fetch
-priority: 2
-note: Enterprise tool pulse — breaking news on LLM developments, agentic workflows, and major enterprise software rollouts.
+  - name: The Rundown AI
+    url: https://www.therundown.ai
+    type: fetch
+    priority: 2
+    note: High-frequency digest of new software launches, productivity hacks, daily feature updates
 
-- name: The Rundown AI
-url: https://www.therundown.ai
-type: fetch
-priority: 3
-note: The AI tool firehose — high-frequency digest of new software launches, productivity hacks, and daily feature updates.
-
-  # ── AI Content Creation (Priority 1) ──────────────────────────
-  That makes total sense. If we are tracking the actual state-of-the-art generation models and the tools used to implement them, cutting out text generation and focusing purely on audiovisual and image generation is the way to go.
-
-Here is the revised and realigned list based exactly on your layout:
-
-# ── AI Video ──────────────────────────
-
+  # ── AI Video (Priority 1) ─────────────────────────────────────
   - name: Kling AI Blog
-    url: [https://kling.ai/blog](https://kling.ai/blog)
+    url: https://kling.ai/blog
     type: fetch
     priority: 1
     note: Next-gen video models and features from Kuaishou
@@ -100,52 +93,43 @@ Here is the revised and realigned list based exactly on your layout:
     query: "Seedance AI video new model update"
     note: ByteDance's cinematic video model announcements
 
-  - name: Google DeepMind Blog
-    url: [https://deepmind.google/discover/blog/](https://deepmind.google/discover/blog/)
-    type: fetch
-    priority: 1
-    note: Updates on Google Veo and foundational models
-
   - name: Runway Blog
-    url: [https://runwayml.com/blog](https://runwayml.com/blog)
+    url: https://runwayml.com/blog
     type: fetch
     priority: 1
     note: Video generation leader and creative toolkit
 
-  - name: Luma Labs News
-    url: [https://lumalabs.ai/news](https://lumalabs.ai/news)
-    type: fetch
+  - name: Luma Labs
+    type: search
     priority: 1
+    query: "Luma Labs Dream Machine video AI update"
     note: Dream Machine updates and multimodal video features
 
-# ── AI Audio ──────────────────────────
-
+  # ── AI Audio (Priority 1) ─────────────────────────────────────
   - name: ElevenLabs Blog
-    url: [https://elevenlabs.io/blog](https://elevenlabs.io/blog)
+    url: https://elevenlabs.io/blog
     type: fetch
     priority: 1
     note: Leading voice AI — cloning, TTS, dubbing, and sound effects
 
   - name: Suno Blog
-    url: [https://suno.com/blog](https://suno.com/blog)
+    url: https://suno.com/blog
     type: fetch
     priority: 1
     note: High-fidelity AI music generation and audio creation
 
   - name: Adobe AI Blog
-    url: [https://blog.adobe.com/en/topics/ai](https://www.google.com/search?q=https://blog.adobe.com/en/topics/ai)
+    url: https://blog.adobe.com/en/topics/ai
     type: fetch
     priority: 1
     note: Adobe's native AI audio tools and generative sound
 
-
-# ── AI Image Models ──────────────────────────
-
+  # ── AI Image Models (Priority 1) ──────────────────────────────
   - name: Google AI Blog
-    url: [https://blog.google/technology/ai/](https://blog.google/technology/ai/)
+    url: https://blog.google/technology/ai/
     type: fetch
     priority: 1
-    note: Official updates on Google Nano Banana
+    note: Official updates on Google AI image models
 
   - name: Black Forest Labs
     type: search
@@ -153,28 +137,27 @@ Here is the revised and realigned list based exactly on your layout:
     query: "Black Forest Labs Flux image model update"
     note: State-of-the-art open-weights image model advancements
 
-  - name: Seedream
+  - name: Seedream AI
     type: search
     priority: 1
     query: "Seedream AI image model update"
     note: Emerging AI image generation developments
 
-  - name: Adobe Firefly News
+  - name: Adobe Firefly
     type: search
     priority: 1
     query: "Adobe Firefly image model update"
     note: Native, commercially safe image generation model
 
-# ── AI Image Tools ──────────────────────────
-
+  # ── AI Image Tools (Priority 1) ───────────────────────────────
   - name: Figma Blog
-    url: [https://www.figma.com/blog/](https://www.figma.com/blog/)
+    url: https://www.figma.com/blog/
     type: fetch
     priority: 1
-    note: AI design tools including Figma Weave / Weavy.ai
+    note: AI design tools including Figma Weave
 
   - name: Canva Newsroom
-    url: [https://www.canva.com/newsroom/](https://www.google.com/search?q=https://www.canva.com/newsroom/)
+    url: https://www.canva.com/newsroom/
     type: fetch
     priority: 1
     note: Broad AI feature integration in consumer design
@@ -226,7 +209,7 @@ Here is the revised and realigned list based exactly on your layout:
     url: https://www.producthunt.com/topics/artificial-intelligence
     type: search
     priority: 1
-    note: New AI tool launches daily — great for discovering creator/marketing tools
+    note: New AI tool launches daily — creator and marketing tools
 
   # ── YouTube AI Creators (Priority 2) ──────────────────────────
   - name: Matt Wolfe
@@ -258,12 +241,6 @@ Here is the revised and realigned list based exactly on your layout:
     type: search
     priority: 2
     note: Fast-paced tech news, often covers AI tooling
-
-  - name: All About AI
-    url: https://www.youtube.com/@AllAboutAI
-    type: search
-    priority: 2
-    note: AI tool demos and tutorials
 
   - name: Greg Isenberg
     url: https://www.youtube.com/@GregIsenberg
@@ -297,7 +274,7 @@ Here is the revised and realigned list based exactly on your layout:
   - name: AI News Search
     type: search
     priority: 1
-    query: "AI news today new tool launch vibecoding content creation marketing"
+    query: "AI news today new tool launch content creation marketing video image audio"
     note: Catch-all for stories missed by specific sources
 
   - name: X/Twitter AI Content
