@@ -1,0 +1,36 @@
+date: "2026-04-20"
+stories:
+  - title: "Anthropic Releases Claude Opus 4.7 with 3x Vision Resolution and Stronger Coding"
+    summary: "Anthropic launched Claude Opus 4.7 on April 16, marking a notable step up from Opus 4.6 with a 13% lift on a 93-task coding benchmark and 3x production task resolution on Rakuten-SWE-Bench. Image support jumps to 2,576px on the long edge (~3.75MP), and a new 'xhigh' reasoning effort level gives developers finer latency/depth control. Pricing holds at $5/$25 per million input/output tokens, and the model is available via API, Bedrock, Vertex AI, and Microsoft Foundry."
+    url: "https://www.anthropic.com/news/claude-opus-4-7"
+    source: "anthropic.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Cursor 3 Ships Agent-First Interface with Cloud-Local Handoff and Design Mode"
+    summary: "Cursor 3 launched April 16 as the biggest redesign in the product's history — the IDE metaphor is replaced by an Agents Window where multiple agents run in parallel across local, cloud, and remote SSH environments. New Design Mode lets you annotate browser UI elements directly to give agents precise visual feedback, and a plugin marketplace adds MCPs, skills, and subagents. Agents can now be handed off between local and cloud mid-session, enabling offline continuity."
+    url: "https://cursor.com/blog/cursor-3"
+    source: "cursor.com"
+    tag: "vibecoding"
+    significance: 4
+
+  - title: "Grok 4.20 Adds Text-to-Speech API and Batch Image/Video Generation"
+    summary: "xAI's Grok 4.20 — featuring a 4-agent architecture (coordinator, research, logic, contrarian) and 2M token context — gained a generally available Text-to-Speech API priced at $4.20 per million characters in April. The Batch API now supports image generation, image editing, and video generation in addition to chat completions. Grok 4.20 is priced at $2/$6 per million input/output tokens."
+    url: "https://docs.x.ai/developers/release-notes"
+    source: "x.ai"
+    tag: "models"
+    significance: 3
+
+  - title: "Kling 3.0 Now Available via ElevenLabs with Integrated Audio-Visual Generation"
+    summary: "Kuaishou's Kling 3.0 is now accessible directly through ElevenLabs' video platform, combining 4K video generation with synchronized voice cloning and sound effects in a single pass — no separate audio tool needed. Kling 3.0 supports multi-shot sequences with up to six camera cuts per generation and multilingual lip-sync across 30+ languages. ElevenLabs' platform now aggregates Sora 2 Pro, Veo 3.1, Kling 3.0, and Seedance 1 Pro under one roof."
+    url: "https://elevenlabs.io/video/kling-30"
+    source: "elevenlabs.io"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "GPT-5.4 Context: OpenAI's Flagship Reaches 75% on OSWorld Computer-Use Benchmark"
+    summary: "GPT-5.4, released March 5, continues to dominate agentic benchmarks this week with 75% on OSWorld (computer use) and 57.7% on SWE-bench Pro — relevant as enterprise teams evaluate it for autonomous workflow automation. The model ships with five configurable reasoning-effort levels and a 1M token context window, priced at $2.50/$15 per million input/output tokens. A cached-input discount drops read costs to $0.25/M — a 90% reduction useful for long agent loops."
+    url: "https://www.nxcode.io/resources/news/gpt-5-4-complete-guide-features-pricing-models-2026"
+    source: "nxcode.io"
+    tag: "models"
+    significance: 3
