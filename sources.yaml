@@ -12,6 +12,8 @@
 # 6. AI for marketing and growth
 # 7. Community buzz and standout demos
 
+CRITICAL: You MUST always analyze and scrutinize the news stories for relevance. Remove any kind of hype, salesy press briefing or cheap startups just building a shell on top of AI. 
+
 sources:
   # ── Major AI Companies (Priority 1) ───────────────────────────
   - name: Anthropic
