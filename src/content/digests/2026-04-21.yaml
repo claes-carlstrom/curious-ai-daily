@@ -1,0 +1,32 @@
+date: "2026-04-21"
+stories:
+  - title: "MediaPET.ai Launches Conversational AI Agent for Video Creation"
+    summary: "MediaPET.ai has released Version 2.1 of its video creation platform, introducing a conversational AI agent that enables users to generate and edit videos through natural language interaction, streamlining the video production process."
+    url: "https://www.smallbusinessworldjournal.com/article/906899671-mediapet-ai-launches-industry-first-conversational-ai-agent-for-video-creation"
+    source: "smallbusinessworldjournal.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Microsoft's MAI-Image-2-Efficient Model Reduces Costs and Increases Speed"
+    summary: "Microsoft announced enhancements to its MAI-Image-2-Efficient AI model, achieving a 41% cost reduction and a 22% speed increase while maintaining image quality, making it more efficient for high-volume tasks like product images and UI mockups."
+    url: "https://www.windowscentral.com/artificial-intelligence/microsoft-mai-image-2-efficient-ai-model-announced"
+    source: "windowscentral.com"
+    tag: "models"
+    significance: 4
+  - title: "Google I/O 2026 Sessions to Highlight AI and Android 17 Developments"
+    summary: "Google released the session list for its upcoming I/O 2026 conference, scheduled for May 19-20, with a focus on AI advancements, including updates to its Gemini models and the introduction of Android 17's new features."
+    url: "https://www.androidcentral.com/phones/google-pixel/google-i-o-2026-sessions-list-teases-major-android-17-highlights-ai-and-chrome"
+    source: "androidcentral.com"
+    tag: "models"
+    significance: 3
+  - title: "WeryAI Launches Integrated AI Content Creation Platform"
+    summary: "WeryAI introduced a multi-model AI content creation platform that consolidates image generation, video production, and editing tools into a single workflow, aiming to enhance efficiency for creators and marketers."
+    url: "https://asianews.network/weryai-launches-an-integrated-multi-model-ai-content-creation-platform-a-one-stop-workflow-for-image-video-and-advertising-production/"
+    source: "asianews.network"
+    tag: "content-creation"
+    significance: 3
+  - title: "UAA and Dell Host AI Showcase on April 21"
+    summary: "The University of Alaska Anchorage, in collaboration with Dell and NVIDIA, is hosting an AI Showcase on April 21, offering insights into AI advancements and their applications in education and industry."
+    url: "https://www.uaa.alaska.edu/news/archive/2026/04/ai-showcase.cshtml"
+    source: "uaa.alaska.edu"
+    tag: "community"
+    significance: 2
