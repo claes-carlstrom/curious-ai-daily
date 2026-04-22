@@ -1,0 +1,36 @@
+date: "2026-04-22"
+stories:
+  - title: "Anthropic's Mythos AI Model Accessed Without Authorization"
+    summary: "Unauthorized access to Anthropic's powerful Mythos AI model has been reported, raising concerns over AI security and prompting scrutiny from the Pentagon regarding supply chain vulnerabilities."
+    url: "https://www.cybernewscentre.com/22nd-april-2026-cyber-update-anthropic-mythos-access-scare-intensifies/"
+    source: "cybernewscentre.com"
+    tag: "models"
+    significance: 4
+
+  - title: "MediaPET.ai Introduces Conversational AI Agent for Video Creation"
+    summary: "MediaPET.ai has launched version 2.1 of its platform, featuring a conversational AI agent that enables users to create and edit videos through natural language commands, streamlining the video production process."
+    url: "https://www.smallbusinessworldjournal.com/article/906899671-mediapet-ai-launches-industry-first-conversational-ai-agent-for-video-creation"
+    source: "smallbusinessworldjournal.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "WeryAI Launches Integrated AI Content Creation Platform"
+    summary: "WeryAI has unveiled a comprehensive AI content creation platform that integrates multiple AI models and editing tools, offering a unified workflow for image generation, video production, and advertising content."
+    url: "https://asianews.network/weryai-launches-an-integrated-multi-model-ai-content-creation-platform-a-one-stop-workflow-for-image-video-and-advertising-production/"
+    source: "asianews.network"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "X Introduces AI Video Generation from Multiple Images"
+    summary: "X has launched a new AI feature that allows users to generate cohesive videos by selecting multiple images, with the AI handling transitions and pacing, simplifying the video creation process."
+    url: "https://www.flawless-magazine.com/x-launches-simplified-ai-video-generation-from-multiple-images/"
+    source: "flawless-magazine.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Google I/O 2026 to Focus on AI Advancements"
+    summary: "Google has announced that its upcoming I/O 2026 developer conference will highlight advancements in AI, including updates to its Gemini models and agentic coding, with speculation about the debut of Gemini 4 and progress on Project Astra and Veo."
+    url: "https://www.tomsguide.com/phones/google-pixel-phones/google-i-o-2026-date-time-potential-announcements-and-everything-else-you-need-to-know"
+    source: "tomsguide.com"
+    tag: "models"
+    significance: 3
