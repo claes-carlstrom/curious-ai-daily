@@ -1,0 +1,32 @@
+date: "2026-04-23"
+stories:
+  - title: "Google Announces 8th Generation TPUs Optimized for Agentic AI at Cloud Next '26"
+    summary: "At Google Cloud Next '26, Google unveiled its 8th generation Tensor Processing Units (TPUs) designed to enhance agentic AI capabilities, aiming to support enterprise workflow automation. This development signifies a strategic shift towards more autonomous AI systems in business applications."
+    url: "https://oct-rick-brick.com/en/articles/2026-04-23-ai-tech-daily-2026-04-23/"
+    source: "oct-rick-brick.com"
+    tag: "models"
+    significance: 4
+  - title: "MediaPET.ai Launches Conversational AI Agent for Video Creation"
+    summary: "MediaPET.ai introduced Version 2.1 of its video creation platform, featuring a conversational AI agent that enables users to generate and edit videos through natural language interaction. This update aims to simplify the video production process, making it more accessible to a broader audience."
+    url: "https://www.newyorkdailyledger.com/article/906899671-mediapet-ai-launches-industry-first-conversational-ai-agent-for-video-creation"
+    source: "newyorkdailyledger.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "X Launches AI Video Generation Tool from Multiple Images"
+    summary: "X has introduced a built-in AI tool that allows users to select multiple images and automatically generate cohesive videos. The tool handles transitions, timing, and visual flow without requiring manual editing, streamlining content creation for users."
+    url: "https://www.flawless-magazine.com/x-launches-simplified-ai-video-generation-from-multiple-images/"
+    source: "flawless-magazine.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "SpaceX to Acquire AI Startup Cursor for $60 Billion"
+    summary: "SpaceX has reached an agreement to acquire San Francisco-based AI startup Cursor for $60 billion. The acquisition aims to combine Cursor's AI expertise with SpaceX's computing capabilities to develop advanced AI models."
+    url: "https://www.china.org.cn/world/Off_the_Wire/2026-04/23/content_118458380.shtml"
+    source: "china.org.cn"
+    tag: "models"
+    significance: 4
+  - title: "AI & Technology Virtual Investor Conference Scheduled for April 23rd"
+    summary: "The AI & Technology Virtual Investor Conference is set for April 23, 2026, featuring presentations from senior executives across the AI and technology sectors. The event will provide insights into innovation strategies, product development, and growth initiatives."
+    url: "https://www.nasdaq.com/press-release/ai-technology-virtual-investor-conference-agenda-announced-april-23rd-2026-04-20"
+    source: "nasdaq.com"
+    tag: "community"
+    significance: 2
