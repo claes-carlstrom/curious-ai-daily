@@ -1,0 +1,36 @@
+date: "2026-04-29"
+stories:
+  - title: "Notified Introduces AI Press Release Optimizer to Enhance Corporate Communications"
+    summary: "Notified has launched the AI Press Release Optimizer within its Content OS platform, designed to improve press release clarity and visibility in AI search engines. The tool offers AI-driven recommendations to enhance structure and quotability, aiming to increase journalist engagement and AI citations."
+    url: "https://www.globenewswire.com/news-release/2026/04/29/3283414/0/en/notified-launches-ai-press-release-optimizer-to-strengthen-corporate-narratives-and-increase-ai-citations.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "ReelTime Media Unveils Advanced AI Image Generation System"
+    summary: "ReelTime Media has released its latest AI-driven image generation system, powered by the Reel Intelligence platform. This system features a distributed, infrastructure-light architecture, marking a departure from traditional, capital-intensive AI models, and aims to set a new standard in AI-generated imagery."
+    url: "https://www.globenewswire.com/news-release/2026/04/28/3282785/0/en/reeltime-s-reel-intelligence-ri-launches-worlds-most-advanced-image-generation-system-expanding-its-multi-modal-intelligence-platform-lead-over-legacy-ai.html"
+    source: "globenewswire.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Google Cloud Next 2026 Highlights AI Agent Scaling and Infrastructure Innovations"
+    summary: "At Google Cloud Next 2026, Google emphasized advancements in AI agent scaling, unveiling a TPU pod with 9,600 8th-generation TPUs delivering 121 exaflops of FP4 compute. The event also showcased the Gemini Enterprise Agent Platform and updates to the Gemini AI family, including Gemini 3.1 Pro and Veo 3.1 Lite."
+    url: "https://www.itpro.com/technology/artificial-intelligence/google-cloud-next-2026-scaling-ai-agents"
+    source: "itpro.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Artta AI Launches Unified Platform for AI-Generated Video, Image, Music, and Voice Content"
+    summary: "Artta AI has introduced a platform integrating over ten leading AI models, enabling users to generate 4K videos, photorealistic images, original music tracks, and studio-quality voices. This all-in-one creative suite offers commercial-ready outputs with full usage rights, streamlining content creation workflows."
+    url: "https://artta.ai/"
+    source: "artta.ai"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "OpenAI Proposes Transition to 4-Day Work Week Amidst AI Productivity Gains"
+    summary: "OpenAI has proposed adopting a 32-hour work week, reflecting the organization's confidence in AI's ability to enhance productivity. This move underscores the broader trend of AI integration leading to significant shifts in workplace structures and efficiency."
+    url: "https://www.forbes.com/sites/jodiecook/2026/04/28/openai-just-proposed-a-4-day-work-week-what-aprils-ai-news-means-for-you/?ss=entrepreneurs"
+    source: "forbes.com"
+    tag: "community"
+    significance: 3
