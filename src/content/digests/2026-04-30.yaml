@@ -1,0 +1,32 @@
+date: "2026-04-30"
+stories:
+  - title: "Notified Introduces AI Press Release Optimizer to Enhance Corporate Communications"
+    summary: "Notified has launched the AI Press Release Optimizer within its Content OS platform, offering AI-driven recommendations to improve press release clarity and structure. This tool aims to increase visibility in AI search engines and enhance journalist engagement by refining content for better understanding and citation."
+    url: "https://www.globenewswire.com/news-release/2026/04/29/3283414/0/en/notified-launches-ai-press-release-optimizer-to-strengthen-corporate-narratives-and-increase-ai-citations.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 3
+  - title: "ReelTime Media Unveils Advanced AI Image Generation System"
+    summary: "ReelTime Media has announced the release of its most advanced AI-driven image generation system, powered by its proprietary Reel Intelligence platform. This system aims to set a new standard in AI-generated imagery, offering enhanced capabilities for content creators and marketers."
+    url: "https://www.globenewswire.com/news-release/2026/04/28/3282785/0/en/ReelTime-s-Reel-Intelligence-RI-Launches-Worlds-Most-Advanced-Image-Generation-System-Expanding-Its-Multi-Modal-Intelligence-Platform-Lead-Over-Legacy-AI.html"
+    source: "globenewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Artta AI Integrates Multiple AI Models for Comprehensive Content Creation"
+    summary: "Artta AI has launched a unified platform that combines over ten state-of-the-art AI models, including Sora 2, Veo 3.1, and ElevenLabs, enabling users to generate 4K videos, photorealistic images, original music tracks, and studio-quality voices. This all-in-one solution simplifies the content creation process by eliminating the need for multiple subscriptions and API keys."
+    url: "https://artta.ai/"
+    source: "artta.ai"
+    tag: "content-creation"
+    significance: 4
+  - title: "MovArt AI Offers All-in-One AI Video Generation Platform"
+    summary: "MovArt AI has introduced a comprehensive AI video generator that provides access to leading models such as Veo 3.1, Sora 2, and Kling. The platform allows creators to produce cinematic 4K videos, social media clips, and prototypes from a single workspace, streamlining the video production process."
+    url: "https://movart.ai/"
+    source: "movart.ai"
+    tag: "content-creation"
+    significance: 3
+  - title: "GenMix Launches AI Content Creation Platform Integrating Top AI Models"
+    summary: "GenMix has unveiled an all-in-one AI content creation platform that integrates leading AI models like Sora 2, Kling 2.6, and Veo 3.1. Users can generate AI videos, images, and voiceovers, catering to content creators, marketers, and educators seeking to produce professional-quality content efficiently."
+    url: "https://genmix.ai/"
+    source: "genmix.ai"
+    tag: "content-creation"
+    significance: 3
