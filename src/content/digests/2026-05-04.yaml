@@ -1,0 +1,32 @@
+date: "2026-05-04"
+stories:
+  - title: "Pentagon Partners with Tech Giants to Deploy AI on Classified Networks"
+    summary: "The U.S. Department of Defense has signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI to deploy their AI technologies on classified networks for lawful operational use. This move aims to establish the U.S. military as an AI-first fighting force, enhancing decision-making capabilities across all domains of warfare."
+    url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "WeryAI Launches Integrated AI Content Creation Platform"
+    summary: "WeryAI has introduced a comprehensive AI content creation platform that integrates multiple high-performance AI models and editing tools. The platform offers end-to-end solutions for image generation, video production, post-production editing, music generation, and character creation, aiming to streamline workflows for creators, designers, and marketing teams."
+    url: "https://www.dagangnews.com/article/english/weryai-launches-integrated-multi-model-ai-content-creation-platform-one-stop-workflow-image-video-and-advertising-production-67350"
+    source: "dagangnews.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Kling AI Releases 3.0 Model Series for Enhanced Video Generation"
+    summary: "Kling AI has launched its 3.0 model series, including Video 3.0 and Image 3.0, offering improved narrative control and consistency in AI-generated videos. The new models support extended video durations up to 15 seconds and native audio generation across multiple languages, providing a more streamlined AI workflow for video creation."
+    url: "https://brandsreviewmagazine.com/technology/kling-ai-launches-3-0-model/"
+    source: "brandsreviewmagazine.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "xAI's Grok Voice Tops Voice Agent Benchmarks"
+    summary: "xAI's voice model, Grok Voice, has achieved a 67.3% score on the τ-voice Bench, nearly doubling the performance of competitors like Gemini. The model is already in production at Starlink, marking a significant advancement in real-world deployment of AI voice agents."
+    url: "https://www.singularityledger.com/"
+    source: "singularityledger.com"
+    tag: "models"
+    significance: 3
+  - title: "Runway Introduces Aleph: AI Model Focused on Video Editing"
+    summary: "Runway has launched Aleph, an AI model designed specifically for in-context video editing rather than generation. Aleph allows users to add or remove objects, relight scenes, change the time of day, and generate new camera angles without regenerating the original footage, offering a new paradigm in AI-assisted video production."
+    url: "https://www.cliprise.app/news/runway-aleph-launch"
+    source: "cliprise.app"
+    tag: "content-creation"
+    significance: 3
