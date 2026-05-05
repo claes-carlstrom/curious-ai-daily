@@ -1,0 +1,32 @@
+date: "2026-05-05"
+stories:
+  - title: "Anthropic and OpenAI Announce Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic has announced a joint venture focusing on deploying enterprise AI services, with founding partners including Blackstone, Hellman & Friedman, and Goldman Sachs. Similarly, OpenAI is raising funds for a new venture called The Development Company, aimed at providing enterprise AI solutions."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "Pentagon Partners with Nvidia, Microsoft, and AWS to Deploy AI on Classified Networks"
+    summary: "The U.S. Department of Defense has signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI to deploy their AI technologies on classified networks for lawful operational use. This move aims to establish the U.S. military as an AI-first fighting force."
+    url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "Autodesk's Flow Studio Update Introduces AI Rigging and Neural Layer for 3D Animation"
+    summary: "Autodesk's latest update to Flow Studio introduces AI Rigging and Neural Layer tools, designed to streamline 3D animation workflows by automating character rigging and simplifying high-end rendering processes."
+    url: "https://www.creativebloq.com/art/animation/how-autodesks-new-ai-tool-gets-us-closer-to-just-press-animate"
+    source: "creativebloq.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Invideo v4.0 Launches 'AI Twins' for Scaled Video Creation"
+    summary: "Invideo has released version 4.0 of its platform, introducing 'AI Twins,' a feature that enables users to clone themselves or their products to generate high-quality video content efficiently. This update aims to reinvent traditional editing with a faster, AI-first approach."
+    url: "https://martech360.com/news/invideo-v4-0-launches-ai-twins-for-scaled-video-creation/"
+    source: "martech360.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "TechRadar Reviews Over 70 AI Tools Across Various Domains"
+    summary: "TechRadar has published an extensive guide evaluating over 70 AI tools spanning productivity, creativity, automation, coding, and business applications. The review highlights top performers like ChatGPT (GPT-4o), Gemini, and Grok AI, providing insights into their real-world performance and use cases."
+    url: "https://www.techradar.com/best/best-ai-tools"
+    source: "techradar.com"
+    tag: "tools"
+    significance: 3
