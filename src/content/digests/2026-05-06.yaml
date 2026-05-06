@@ -1,0 +1,36 @@
+date: "2026-05-06"
+stories:
+  - title: "Anthropic and OpenAI Announce Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic and OpenAI have each announced joint ventures focusing on deploying enterprise AI services. Anthropic's venture, valued at $1.5 billion, includes partners like Blackstone and Goldman Sachs. OpenAI is reportedly raising funds for a similar initiative called The Development Company."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Guardrail Technologies Launches 'Traffic Light for Code & AI' Security Tool"
+    summary: "Guardrail Technologies has introduced 'Traffic Light for Code & AI,' a security tool designed to verify and secure both AI-generated and human-written code. The software provides real-time risk assessments, categorizing code as Green (proceed), Amber (review), or Red (critical risk)."
+    url: "https://venturebeat.com/business/guardrail-technologies-launches-traffic-light-for-code-ai-first-security-technology-to-verify-secure-ai-code-and-the-people-creating-it"
+    source: "venturebeat.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "MNTN Releases QuickFrame AI 3.0 for Video Ad Creation"
+    summary: "MNTN has launched QuickFrame AI 3.0, an AI-powered platform for creating video advertisements. The platform supports multiple generative models and offers features like brand profile creation, scene generation, and multi-character dialogue, catering to both short-form and television commercials."
+    url: "https://ca.investing.com/news/stock-market-news/mntn-launches-quickframe-ai-30-video-ad-creation-platform-93CH-4609250"
+    source: "investing.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "PixVerse Launches V6, Enhancing AI Video Generation"
+    summary: "PixVerse has released V6, the latest version of its AI video generation platform. V6 improves camera control, character performance, and multi-shot video generation with native audio, benefiting both creative and commercial applications."
+    url: "https://www.taiwannews.com.tw/en/news/6331069"
+    source: "taiwannews.com.tw"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Microsoft, Google, and xAI to Provide US Government Early Access to AI Models"
+    summary: "Microsoft, Google, and Elon Musk's xAI have agreed to grant the U.S. government early access to their AI models for national security testing. This collaboration aims to evaluate the models' capabilities and security risks before deployment."
+    url: "https://m.investing.com/news/stock-market-news/microsoft-xai-and-google-will-share-ai-models-with-us-govt-for-security-reviews-4658803?ampMode=1"
+    source: "investing.com"
+    tag: "models"
+    significance: 4
