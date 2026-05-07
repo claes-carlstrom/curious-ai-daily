@@ -1,0 +1,36 @@
+date: "2026-05-07"
+stories:
+  - title: "OpenAI Releases GPT-5.5 Instant as New Default Model for ChatGPT"
+    summary: "OpenAI has introduced GPT-5.5 Instant, replacing GPT-5.3 Instant as the default model for ChatGPT. The new model reduces hallucinations in sensitive areas like law, medicine, and finance, while maintaining low latency. It achieved an 81.2 score on the AIME 2025 math test, up from 65.4, and outperformed its predecessor on the MMMU-Pro multimodal reasoning benchmark with a score of 76 versus 69.2."
+    url: "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Etsy Integrates Shopping Experience Within ChatGPT"
+    summary: "Etsy has launched its native app within ChatGPT, allowing users to explore over 100 million listings using natural language queries. This integration enables shoppers to describe their needs conversationally, such as 'Help me find a Mother’s Day gift under $100 for my mom who loves gardening,' and receive tailored product recommendations directly within ChatGPT."
+    url: "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Perplexity Launches AI Platform for Advanced Financial Analysis"
+    summary: "AI startup Perplexity has introduced 'Computer for Professional Finance,' a platform designed for finance professionals that combines licensed market data with automated research workflows. The product integrates data from providers like Morningstar and PitchBook, offering over 40 live finance tools and 35 prebuilt analyst workflows, positioning itself as a competitor to platforms like Bloomberg Terminal and FactSet."
+    url: "https://www.moneycontrol.com/news/trends/ai-startup-perplexity-launches-platform-for-smarter-financial-analysis-13910555.html"
+    source: "moneycontrol.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Two Six Technologies Unveils Helix Agentic AI Orchestrator for National Security"
+    summary: "Two Six Technologies has launched Helix, an agentic AI orchestrator designed to enhance operational capabilities for the Department of War and Intelligence Community. Helix addresses challenges in integrating AI with existing legacy systems, aiming to provide decisive operational advantages without the need for costly system overhauls."
+    url: "https://www.globenewswire.com/news-release/2026/05/06/3288772/0/en/two-six-technologies-launches-helix-agentic-ai-orchestrator-to-enable-critical-missions-for-national-security-partners.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 2
+
+  - title: "Collibra Introduces AI Command Center for Real-Time Oversight of Agentic AI"
+    summary: "Collibra has announced the AI Command Center, a solution designed to provide real-time automated control over agentic AI systems. This platform aims to address the challenges of 'agent sprawl' by offering continuous lifecycle management and oversight, ensuring that AI actions align with enterprise governance and compliance standards."
+    url: "https://www.prnewswire.com/news-releases/collibra-launches-ai-command-center-to-scale-agentic-ai-with-real-time-oversight-and-continuous-control-302763105.html"
+    source: "prnewswire.com"
+    tag: "tools"
+    significance: 2
