@@ -1,0 +1,36 @@
+date: "2026-05-08"
+stories:
+  - title: "OpenAI releases GPT-5.5 Instant as new default model for ChatGPT"
+    summary: "OpenAI has introduced GPT-5.5 Instant, replacing GPT-5.3 Instant as the default model for ChatGPT. The new model reduces hallucinations in sensitive areas like law, medicine, and finance, while maintaining low latency. It achieved an 81.2 score on the AIME 2025 math test, up from 65.4, and improved on the MMMU-Pro multimodal reasoning benchmark with a score of 76 versus 69.2."
+    url: "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Etsy integrates with ChatGPT for enhanced shopping experience"
+    summary: "Etsy has launched its native app within ChatGPT, allowing users to explore over 100 million listings using natural language queries. This integration enables shoppers to describe their needs conversationally, such as 'Help me find a Mother’s Day gift under $100 for my mom who loves gardening,' and receive tailored product recommendations."
+    url: "https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Atlassian introduces visual AI tools and third-party agents in Confluence"
+    summary: "Atlassian has unveiled new AI tools and agents for Confluence, including 'Remix,' which transforms data into visual assets like charts and graphics. Additionally, three third-party agents have been introduced: one connects Confluence users to Lovable for prototyping, another integrates with Replit for converting technical documents into starter apps, and a third enhances workflow automation."
+    url: "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Two Six Technologies launches Helix Agentic AI Orchestrator for national security"
+    summary: "Two Six Technologies has announced Helix, an agentic AI orchestrator designed to provide operational advantages for the Department of War and Intelligence Community. Helix addresses challenges in integrating AI with existing systems, aiming to reduce technical debt and enhance productivity without vendor lock-in."
+    url: "https://www.globenewswire.com/news-release/2026/05/06/3288772/0/en/Two-Six-Technologies-Launches-Helix-Agentic-AI-Orchestrator-to-Enable-Critical-Missions-for-National-Security-Partners.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 2
+
+  - title: "Cadonix AI launched to streamline wire harness design-to-manufacturing workflows"
+    summary: "Cadonix has introduced Cadonix AI, a suite of AI-powered capabilities aimed at connecting engineering data across the wire harness design-to-manufacturing lifecycle. The solution seeks to reduce timelines, eliminate rework, and enable intelligent manufacturing by addressing the industry's challenge of disconnected data."
+    url: "https://www.prnewswire.com/news-releases/cadonix-launches-cadonix-ai-to-transform-wire-harness-design-to-manufacturing-workflows-302762368.html"
+    source: "prnewswire.com"
+    tag: "tools"
+    significance: 2
