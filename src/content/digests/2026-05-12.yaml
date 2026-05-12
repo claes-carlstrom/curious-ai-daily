@@ -1,0 +1,36 @@
+date: "2026-05-12"
+stories:
+  - title: "PixVerse Launches V6, Enhancing AI Video Generation"
+    summary: "PixVerse has released V6, the latest version of its AI video generation model, improving camera control, character performance, and multi-shot video generation with native audio. The update delivers complex scenes with coherent motion and consistent detail, advancing both creative and commercial applications."
+    url: "https://www.prnewswire.com/apac/news-releases/pixverse-launches-v6-advancing-ai-video-generation-across-creative-and-agentic-workflows-302728409.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Dreamega.ai Integrates Over 50 AI Models for Unified Content Creation"
+    summary: "Dreamega.ai has launched an all-in-one AI creative platform that consolidates more than 50 leading AI models for image generation, video production, and music composition. This integration allows creators to switch between models seamlessly within a single workspace, streamlining the content creation process."
+    url: "https://natlawreview.com/press-releases/dreamegaai-brings-50-ai-models-under-one-roof-image-video-and-music-creation"
+    source: "natlawreview.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Anthropic and OpenAI Announce Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic and OpenAI have each announced joint ventures focusing on deploying enterprise AI services. Anthropic's venture, valued at $1.5 billion, includes partnerships with Blackstone, Hellman & Friedman, and Goldman Sachs. OpenAI is reportedly raising funds for a similar initiative called The Development Company."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+
+  - title: "SkyReels-V4 Offers Free Multi-Modal AI Video and Audio Generation"
+    summary: "SkyReels-V4 has introduced a free AI video and audio generator that supports multi-modal inputs, including text, images, masks, and audio references. The platform enables users to create 1080p videos at 32 FPS, up to 15 seconds long, with synchronized audio, enhancing accessibility for content creators."
+    url: "https://skyreels-v4.org/"
+    source: "skyreels-v4.org"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Fineshare Launches Vora AI to Enhance Sora Videos to 4K"
+    summary: "Fineshare has unveiled Vora AI, an AI-powered tool designed to upgrade Sora videos to 4K ultra-high definition with clean visuals. Vora aims to provide creators with professional-grade video enhancement capabilities, improving production quality and audience engagement."
+    url: "https://www.prnewswire.com/news-releases/fineshare-launches-vora-ai---instantly-upgrade-sora-videos-to-4k-with-clean-visuals-302645450.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
