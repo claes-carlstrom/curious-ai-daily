@@ -1,0 +1,32 @@
+date: "2026-05-13"
+stories:
+  - title: "Anthropic and OpenAI Announce Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic has announced a joint venture focusing on deploying enterprise AI services, backed by partners including Blackstone and Goldman Sachs. Similarly, OpenAI is raising funds for a new venture called The Development Company, aiming to offer comparable enterprise AI solutions."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "Kling AI Releases Video 3.0 Model with Enhanced Narrative Control"
+    summary: "Kling AI has launched its Video 3.0 model series, offering creators improved narrative control and consistency in AI-generated videos. The update includes extended video durations up to 15 seconds and native audio generation across multiple languages."
+    url: "https://hipther.com/artificial-intelligence/2026/02/05/106322/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director/"
+    source: "hipther.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "CraftStory Introduces Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory has unveiled an Image-to-Video model that enables users to generate up to five-minute, studio-quality human videos from a single image and a written script, eliminating the need for source footage."
+    url: "https://finance.yahoo.com/news/craftstory-launches-image-video-ai-140000222.html"
+    source: "finance.yahoo.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Google I/O 2026 to Focus on AI Innovations and Gemini Model Updates"
+    summary: "Scheduled for May 19–20, Google I/O 2026 is expected to highlight AI advancements, including agentic coding and updates to Google's Gemini models, with potential announcements of Gemini 4 and Project Astra."
+    url: "https://www.tomsguide.com/phones/google-pixel-phones/google-i-o-2026-date-time-potential-announcements-and-everything-else-you-need-to-know"
+    source: "tomsguide.com"
+    tag: "models"
+    significance: 3
+  - title: "South Summit 2026 in Madrid to Host Europe's Largest AI Forum"
+    summary: "From June 3–5, Madrid will host South Summit 2026, focusing on AI convergence and its impact on investment, productivity, and business models, featuring over 600 speakers and approximately 30 unicorns."
+    url: "https://cincodias.elpais.com/companias/2026-05-11/south-summit-2026-madrid-acogera-el-mayor-foro-internacional-de-ia-de-europa.html"
+    source: "cincodias.elpais.com"
+    tag: "community"
+    significance: 2
