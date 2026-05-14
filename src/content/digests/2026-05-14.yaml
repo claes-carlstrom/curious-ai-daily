@@ -1,0 +1,36 @@
+date: "2026-05-14"
+stories:
+  - title: "Anthropic Launches Claude for Small Business with Software Integrations"
+    summary: "Anthropic has introduced 'Claude for Small Business,' integrating its AI assistant with platforms like Intuit QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. The package includes 15 ready-to-run workflows across finance, operations, sales, marketing, HR, and customer service, enabling tasks such as payroll planning, invoice reconciliation, and marketing campaign management. Users approve actions before Claude executes tasks like sending payments or posting content."
+    url: "https://www.investing.com/news/stock-market-news/anthropic-launches-claude-for-small-business-with-software-integrations-93CH-4685619"
+    source: "investing.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "Productive Releases 5.0 with AI Agents Automating Routine Tasks"
+    summary: "Productive has launched version 5.0 of its business management platform, introducing AI Agents designed to autonomously handle routine operational tasks. These capabilities cover areas such as time tracking, reporting, and meeting transcription, aiming to free up teams for more strategic and client-focused work. The update addresses the gap in AI adoption for operational planning and execution within professional services firms."
+    url: "https://www.globenewswire.com/news-release/2026/05/12/3293312/0/en/productive-launches-5-0-with-ai-agents-that-free-teams-from-routine-work.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Perceptron AI Unveils Cost-Effective Physical AI Model for Video Understanding"
+    summary: "Perceptron AI has announced the launch of Perceptron Mk1, a model designed for video understanding and embodied reasoning. Mk1 delivers performance competitive with leading frontier models from companies like Google and OpenAI but at a fraction of the cost. It achieves competitive scores across image, video, and spatial-reasoning benchmarks, enabling organizations to deploy high-accuracy video understanding at scale without the high costs typically associated with such capabilities."
+    url: "https://natlawreview.com/press-releases/perceptron-ai-launches-physical-ai-model-matches-frontier-labs-fraction-cost"
+    source: "natlawreview.com"
+    tag: "models"
+    significance: 3
+
+  - title: "Coupa Introduces Coupa Compose and Catalyst for AI Agent Orchestration"
+    summary: "Coupa has launched 'Coupa Compose,' a new offering that provides an environment to build, manage, and orchestrate a digital workforce of AI agents. This development aims to transform work execution across procurement, finance, and supply chain sectors. The offering includes an outcome-based pricing model and transformative AI services, supporting customers' success with agentic AI through forward-deployed engineers and solution architects."
+    url: "https://www.prnewswire.com/news-releases/coupa-launches-coupa-compose-and-catalyst-to-accelerate-agentic-ai-value-and-delivery-at-inspire-2026-302769893.html"
+    source: "prnewswire.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Sherlocq Launches AI-Native Regulatory Intelligence Platform for Financial Services"
+    summary: "Sherlocq has officially launched its AI-native regulatory intelligence platform, designed for compliance officers, lawyers, risk professionals, and regulators in the financial services industry. The platform offers regulatory research and analysis, document intelligence, and sanctions intelligence across more than 30 jurisdictions, including the US, UK, UAE, Singapore, and Hong Kong. It aims to provide precise, traceable, and usable regulatory intelligence at an institutional scale."
+    url: "https://finance.yahoo.com/news/sherlocq-launches-first-ai-native-084800651.html"
+    source: "finance.yahoo.com"
+    tag: "tools"
+    significance: 2
