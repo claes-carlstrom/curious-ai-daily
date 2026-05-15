@@ -1,0 +1,32 @@
+date: "2026-05-15"
+stories:
+  - title: "Google Unveils Android 17 with Gemini Intelligence Integration"
+    summary: "At the Android Show 2026, Google introduced Android 17, featuring Gemini Intelligence, an AI model designed to automate tasks like form-filling and widget creation. The update also includes customizable widgets and digital well-being tools such as 'Pause Point' to promote healthier app usage."
+    url: "https://www.techradar.com/news/live/android-show-2026-live"
+    source: "techradar.com"
+    tag: "models"
+    significance: 4
+  - title: "Google's Gemini Omni Enhances AI Video Generation"
+    summary: "Google is set to launch Gemini Omni, an advanced AI video creation model expected to improve photorealistic video generation with realistic movement and accurate text rendering. The model will offer in-chat video editing, customizable templates, and video remixing capabilities."
+    url: "https://www.t3.com/tech/ai/google-omni-scarily-good-ai-video-generation"
+    source: "t3.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "CraftStory Releases Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory announced Model 2.0, enabling users to generate up to five-minute, studio-quality human videos from a single image and a script. The AI system produces natural facial expressions and body language, suitable for product explainers and educational content."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Anthropic and OpenAI Launch Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic announced a joint venture focusing on deploying enterprise AI services, backed by partners including Blackstone and Goldman Sachs. OpenAI is reportedly raising funds for a similar venture called The Development Company, indicating a competitive push into enterprise AI solutions."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "Midjourney Introduces Video Model V1 for Image-to-Video Animation"
+    summary: "Midjourney launched Video Model V1, allowing users to animate still images into 5-second video clips with optional motion prompts. This marks Midjourney's expansion beyond image generation, aiming toward real-time, interactive AI systems."
+    url: "https://lab.pure-neo.io/ai-news/midjourney-launches-video-model-v1-with-image-to-video-animation"
+    source: "lab.pure-neo.io"
+    tag: "content-creation"
+    significance: 3
