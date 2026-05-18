@@ -1,0 +1,36 @@
+date: "2026-05-18"
+stories:
+  - title: "Google Unveils Android 17 with Gemini Intelligence Integration"
+    summary: "At the Android Show 2026, Google introduced Android 17, featuring Gemini Intelligence, an AI model designed to automate tasks like form-filling and widget creation. The update also includes customizable widgets and tools for digital well-being, enhancing user experience across devices."
+    url: "https://www.techradar.com/news/live/android-show-2026-live"
+    source: "techradar.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Google's Gemini Omni Enhances AI Video Generation Capabilities"
+    summary: "Google is set to launch Gemini Omni, an advanced AI video creation model, as an upgrade to its Veo tool. Omni offers improved photorealistic video generation, including realistic movement and accurate text rendering, with features like in-chat video editing and customizable templates."
+    url: "https://www.t3.com/tech/ai/google-omni-scarily-good-ai-video-generation"
+    source: "t3.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "xAI Releases Grok Imagine 1.0 for AI-Generated Videos"
+    summary: "xAI has launched Grok Imagine 1.0, enabling users to generate 10-second, 720p videos with enhanced audio quality. The platform supports video creation from text or images, allowing for expressive and lifelike digital actors."
+    url: "https://www.techspot.com/news/111169-xai-launches-grok-imagine-10-10-second-720p.html"
+    source: "techspot.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Anthropic and OpenAI Announce Joint Ventures for Enterprise AI Services"
+    summary: "Anthropic and OpenAI have each announced joint ventures focusing on deploying enterprise AI services. Anthropic's venture, valued at $1.5 billion, includes partners like Blackstone and Goldman Sachs, while OpenAI is raising funds for a similar initiative called The Development Company."
+    url: "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 3
+
+  - title: "Pentagon Partners with AI Companies for Classified Military Work"
+    summary: "The Pentagon has reached agreements with eight leading AI companies, including OpenAI, Google, and Nvidia, to accelerate the transformation toward establishing the U.S. military as an AI-first fighting force, enhancing decision-making capabilities across all domains of warfare."
+    url: "https://www.theguardian.com/us-news/2026/may/01/pentagon-us-military-pairs-with-spacex-google-openai"
+    source: "theguardian.com"
+    tag: "models"
+    significance: 3
