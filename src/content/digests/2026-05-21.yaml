@@ -1,0 +1,32 @@
+date: "2026-05-21"
+stories:
+  - title: "Google Introduces Gemini Omni for Multimodal Video Generation"
+    summary: "At Google I/O 2026, Google unveiled Gemini Omni, a new AI platform capable of generating and editing videos from text, audio, images, or video inputs. Integrated across platforms like the Gemini app and YouTube Shorts, it features conversational editing and includes SynthID watermarking for transparency."
+    url: "https://www.techradar.com/ai-platforms-assistants/googles-new-gemini-omni-ai-can-turn-almost-anything-into-video"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Dell Launches Deskside Agentic AI for On-Premises AI Development"
+    summary: "Dell introduced Deskside Agentic AI at Dell Technologies World 2026, offering a secure, local environment for developing and deploying AI agents on high-performance Dell workstations. This solution aims to reduce costs and enhance security compared to cloud-based alternatives."
+    url: "https://www.itpro.com/technology/artificial-intelligence/dell-unveils-deskside-agentic-ai-at-dell-technologies-world-2026"
+    source: "itpro.com"
+    tag: "tools"
+    significance: 3
+  - title: "Stability AI Releases Stable Audio 3.0 for Extended Music Generation"
+    summary: "Stability AI announced Stable Audio 3.0, a new family of audio models capable of generating professional-grade music over six minutes long. The models are available in various sizes, with open weights provided for the small and medium versions."
+    url: "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Google Enhances Search with Gemini Integration and AI Agents"
+    summary: "At Google I/O 2026, Google announced the integration of its AI model Gemini into Search, enabling complex query handling and proactive updates. Additionally, the introduction of Gemini Spark offers a 24/7 personal AI agent to manage users' digital tasks autonomously."
+    url: "https://www.techradar.com/news/live/google-io-2026-live"
+    source: "techradar.com"
+    tag: "tools"
+    significance: 4
+  - title: "Dell and Nvidia Emphasize Agentic AI's Transformative Potential"
+    summary: "At Dell Technologies World 2026, Dell CEO Michael Dell and Nvidia CEO Jensen Huang highlighted the shift from generative to agentic AI systems, emphasizing their role in reasoning, planning, and task execution across enterprises."
+    url: "https://www.itpro.com/technology/artificial-intelligence/now-we-have-for-the-very-first-time-useful-ai-jensen-huang-and-michael-dell-talk-up-the-power-of-agentic-ai-at-dell-technologies-world-2026"
+    source: "itpro.com"
+    tag: "research"
+    significance: 3
