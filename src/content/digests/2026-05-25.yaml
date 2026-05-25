@@ -1,0 +1,32 @@
+date: "2026-05-25"
+stories:
+  - title: "Pope Leo XIV Releases AI-Focused Encyclical 'Magnifica Humanitas'"
+    summary: "Pope Leo XIV has released his first encyclical, 'Magnifica Humanitas,' addressing the protection of human dignity in the age of artificial intelligence. The document emphasizes ethical considerations in AI deployment, particularly in warfare, and was presented alongside Anthropic co-founder Christopher Olah, highlighting the Vatican's focus on AI ethics."
+    url: "https://apnews.com/article/9cf3e07fd691f6af510c4a6f9c8ba353"
+    source: "apnews.com"
+    tag: "community"
+    significance: 4
+  - title: "Google Introduces Gemini Spark, a 24/7 Personal AI Agent"
+    summary: "At Google I/O 2026, Google unveiled Gemini Spark, an agentic AI system capable of autonomously performing tasks on users' behalf. Operating continuously via dedicated virtual machines on Google Cloud, Gemini Spark integrates closely with Google's ecosystem, including Gmail and Google Docs, and is built on the Antigravity development platform to ensure secure execution."
+    url: "https://www.tomsguide.com/ai/google-gemini/google-unveils-gemini-spark-a-24-7-personal-ai-agent-that-could-be-a-game-changer-for-agentic-ai"
+    source: "tomsguide.com"
+    tag: "tools"
+    significance: 4
+  - title: "OpenAI Launches Free AI Image Verification Tool Amid Deepfake Surge"
+    summary: "OpenAI has introduced a free public verification tool to help users determine whether an image was generated using AI. The tool relies on signals like SynthID and C2PA, which embed clear indicators in the metadata of AI-generated images, aiming to combat the spread of misinformation through deepfakes."
+    url: "https://indianexpress.com/article/technology/artificial-intelligence/openai-free-ai-image-verification-tool-deepfakes-10705570/lite/"
+    source: "indianexpress.com"
+    tag: "tools"
+    significance: 3
+  - title: "Dell Unveils Deskside Agentic AI for Local AI Development"
+    summary: "At Dell Technologies World 2026, Dell introduced Deskside Agentic AI, a solution integrated into its AI Factory with Nvidia. Designed to run on high-performance Dell workstations, it offers a secure, local sandbox for developing, testing, and deploying AI agents, potentially reducing costs by up to 87% over two years compared to cloud-based solutions."
+    url: "https://www.itpro.com/technology/artificial-intelligence/dell-unveils-deskside-agentic-ai-at-dell-technologies-world-2026"
+    source: "itpro.com"
+    tag: "tools"
+    significance: 3
+  - title: "Google Launches Antigravity 2.0 with Updated Desktop App and CLI Tool"
+    summary: "At Google I/O 2026, Google announced Antigravity 2.0, an updated version of its agentic coding platform. The new release includes a desktop app, a CLI tool, and an SDK for custom workflows, enabling users to orchestrate multiple agents, execute tasks simultaneously, and integrate projects with Google AI Studio, Android, and Firebase."
+    url: "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
