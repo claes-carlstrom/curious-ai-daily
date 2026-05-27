@@ -1,0 +1,36 @@
+date: "2026-05-27"
+stories:
+  - title: "DeepMind CEO Predicts AGI Arrival by 2029"
+    summary: "At Google's developer conference, DeepMind CEO Demis Hassabis described current AI agents as a 'practice run' for artificial general intelligence (AGI), warning that humanity stands at the 'foothills of the singularity.' Hassabis emphasized that AGI could arrive as soon as 2029, sooner than his earlier estimate of 2030, reflecting increasing confidence in current AI development trajectories."
+    url: "https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis"
+    source: "axios.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Google Unveils Antigravity 2.0 at I/O 2026"
+    summary: "At Google I/O 2026, Google unveiled a new version of its agentic coding app, Antigravity 2.0, featuring an updated desktop app, a CLI tool, and an SDK for custom workflows. The new desktop app allows users to orchestrate multiple agents, execute tasks simultaneously, design custom subagent workflows, and schedule background tasks. Integration with Google AI Studio, Android, and Firebase is also enhanced."
+    url: "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "Myriad Genetics Launches Prolaris® + AI for Prostate Cancer Testing"
+    summary: "Myriad Genetics announced the launch of Prolaris® + AI, the first prostate cancer biomarker test to combine clinical-pathological features, an independent molecular score, and AI-powered digital pathology technology. This integration aims to help clinicians tailor active surveillance with greater confidence, building upon technology from PATHOMIQ AI."
+    url: "https://www.taiwannews.com.tw/en/news/6370432"
+    source: "taiwannews.com.tw"
+    tag: "tools"
+    significance: 3
+
+  - title: "NavigateAI Launches AI Copilot for Field Workers"
+    summary: "NavigateAI officially launched with $25 million in funding to build AI copilots for field workers, aiming to improve how physical spaces are built and maintained. Launch partners include Lennar, Roofstock, and Tishman Speyer. The $25 million seed round was led by Elad Gil, with participation from Khosla Ventures and others."
+    url: "https://www.globenewswire.com/news-release/2026/05/26/3301425/0/en/NavigateAI-Launches-to-Build-the-AI-Copilot-for-the-Physical-World.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Kore.ai Launches Artemis AI Agent Platform"
+    summary: "Kore.ai launched the Artemis edition of its Agent Platform, designed to let enterprises build, govern, and optimize AI agents using AI itself. The platform aims to compress traditional months-long engineering work into days, positioning itself as a neutral intermediary in the competitive field of enterprise AI agents."
+    url: "https://venturebeat.com/technology/kore-ai-launches-artemis-ai-agent-platform-expands-challenge-to-microsoft-and-salesforce"
+    source: "venturebeat.com"
+    tag: "tools"
+    significance: 3
