@@ -1,0 +1,36 @@
+date: "2026-05-28"
+stories:
+  - title: "DeepMind CEO Predicts AGI Arrival by 2029"
+    summary: "At Google's developer conference, DeepMind CEO Demis Hassabis stated that artificial general intelligence (AGI) could arrive as soon as 2029, earlier than his previous estimate of 2030. He emphasized the need for urgent societal preparation for rapidly evolving AI capabilities."
+    url: "https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis"
+    source: "axios.com"
+    tag: "models"
+    significance: 4
+
+  - title: "NavigateAI Launches AI Copilot for Field Workers"
+    summary: "NavigateAI, founded by Opendoor co-founder Eric Wu, has launched with $25 million in funding to develop AI copilots for field workers. The platform aims to enhance the construction and maintenance of physical spaces by providing real-time upskilling and quality control automation."
+    url: "https://www.nasdaq.com/press-release/navigateai-launches-build-ai-copilot-physical-world-2026-05-26"
+    source: "nasdaq.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Mphasis Introduces Tria™ Enterprise Agency Platform"
+    summary: "Mphasis has unveiled Mphasis Tria™, an Enterprise Agency Platform designed to unify enterprise insight, foresight, and execution. The platform aims to facilitate outcome-led enterprise transformation by connecting knowledge, causal reasoning, and agentic execution."
+    url: "https://www.prnewswire.com/news-releases/mphasis-launches-mphasis-tria-a-first-of-its-kind-enterprise-agency-platform-governed-front2backaccelerates-mphasis-evolution-into-a-platform-led-ai-enterprise-302782984.html"
+    source: "prnewswire.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Google Launches Antigravity 2.0 at I/O 2026"
+    summary: "At Google I/O 2026, Google introduced Antigravity 2.0, featuring an updated desktop app, CLI tool, and SDK for custom workflows. The new version allows users to orchestrate multiple agents, execute tasks simultaneously, and integrate projects with Google AI Studio, Android, and Firebase."
+    url: "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Wetour Robotics to Debut Orchestra AI Operating System"
+    summary: "Wetour Robotics announced it will debut Orchestra, a Physical AI operating system for human-machine interaction, on May 28 in Austin, Texas. Orchestra aims to provide a new platform for real-time human-machine interaction in the Physical AI era."
+    url: "https://rss.globenewswire.com/news-release/2026/05/01/3285971/0/en/wetour-robotics-to-debut-orchestra-a-physical-ai-operating-system-for-human-machine-interaction-on-may-28-in-austin.html"
+    source: "globenewswire.com"
+    tag: "tools"
+    significance: 2
