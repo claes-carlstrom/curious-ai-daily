@@ -1,0 +1,36 @@
+date: "2026-05-29"
+stories:
+  - title: "KPMG Integrates Anthropic's Claude AI Across 276,000 Employees"
+    summary: "KPMG has embedded Anthropic's Claude AI into its Digital Gateway platform, providing all 276,000 employees across 138 countries with AI-enhanced tools. The initial rollout focuses on Tax and Legal departments, with full implementation expected by September 2026."
+    url: "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    source: "aitoolsrecap.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "OpenAI Launches DeployCo, a $4 Billion AI Consulting Subsidiary"
+    summary: "OpenAI has established DeployCo, a $4 billion consulting subsidiary backed by TPG, Goldman Sachs, McKinsey, and Capgemini. DeployCo aims to provide AI solutions to enterprises, starting with 150 engineers from the acquisition of Tomoro."
+    url: "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    source: "aitoolsrecap.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Cohere Acquires Aleph Alpha to Challenge U.S. AI Dominance"
+    summary: "Cohere has acquired German AI lab Aleph Alpha, forming a $20 billion transatlantic entity aimed at competing with U.S. AI leaders. This strategic move enhances Cohere's position in the global AI landscape."
+    url: "https://aitoolsrecap.com/Blog/ai-news-may-29-2026"
+    source: "aitoolsrecap.com"
+    tag: "models"
+    significance: 4
+
+  - title: "PixVerse Releases V6, Advancing AI Video Generation"
+    summary: "PixVerse has launched V6, the latest version of its AI video generation platform, featuring improved camera control, character performance, and multi-shot video generation with native audio. V6 delivers complex scenes with coherent motion and consistent detail."
+    url: "https://www.prnewswire.com/apac/news-releases/pixverse-launches-v6-advancing-ai-video-generation-across-creative-and-agentic-workflows-302728409.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Shutterstock Introduces AI Video Generator for Commercial Use"
+    summary: "Shutterstock has launched an AI Video Generator that combines text- and image-to-video models, enabling users to produce high-quality, licensable video content. The tool is designed for use at every stage of the creative process, from concept testing to market execution."
+    url: "https://www.nasdaq.com/press-release/shutterstock-expands-commercial-ready-genai-solutions-ai-video-generator-2026-04-15"
+    source: "nasdaq.com"
+    tag: "content-creation"
+    significance: 3
