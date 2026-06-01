@@ -1,0 +1,36 @@
+date: "2026-06-01"
+stories:
+  - title: "Anthropic Nears $1 Trillion Valuation After $65 Billion Funding Round"
+    summary: "Anthropic has completed a $65 billion Series H funding round, bringing its valuation to $965 billion, surpassing OpenAI and approaching the $1 trillion mark. This marks the largest valuation in AI startup history."
+    url: "https://note.com/ai_news365/n/ne3c2b6530ec1?hl=en-US"
+    source: "note.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Nvidia and Microsoft Unveil AI-Powered PC at GTC 2026"
+    summary: "At the GTC 2026 conference, Nvidia CEO Jensen Huang announced a partnership with Microsoft to develop a new AI-powered PC, described as the biggest reinvention in 40 years. This collaboration aims to integrate advanced AI capabilities directly into personal computing."
+    url: "https://www.euronews.com/next/2026/06/01/nvidia-ceo-jensen-huang-unveils-new-era-of-pc-for-ai-age-5-key-takeaways-from-gtc"
+    source: "euronews.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "US Moves to Halt Nvidia AI Chip Shipments to Chinese Firms Outside China"
+    summary: "The US Department of Commerce has taken steps to prevent the export of advanced AI chips, such as Nvidia's Rubin and Blackwell processors, to Chinese entities located outside China. This action aims to close potential loopholes in existing export controls."
+    url: "https://www.gmanetwork.com/news/money/economy/989706/nvidia-chip-shipments-chinese-firms/story/"
+    source: "gmanetwork.com"
+    tag: "models"
+    significance: 4
+
+  - title: "InterDigital to Present 6G and AI Innovations at EuCNC & 6G Summit"
+    summary: "InterDigital announced its participation in the upcoming EuCNC & 6G Summit, where it will demonstrate advancements in 6G research, including Integrated Sensing and Communication (ISAC) and agentic AI technologies. The event is scheduled for June 2–5, 2026, in Malaga, Spain."
+    url: "https://www.taiwannews.com.tw/en/news/6373905"
+    source: "taiwannews.com.tw"
+    tag: "research"
+    significance: 3
+
+  - title: "GitHub Copilot Transitions to Token-Based AI Credits Billing"
+    summary: "GitHub Copilot has implemented a new billing system based on AI credits, where 1 credit equals $0.01. Inline completions remain free, but agent sessions are now metered, leading to mixed reactions from the developer community."
+    url: "https://aitoolsrecap.com/Blog/AINewsJune2026.aspx"
+    source: "aitoolsrecap.com"
+    tag: "tools"
+    significance: 3
