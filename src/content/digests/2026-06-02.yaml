@@ -1,0 +1,36 @@
+date: "2026-06-02"
+stories:
+  - title: "Nvidia Unveils RTX Spark Superchip for AI-Powered Windows PCs"
+    summary: "At Computex 2026, Nvidia introduced the RTX Spark Superchip platform, featuring 20 Arm CPU cores, a Blackwell GPU with 6,144 CUDA cores, and 128GB of LPDDR5X RAM. Designed for both laptops and desktops, this platform aims to transform Windows into an 'agentic AI' operating system, enabling advanced AI tasks and creative workflows. Major partners like Dell, HP, Lenovo, Asus, MSI, and Microsoft plan to launch devices powered by RTX Spark in fall 2026."
+    url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory"
+    source: "tomshardware.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Anthropic Files for IPO, Valued at $965 Billion"
+    summary: "AI company Anthropic has confidentially filed for a U.S. initial public offering, marking a significant milestone in the AI industry's growth. The filing reflects Wall Street's increasing interest in AI technologies, with Anthropic's valuation reaching $965 billion. This move positions Anthropic alongside other major AI firms considering public offerings."
+    url: "https://www.investing.com/news/stock-market-news/instant-view-anthropic-ipo-filing-ratifies-wall-streets-ai-obsession-4720246"
+    source: "investing.com"
+    tag: "models"
+    significance: 4
+
+  - title: "CoreWeave Deploys Nvidia's Vera Rubin NVL72, Stock Surges"
+    summary: "Cloud provider CoreWeave has implemented Nvidia's Vera Rubin NVL72, enhancing its AI data center capabilities. This deployment has led to a significant increase in CoreWeave's stock value, reflecting investor confidence in the company's AI infrastructure advancements."
+    url: "https://www.fool.com/coverage/stock-market-today/2026/06/01/stock-market-today-june-1-coreweave-surges-on-nvidia-vera-rubin-nvl72-deployment/"
+    source: "fool.com"
+    tag: "models"
+    significance: 3
+
+  - title: "Bridgewater Associates Reports Low Near-Term AI-Driven Labor Displacement Risks"
+    summary: "Bridgewater Associates has released a report indicating that the risk of widespread job losses due to AI remains limited in the near term. The study cites constraints on computing capacity and a resilient economy as factors mitigating AI's immediate impact on employment."
+    url: "https://www.investing.com/news/economy-news/aidriven-labor-displacement-risks-to-remain-low-in-near-term-bridgewater-says-4720102"
+    source: "investing.com"
+    tag: "research"
+    significance: 2
+
+  - title: "Wall Street Futures Rise Amid AI Advancements"
+    summary: "U.S. stock index futures climbed as recent AI developments, including Nvidia's new chip unveiling, bolstered investor sentiment. This positive movement occurred despite ongoing uncertainties in the Middle East, highlighting the market's focus on technological progress."
+    url: "https://www.investing.com/news/stock-market-news/wall-street-futures-gain-as-ai-advances-overshadow-usiran-tensions-4718366"
+    source: "investing.com"
+    tag: "models"
+    significance: 2
