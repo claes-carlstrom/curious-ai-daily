@@ -1,0 +1,36 @@
+date: "2026-06-03"
+stories:
+  - title: "Nvidia Unveils RTX Spark Superchip for AI-Powered Windows Devices"
+    summary: "At Computex 2026, Nvidia introduced the RTX Spark Superchip, an Arm-based platform featuring 20 CPU cores, a Blackwell GPU with 6,144 CUDA cores, and 128GB of LPDDR5X RAM. Designed for AI-intensive tasks, it will power upcoming laptops and desktops from major manufacturers, with availability expected in fall 2026."
+    url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory"
+    source: "tomshardware.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Nvidia Launches Cosmos 3, an Open Foundation Model for Physical AI"
+    summary: "Nvidia announced Cosmos 3, an open-world foundation model for physical AI, built on a mixture-of-transformers architecture. Cosmos 3 integrates vision reasoning, world generation, and action prediction, supporting multimodal generation across text, image, video, ambient sound, and action."
+    url: "https://www.nasdaq.com/press-release/nvidia-launches-cosmos-3-open-frontier-foundation-model-physical-ai-2026-06-01"
+    source: "nasdaq.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Pentagon Signs AI Deployment Deals with Nvidia, Microsoft, and AWS"
+    summary: "The U.S. Department of Defense has signed agreements with Nvidia, Microsoft, Amazon Web Services, and Reflection AI to deploy their AI technologies on classified networks for lawful operational use. This move aims to establish the U.S. military as an AI-first fighting force."
+    url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 3
+
+  - title: "Dow and S&P 500 Reach Record Highs Amid AI Momentum"
+    summary: "The Dow and S&P 500 achieved new record highs, driven by strong results from Hewlett Packard Enterprise and a significant funding commitment from Alphabet. HPE's stock surged approximately 26% after advancing its long-term financial targets, while Alphabet plans to raise $80 billion to expand its AI infrastructure."
+    url: "https://www.brecorder.com/news/40423702/dow-sampp-500-scale-peaks-as-hpe-alphabet-fuel-ai-momentum"
+    source: "brecorder.com"
+    tag: "community"
+    significance: 3
+
+  - title: "OpenAI Launches Sora 2 Model with New AI Video Creation App"
+    summary: "OpenAI has released Sora 2, an advanced text-to-video model capable of generating realistic, cinematic, and anime-style videos. Alongside Sora 2, OpenAI introduced a social media app that allows users to create and share AI-generated videos, positioning itself as a competitor to Google's Veo-3."
+    url: "https://www.livemint.com/technology/tech-news/openai-launches-sora-2-model-along-with-new-instagram-like-app-for-creating-and-sharing-ai-videos-11759253470498.html"
+    source: "livemint.com"
+    tag: "content-creation"
+    significance: 4
