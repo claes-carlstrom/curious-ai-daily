@@ -1,0 +1,36 @@
+date: "2026-06-04"
+stories:
+  - title: "Nvidia Unveils RTX Spark Superchip for AI-Powered Windows Devices"
+    summary: "At Computex 2026, Nvidia introduced the RTX Spark Superchip, an Arm-based platform featuring 20 CPU cores, a Blackwell GPU with 6,144 CUDA cores, and 128GB of LPDDR5X RAM. Designed for AI-driven Windows 11 laptops and desktops, it aims to support advanced AI tasks and creative workloads, with systems expected to launch in fall 2026."
+    url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory"
+    source: "tomshardware.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Microsoft Introduces Agentic AI Tools and Surface RTX Spark Dev Box at Build 2026"
+    summary: "During Build 2026, Microsoft emphasized 'agentic AI' with tools like Microsoft IQ and Web IQ, integrated across platforms such as GitHub Copilot. The company also unveiled the Surface RTX Spark Dev Box, offering 1 petaflop of AI compute and 128GB unified memory, designed for local execution of large models."
+    url: "https://www.tomsguide.com/news/live/microsoft-build-2026"
+    source: "tomsguide.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "Google Releases Gemma 4 12B, an Encoder-Free Multimodal Model for Laptops"
+    summary: "Google has launched Gemma 4 12B, an encoder-free multimodal model optimized for laptops with 16GB memory. This model enhances on-device AI capabilities, enabling more efficient processing of multimodal data without the need for separate encoders."
+    url: "https://huggingnews.com/"
+    source: "huggingnews.com"
+    tag: "models"
+    significance: 3
+
+  - title: "New York Mandates Disclosure of AI-Generated Content in Advertising"
+    summary: "New York has become the first U.S. state to require advertisers to disclose AI-generated people, images, or voices in their content. This regulation aims to increase transparency and inform consumers about the use of AI in advertising materials."
+    url: "https://huggingnews.com/"
+    source: "huggingnews.com"
+    tag: "marketing"
+    significance: 3
+
+  - title: "xAI's Grok Imagine 1.5 Video Model Tops Video Arena Leaderboard"
+    summary: "xAI's Grok Imagine 1.5 video generation model has achieved the top position on the Video Arena leaderboard. The model is now expanding access beyond the SuperGrok platform, offering enhanced video generation capabilities to a broader user base."
+    url: "https://huggingnews.com/"
+    source: "huggingnews.com"
+    tag: "content-creation"
+    significance: 3
