@@ -1,0 +1,32 @@
+date: "2026-06-05"
+stories:
+  - title: "xAI Releases Grok Imagine Video 1.5 with Synchronized Audio and Video Generation"
+    summary: "xAI has launched Grok Imagine Video 1.5, an image-to-video model that generates hyper-realistic motion and synchronized audio from static images, producing 720p videos in seconds."
+    url: "https://www.aitechsuite.com/ai-news/xai-launches-grok-imagine-video-15-dominating-leaderboards-with-synchronized-audio-and-video"
+    source: "aitechsuite.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Microsoft Introduces Agentic AI and New Developer Tools at Build 2026"
+    summary: "At Build 2026, Microsoft unveiled agentic AI systems capable of autonomously performing tasks, introduced the GitHub Copilot app for desktop, and announced the Surface RTX Spark Dev Box with 1 petaflop of AI compute."
+    url: "https://www.tomsguide.com/news/live/microsoft-build-2026"
+    source: "tomsguide.com"
+    tag: "tools"
+    significance: 4
+  - title: "Nvidia Launches RTX Spark Superchip Targeting AI-Powered Laptops and Desktops"
+    summary: "Nvidia unveiled the RTX Spark Superchip at Computex 2026, featuring 20 Arm CPU cores, 128GB LPDDR5x RAM, and a Blackwell-class GPU with 6,144 CUDA cores, delivering up to 1 petaflop of AI compute."
+    url: "https://www.tomshardware.com/tech-industry/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-superchip-assault-on-laptop-and-desktop-markets-intel-readies-xeon-6"
+    source: "tomshardware.com"
+    tag: "models"
+    significance: 4
+  - title: "Google Introduces Gemini Omni for Multimodal Video Generation"
+    summary: "Google's Gemini Omni, unveiled at I/O 2026, is a multimodal AI model capable of creating high-quality videos from text, images, audio, and video inputs, understanding real-world physics for realistic outputs."
+    url: "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Kling AI 3.0 Models Enhance AI Video Generation with Extended Duration and Native Audio"
+    summary: "Kuaishou Technology's Kling AI 3.0 models offer improved consistency, photorealistic output, extended video duration up to 15 seconds, and native audio generation across multiple languages."
+    url: "https://www.globenewswire.com/fr/news-release/2026/02/05/3232837/0/en/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director.html"
+    source: "globenewswire.com"
+    tag: "content-creation"
+    significance: 3
