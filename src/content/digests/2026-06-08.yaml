@@ -1,0 +1,32 @@
+date: "2026-06-08"
+stories:
+  - title: "Apple to Unveil AI Enhancements at WWDC 2026"
+    summary: "At the upcoming Worldwide Developers Conference, Apple is expected to introduce significant AI features, including a revamped Siri powered by deep AI models. This event marks CEO Tim Cook's final keynote before his September departure, with John Ternus set to succeed him."
+    url: "https://apnews.com/article/aa25d07c06d366ec5b62643a1f5b0db9"
+    source: "apnews.com"
+    tag: "models"
+    significance: 4
+  - title: "Nvidia Launches RTX Spark Superchip at Computex 2026"
+    summary: "Nvidia unveiled the RTX Spark Superchip, an Arm-based platform featuring 20 CPU cores and a Blackwell-class GPU with 6,144 CUDA cores, delivering up to 1 petaflop of AI compute. Microsoft plans to integrate this chip into its new 15-inch Surface Laptop Ultra."
+    url: "https://www.tomshardware.com/tech-industry/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-superchip-assault-on-laptop-and-desktop-markets-intel-readies-xeon-6"
+    source: "tomshardware.com"
+    tag: "models"
+    significance: 4
+  - title: "Microsoft Build 2026 Highlights AI Innovations"
+    summary: "At Microsoft Build 2026, the company showcased AI agents designed to act on users' behalf and demonstrated how AI can modernize Windows apps for ARM architecture. The event also featured the unveiling of Nvidia's RTX Spark platform with the N1x chip."
+    url: "https://www.windowscentral.com/microsoft/windows-11/how-to-watch-microsoft-build-2026-windows-11-nvidia-rtx-spark-ai-agents-and-more"
+    source: "windowscentral.com"
+    tag: "models"
+    significance: 3
+  - title: "Axios AI+NY Summit Discusses AI's Transformative Impact"
+    summary: "The 2026 Axios AI+NY Summit brought together leaders to discuss AI's ongoing transformation. Key topics included public concern about AI, regulatory frameworks focused on model safety, and the necessity for companies to adapt to evolving technologies to avoid disruption."
+    url: "https://www.axios.com/2026/06/05/axios-ainy-summit-takeaways-from-the-2026-summit"
+    source: "axios.com"
+    tag: "community"
+    significance: 3
+  - title: "Apple's WWDC 2026 Poised to Be a Pivotal Event"
+    summary: "WWDC 2026 is anticipated to reveal Apple's advancements in AI, particularly through a revamped Siri powered by deep AI models. The event also marks CEO Tim Cook's final keynote before his September departure, with John Ternus set to succeed him."
+    url: "https://www.techradar.com/phones/iphone/wwdc-2026-could-be-apples-most-important-event-in-years-and-it-doesnt-just-hinge-on-siri-here-are-3-ways-it-can-and-should-deliver"
+    source: "techradar.com"
+    tag: "models"
+    significance: 3
