@@ -1,0 +1,36 @@
+date: "2026-06-10"
+stories:
+  - title: "Apple Unveils Major AI Enhancements Across Devices at WWDC 2026"
+    summary: "At WWDC 2026, Apple introduced significant AI-powered features across iPhone, iPad, and Mac. Updates include smarter cross-app suggestions, natural language event creation, and enhanced photo editing tools. Siri AI, a redesigned voice assistant with advanced capabilities, will launch in public beta in July and fully roll out in September with iOS 27 and iPhone 18."
+    url: "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+    source: "tomsguide.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Microsoft's June 2026 Windows 11 Update Introduces AI-Powered Features"
+    summary: "Microsoft's June 2026 update for Windows 11 brings AI-driven enhancements, including a Low Latency Profile for faster application launches and Shared Audio for simultaneous streaming to multiple Bluetooth devices. Task Manager now supports Neural Processing Unit monitoring, and camera settings allow streaming to multiple apps simultaneously, benefiting content creators."
+    url: "https://www.windowscentral.com/microsoft/windows-11/biggest-features-coming-with-the-june-2026-update-for-windows-11"
+    source: "windowscentral.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "Shutterstock Launches AI Video Generator Integrating Multiple Models"
+    summary: "Shutterstock has introduced an AI Video Generator that combines text-to-video and image-to-video models from providers like Google and Runway. The platform allows users to create videos from text prompts, animate static images, or build on existing assets from Shutterstock’s library. Customers receive two free generations to test the technology."
+    url: "https://www.investing.com/news/company-news/shutterstock-launches-ai-video-generator-with-multiple-models-93CH-4615556"
+    source: "investing.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Google Unveils Gemini Omni Flash for AI Video Generation"
+    summary: "Google has introduced Gemini Omni Flash, an AI model capable of generating high-quality videos from various inputs, including text, images, audio, and video. Built to 'create anything from any input,' the model aims to simplify video creation by leveraging Google's advanced AI capabilities."
+    url: "https://www.techbooky.com/google-launches-gemini-omni-flash-to-turn-any-input-into-ai-generated-video/"
+    source: "techbooky.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "PixVerse Releases V6, Advancing AI Video Generation Capabilities"
+    summary: "PixVerse has launched V6, the latest version of its AI video generation platform. V6 offers improved camera control, character performance, and multi-shot video generation with native audio. Enhancements include more accurate camera movements and consistent character emotions across scenes, benefiting both creative and commercial applications."
+    url: "https://finance.yahoo.com/sectors/technology/articles/pixverse-launches-v6-advancing-ai-140000308.html"
+    source: "finance.yahoo.com"
+    tag: "content-creation"
+    significance: 3
