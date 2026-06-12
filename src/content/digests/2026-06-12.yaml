@@ -1,0 +1,32 @@
+date: "2026-06-12"
+stories:
+  - title: "Apple Unveils Major AI Enhancements Across Devices at WWDC 2026"
+    summary: "At WWDC 2026, Apple introduced significant AI-powered features across iPhone, iPad, and Mac, including a revamped Siri AI with advanced capabilities, smarter cross-app suggestions, and enhanced photo editing tools. These updates aim to seamlessly integrate intelligence into daily user experiences."
+    url: "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+    source: "tomsguide.com"
+    tag: "models"
+    significance: 4
+  - title: "xAI Releases 'Grok Imagine 1.0' for Advanced Video Generation"
+    summary: "xAI has launched 'Grok Imagine 1.0,' a video generation AI capable of producing 10-second, 720p videos with synchronized audio. The model supports both text-to-video and image-to-video generation, offering enhanced audio quality and expressive character voices."
+    url: "https://gigazine.net/gsc_news/en/20260203-grok-imagine-video-generation-ai"
+    source: "gigazine.net"
+    tag: "content-creation"
+    significance: 4
+  - title: "Midjourney Introduces V1 AI Video Model for Image-to-Video Generation"
+    summary: "Midjourney has unveiled its V1 AI video model, enabling users to create four 5-second video clips from a single image. Available through Discord, V1 offers configurable motion settings and is accessible via subscription plans starting at $10 per month."
+    url: "https://finance.yahoo.com/news/midjourney-launches-first-ai-video-192121917.html"
+    source: "finance.yahoo.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Adobe Launches Firefly Video Model for AI-Powered Video Generation"
+    summary: "Adobe has released the Firefly Video Model, an AI tool designed to generate 5-second, 1080p video clips. Integrated with Premiere Pro, it aims to assist film and television studios by enhancing or correcting existing footage. Pricing starts at $9.99 for 20 clips per month."
+    url: "https://www.investing.com/news/stock-market-news/adobe-launches-ai-tool-for-video-generation-reveals-pricing-details-93CH-3865067"
+    source: "investing.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Manycore Tech Unveils LuxReal for Enhanced AI Video Spatial Consistency"
+    summary: "Manycore Tech has introduced LuxReal, a 3D AI content creation product that improves spatial consistency in AI-generated videos. Utilizing the Lux3D model, LuxReal enables rapid generation of videos with spatially consistent subjects from multimodal inputs, benefiting sectors like e-commerce and advertising."
+    url: "https://www.prnewswire.com/news-releases/manycore-tech-unveils-luxreal-a-3d-ai-content-creation-product-enhancing-spatial-consistency-in-ai-video-302637851.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 2
