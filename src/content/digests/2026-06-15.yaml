@@ -1,0 +1,36 @@
+date: "2026-06-15"
+stories:
+  - title: "Apple Unveils Siri AI and macOS Golden Gate at WWDC 2026"
+    summary: "At WWDC 2026, Apple introduced 'Siri AI,' a major overhaul of its voice assistant, now featuring advanced generative AI capabilities, contextual understanding, and deeper app integration. Additionally, Apple announced macOS 27 'Golden Gate,' ending support for Intel Macs and introducing refined UI effects and enhanced search functionalities."
+    url: "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+    source: "techradar.com"
+    tag: "tools"
+    significance: 4
+
+  - title: "Anthropic Suspends Access to Fable 5 and Mythos 5 AI Models Following U.S. Government Directive"
+    summary: "Anthropic has disabled its advanced AI models, Fable 5 and Mythos 5, for all users after receiving a U.S. government order citing national security concerns. The directive restricts access to these models for foreign nationals, leading Anthropic to suspend them entirely."
+    url: "https://www.investing.com/news/stock-market-news/anthropic-disables-toptier-ai-models-after-us-order-limiting-foreign-access-4741135"
+    source: "investing.com"
+    tag: "models"
+    significance: 4
+
+  - title: "OpenAI Discontinues Sora After High Operational Costs and Low Revenue"
+    summary: "OpenAI has ceased operations of its AI video tool, Sora, due to unsustainable costs of $15 million per day and total lifetime revenue of only $2.1 million. This decision reflects the challenges in monetizing advanced AI video generation technologies."
+    url: "https://unrot.co/blogs/ai-news-today-june-15-2026"
+    source: "unrot.co"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "NAVER and NVIDIA Announce Gigawatt-Scale AI Factories in South Korea"
+    summary: "NAVER and NVIDIA have partnered to establish gigawatt-scale AI factories in South Korea, aiming to bolster AI infrastructure and development capabilities in the region. This collaboration signifies a significant investment in large-scale AI processing power."
+    url: "https://unrot.co/blogs/ai-news-today-june-15-2026"
+    source: "unrot.co"
+    tag: "models"
+    significance: 3
+
+  - title: "Microsoft Releases Phi-4-Reasoning-Vision-15B Model Rivaling Larger Systems"
+    summary: "Microsoft has unveiled Phi-4-Reasoning-Vision-15B, a 15-billion parameter open AI model that demonstrates performance comparable to much larger systems. This release highlights advancements in efficient AI model development."
+    url: "https://unrot.co/blogs/ai-news-today-june-15-2026"
+    source: "unrot.co"
+    tag: "models"
+    significance: 3
