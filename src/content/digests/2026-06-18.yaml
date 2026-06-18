@@ -1,0 +1,32 @@
+date: "2026-06-18"
+stories:
+  - title: "xAI Releases Grok Imagine Video 1.5 with Enhanced Audio-Visual Synchronization"
+    summary: "xAI has launched Grok Imagine Video 1.5, introducing synchronized audio and video generation, including sound effects, ambient noise, and character dialogue. The update also improves lip-sync accuracy and motion consistency, and reduces 6-second 720p video generation time to 25 seconds."
+    url: "https://www.kucoin.com/news/flash/xai-launches-grok-imagine-video-1-5-with-audio-visual-sync-and-doubled-speed"
+    source: "kucoin.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Nauk Nauk Secures $20 Million to Animate Toy Photos into Videos"
+    summary: "Startup Nauk Nauk has raised $20 million to expand its AI video app that transforms photos of toys into short animated videos. Targeting the 'kidult' market, the app allows users to create 15–20 second videos with music or audio from a single image and text prompt."
+    url: "https://www.axios.com/2026/06/17/nauk-nauk-ai-video-toy-app-funding"
+    source: "axios.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "G7 Leaders Discuss Granting 'Trusted Partners' Access to Advanced U.S. AI Models"
+    summary: "During the G7 summit, leaders deliberated on a plan to allow select 'trusted partners' access to advanced AI models from U.S. firms like Anthropic. This discussion follows the U.S. government's recent restrictions on foreign nationals using certain AI technologies due to national security concerns."
+    url: "https://www.investing.com/news/world-news/g7-leaders-discuss-trusted-partners-access-for-cuttingedge-us-ai-models-sources-say-4745559"
+    source: "investing.com"
+    tag: "models"
+    significance: 3
+  - title: "Anthropic Shuts Down Latest AI Model Amid U.S. Export Restrictions"
+    summary: "Anthropic has disabled access to its newest AI models after the U.S. government imposed export restrictions, citing national security risks. The restrictions prevent foreign nationals from using the technology, including Anthropic's own employees who are not U.S. citizens."
+    url: "https://www.washingtonpost.com/technology/2026/06/13/anthropic-shuts-down-newest-ai-model-after-us-bans-foreign-use/"
+    source: "washingtonpost.com"
+    tag: "models"
+    significance: 4
+  - title: "HPE Discover 2026 Highlights AI-Driven Networking and Supercomputing Advances"
+    summary: "At HPE Discover 2026, Hewlett Packard Enterprise showcased advancements in AI-driven networking, including the integration of Juniper Networks with Aruba to develop 'self-driving networks' powered by AI agents. The event also emphasized HPE's leadership in supercomputing and high-performance computing achievements."
+    url: "https://www.itpro.com/business/business-strategy/what-will-the-big-announcements-be-at-hpe-discover-2026"
+    source: "itpro.com"
+    tag: "tools"
+    significance: 3
