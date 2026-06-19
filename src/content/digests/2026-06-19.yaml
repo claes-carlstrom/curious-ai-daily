@@ -1,0 +1,32 @@
+date: "2026-06-19"
+stories:
+  - title: "xAI Releases Grok Imagine Video 1.5 with Enhanced Audio-Visual Synchronization"
+    summary: "xAI has launched Grok Imagine Video 1.5, introducing synchronized audio and video generation, including sound effects and character dialogue. The update also improves lip-sync accuracy and motion consistency, with a 'Fast' version reducing 6-second 720p video generation to 25 seconds. The web interface now supports project management, parallel processing, and semantic media search."
+    url: "https://www.kucoin.com/news/flash/xai-launches-grok-imagine-video-1-5-with-audio-visual-sync-and-doubled-speed"
+    source: "kucoin.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Shield AI Secures U.S. Air Force Contract for Autonomous Combat Aircraft Software"
+    summary: "Shield AI has been awarded a production contract by the U.S. Air Force to implement its Hivemind mission autonomy software for the Collaborative Combat Aircraft program. This contract reflects the Air Force's software-first approach to autonomy, aiming to rapidly iterate mission autonomy software upgrades independent of the aircraft."
+    url: "https://www.prnewswire.com/news-releases/shield-ai-awarded-us-air-force-production-contract-for-collaborative-combat-aircraft-mission-autonomy-302803710.html"
+    source: "prnewswire.com"
+    tag: "models"
+    significance: 3
+  - title: "AI Leaders Advocate for Regulatory Collaboration at G7 Summit"
+    summary: "At the G7 summit in Evian, France, AI industry leaders, including Salesforce CEO Marc Benioff and Anthropic CEO Dario Amodei, called for collaborative efforts in AI regulation. They emphasized the need for unified policies to manage AI's rapid development and integration into various sectors."
+    url: "https://fortune.com/2026/06/18/ai-chiefs-regulation-collaboration-g7-summit/"
+    source: "fortune.com"
+    tag: "community"
+    significance: 3
+  - title: "Nauk Nauk Raises $20 Million to Animate Toy Photos into Videos"
+    summary: "Startup Nauk Nauk has secured $20 million in funding to expand its AI video application that transforms toy photos into short animated videos. Targeting the 'kidult' market, the app allows users to create 15- to 20-second videos with music or voiceovers from a single image and prompt."
+    url: "https://www.axios.com/2026/06/17/nauk-nauk-ai-video-toy-app-funding"
+    source: "axios.com"
+    tag: "content-creation"
+    significance: 2
+  - title: "HPE Discover 2026 Highlights AI-Driven Networking and Supercomputing Advances"
+    summary: "At HPE Discover 2026, Hewlett Packard Enterprise showcased advancements in AI-driven networking, supercomputing, and cloud technologies. Key announcements included the integration of Juniper Networks with Aruba to develop 'self-driving networks' powered by AI agents, and discussions on HPE's dominance in the Top500 list of supercomputers."
+    url: "https://www.itpro.com/business/business-strategy/what-will-the-big-announcements-be-at-hpe-discover-2026"
+    source: "itpro.com"
+    tag: "models"
+    significance: 2
