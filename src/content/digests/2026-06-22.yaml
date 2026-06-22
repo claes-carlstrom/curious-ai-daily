@@ -1,0 +1,32 @@
+date: "2026-06-22"
+stories:
+  - title: "Nauk Nauk Raises $20 Million for AI Toy Animation App"
+    summary: "Startup Nauk Nauk secured $20 million to expand its AI video application that animates toy photos into short videos. The app targets the 'kidult' market, allowing users to create 15- to 20-second videos with music or voiceovers from a single toy image and prompt."
+    url: "https://www.axios.com/2026/06/17/nauk-nauk-ai-video-toy-app-funding"
+    source: "axios.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "ChatGPT's Market Share Falls Below 50% Amid Rising Competition"
+    summary: "OpenAI's ChatGPT has seen its market share dip below 50% for the first time, now holding 46.4%. Competitors like Google's Gemini and Anthropic's Claude have gained traction, with Gemini capturing 27.7% and Claude 10.3% of the market."
+    url: "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "IBM and Google Cloud Partner to Scale AI with Human Expertise"
+    summary: "IBM and Google Cloud announced a strategic partnership to help organizations scale AI into production and modernize core systems. The collaboration combines IBM's industry expertise with Google Cloud's Gemini Enterprise Agent Platform."
+    url: "https://www.newswire.ca/news-releases/ibm-and-google-cloud-announce-strategic-partnership-to-scale-ai-with-human-expertise-and-ai-powered-delivery-808545477.html"
+    source: "newswire.ca"
+    tag: "tools"
+    significance: 3
+  - title: "ReelTime Launches Advanced AI Image Generator with Free Access"
+    summary: "ReelTime Media introduced its Reel Intelligence (RI) image-generation system, offering a free trial at TryRINow.com. The platform supports 4K video, music, 3D-printable models, and code generation, aiming to reduce reliance on specialized hardware."
+    url: "https://www.stocktitan.net/news/RLTR/reel-time-s-reel-intelligence-ri-launches-worlds-most-advanced-image-vo2xdfjs3s3z.html"
+    source: "stocktitan.net"
+    tag: "content-creation"
+    significance: 3
+  - title: "Munch Studio Unveils AI Video Editing Suite for Social Media Content"
+    summary: "Munch Studio launched an AI-powered video editing suite that transforms long-form videos into ready-to-publish social media content. The tool automatically clips, captions, scores, and optimizes short-form clips within minutes, catering to business owners."
+    url: "https://gdc.einnews.com/pr_news/906132717/munch-studio-launches-ai-video-editing-suite-that-turns-long-form-video-into-social-media-content-in-minutes"
+    source: "gdc.einnews.com"
+    tag: "content-creation"
+    significance: 3
