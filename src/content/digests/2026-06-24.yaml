@@ -1,0 +1,32 @@
+date: "2026-06-24"
+stories:
+  - title: "Nauk Nauk Raises $20 Million to Animate Toy Photos into Videos"
+    summary: "Startup Nauk Nauk secured $20 million to expand its AI video app that transforms toy photos into 15- to 20-second animated videos with music or voiceovers. Targeting the 'kidult' market, the app aims to make toy collecting more interactive and social through AI-generated storytelling."
+    url: "https://www.axios.com/2026/06/17/nauk-nauk-ai-video-toy-app-funding"
+    source: "axios.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Midjourney Launches V1: Its First AI Video Generation Model"
+    summary: "Midjourney introduced V1, an image-to-video model that generates four five-second videos from a single image. Available through Discord for $10/month, V1 positions Midjourney alongside competitors like OpenAI’s Sora and Runway’s Gen 4 in the AI video generation space."
+    url: "https://techcrunch.com/2025/06/18/midjourney-launches-its-first-ai-video-generation-model-V1/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "Luma Unveils Creative AI Agents Powered by Unified Intelligence Models"
+    summary: "Luma launched Luma Agents, designed to handle end-to-end creative tasks across text, image, video, and audio. Powered by the Unified Intelligence family of models, these agents aim to assist ad agencies, marketing teams, and design studios by coordinating with various AI models for comprehensive content creation."
+    url: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+  - title: "CraftStory Releases Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory announced Model 2.0, enabling users to generate up to five-minute, studio-quality human videos from a single image and a written script. This advancement allows companies to create expressive, long-form videos without the need for source footage, enhancing realism and performance quality."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Kling AI Introduces Video 2.6 Model with Simultaneous Audio-Visual Generation"
+    summary: "Kling AI released the Video 2.6 Model, featuring 'simultaneous audio-visual generation' that produces visuals, natural voiceovers, sound effects, and ambient atmosphere in a single pass. This innovation aims to streamline AI video production workflows and enhance creative efficiency."
+    url: "https://www.prnewswire.com/apac/news-releases/kling-ai-launches-video-2-6-model-with-simultaneous-audio-visual-generation-capability-redefining-ai-video-creation-workflow-302634070.html"
+    source: "prnewswire.com"
+    tag: "models"
+    significance: 3
