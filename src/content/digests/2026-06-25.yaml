@@ -1,0 +1,36 @@
+date: "2026-06-25"
+stories:
+  - title: "Google's Gemini 2.5 Pro Achieves 82.4% on GPQA Benchmark"
+    summary: "Google's Gemini 2.5 Pro with Deep Think reasoning mode has achieved 82.4% on the GPQA Diamond benchmark, surpassing previous leaders Fable 5 and GPT-5.5. This advancement sets a new standard in AI reasoning capabilities."
+    url: "https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026"
+    source: "buildfastwithai.com"
+    tag: "models"
+    significance: 5
+
+  - title: "xAI Releases Grok Imagine Video 1.5 with Enhanced Audio-Visual Sync"
+    summary: "xAI has launched Grok Imagine Video 1.5, featuring synchronized audio and video generation, including sound effects and character dialogue. The update also doubles generation speed, reducing 6-second 720p video creation to 25 seconds."
+    url: "https://www.kucoin.com/news/flash/xai-launches-grok-imagine-video-1-5-with-audio-visual-sync-and-doubled-speed"
+    source: "kucoin.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Google Introduces Gemini Omni for Multimodal Video Generation"
+    summary: "Google has unveiled Gemini Omni, a new AI model capable of creating and editing videos from text, images, audio, and existing clips. Omni allows conversational editing and maintains realistic physics in generated content."
+    url: "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Luma Launches Creative AI Agents Powered by Unified Intelligence Models"
+    summary: "Luma has introduced Luma Agents, designed to handle end-to-end creative work across text, image, video, and audio. Powered by the Unified Intelligence family of models, these agents aim to transform workflows for ad agencies and marketing teams."
+    url: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "CraftStory Launches Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory has released Model 2.0, enabling users to generate up to five-minute, studio-quality human videos from a single image and a script. This advancement addresses the need for scalable, human-led content creation."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
