@@ -1,0 +1,36 @@
+date: "2026-06-26"
+stories:
+  - title: "Figma Introduces Code Layers and Motion Timeline at Config 2026"
+    summary: "At Config 2026, Figma unveiled new features including code layers for integrating live code within designs, and a Motion timeline for advanced animation control. These updates aim to streamline the design-to-development workflow for creators."
+    url: "https://pondero.ai/news/2026-06-25-daily-brief/"
+    source: "pondero.ai"
+    tag: "tools"
+    significance: 4
+
+  - title: "ByteDance Announces Seedance 2.5 with 4K Video Generation"
+    summary: "ByteDance revealed Seedance 2.5, capable of generating native 30-second 4K videos in a single pass. The model is set to launch in early July, enhancing high-resolution video content creation."
+    url: "https://pondero.ai/news/2026-06-25-daily-brief/"
+    source: "pondero.ai"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "OpenAI to Retire GPT-4.5 from ChatGPT on Saturday"
+    summary: "OpenAI announced that GPT-4.5 will be retired from ChatGPT on Saturday, transitioning the platform entirely to the GPT-5.x series. Users are encouraged to adapt to the new model for continued service."
+    url: "https://pondero.ai/news/2026-06-25-daily-brief/"
+    source: "pondero.ai"
+    tag: "models"
+    significance: 3
+
+  - title: "Anthropic Accuses Alibaba of Illicitly Extracting Claude AI Capabilities"
+    summary: "Anthropic has alleged that Alibaba illicitly extracted capabilities from its Claude AI model. The company is considering legal action to address the unauthorized use of its technology."
+    url: "https://tera.fm/episodes/reuters/2026-06-25"
+    source: "tera.fm"
+    tag: "community"
+    significance: 3
+
+  - title: "Micron and Qualcomm Forecasts Ignite $400 Billion AI Chip Stock Rally"
+    summary: "Positive forecasts from Micron and Qualcomm have sparked a $400 billion rally in AI chip stocks, reflecting strong investor confidence in the sector's growth prospects."
+    url: "https://tera.fm/episodes/reuters/2026-06-25"
+    source: "tera.fm"
+    tag: "community"
+    significance: 3
