@@ -1,0 +1,32 @@
+date: "2026-06-29"
+stories:
+  - title: "Goldman Sachs Predicts AI Investment Shift to Physical Economy"
+    summary: "Goldman Sachs forecasts a $7.6 trillion investment in AI infrastructure from 2026 to 2031, emphasizing a transition from digital applications to sectors like manufacturing and utilities. This shift is expected to blur lines between tech and industrial companies, highlighting AI's expanding role in the physical economy."
+    url: "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy"
+    source: "axios.com"
+    tag: "research"
+    significance: 4
+  - title: "U.S. Government Alters OpenAI's GPT-5.6 Release Strategy"
+    summary: "The Trump administration has mandated OpenAI to stagger the release of ChatGPT-5.6 due to national security concerns. Early access is limited to select partners, with federal approval required for each user, marking a significant shift in AI deployment oversight."
+    url: "https://www.tomsguide.com/ai/the-trump-administration-just-quietly-changed-how-openai-will-launch-its-next-model"
+    source: "tomsguide.com"
+    tag: "models"
+    significance: 5
+  - title: "Creative Bloq Launches 'AI in Focus 2026' Series"
+    summary: "Creative Bloq, sponsored by NVIDIA, introduces 'AI in Focus 2026,' a content series exploring AI's impact on creative fields like graphic design and filmmaking. The series features insights from leading creatives and examines AI tools integrated with NVIDIA GeForce RTX GPUs."
+    url: "https://www.creativebloq.com/ai/introducing-our-ai-in-focus-2026-series"
+    source: "creativebloq.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "CraftStory Releases Image-to-Video AI Model 2.0"
+    summary: "CraftStory announces Model 2.0, an AI tool that generates up to five-minute, studio-quality human videos from a single image and script. This advancement aims to streamline video production for businesses by eliminating the need for source footage."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Google's Gemini Omni Flash Enables Voice-Controlled Video Editing"
+    summary: "Google introduces Gemini Omni Flash, an AI model that allows users to edit videos through voice commands. This innovation simplifies video editing by enabling natural language instructions to perform complex edits, enhancing accessibility for creators."
+    url: "https://www.phonearena.com/news/googles-newest-ai-model-lets-you-edit-video-by-just-talking-to-it_id180484"
+    source: "phonearena.com"
+    tag: "tools"
+    significance: 4
