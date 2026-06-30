@@ -1,0 +1,36 @@
+date: "2026-06-30"
+stories:
+  - title: "Alphabet Completes $84.75 Billion Equity Raise for AI Infrastructure"
+    summary: "Alphabet has finalized an $84.75 billion equity raise, marking the largest AI infrastructure financing in corporate history. The funds are earmarked for expanding computing power, data centers, and energy capacity to support AI advancements."
+    url: "https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"
+    source: "buildfastwithai.com"
+    tag: "models"
+    significance: 5
+
+  - title: "Google Launches Gemini Omni for Multimodal Video Generation"
+    summary: "Google has unveiled Gemini Omni, a new AI model capable of generating and editing videos from diverse inputs, including text, images, and audio. The model allows for conversational editing, enabling users to make iterative changes while maintaining consistency across scenes."
+    url: "https://www.thedailystar.net/news/tech-startup/news/google-launches-gemini-omni-new-ai-video-models-4181116"
+    source: "thedailystar.net"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Stability AI Releases Stable Audio 3.0 for Extended Music Generation"
+    summary: "Stability AI has introduced Stable Audio 3.0, a family of audio models capable of generating professional-grade music tracks exceeding six minutes. The release includes models of varying sizes, with open weights available for the small and medium versions."
+    url: "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "PixVerse Launches V6, Enhancing AI Video Generation Capabilities"
+    summary: "PixVerse has launched V6, the latest version of its AI video generation platform, offering improved camera control, character performance, and multi-shot video generation with native audio. The update aims to advance both creative and commercial video production workflows."
+    url: "https://www.siamnewsnetwork.net/pr-news/pixverse-launches-v6-advancing-ai-video-generation-across-creative-and-agentic-workflows/"
+    source: "siamnewsnetwork.net"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Goldman Sachs Predicts AI Investment Shift to Physical Economy"
+    summary: "Goldman Sachs forecasts that the next major wave of AI development and investment will transition from digital applications to the physical economy, including sectors like manufacturing and utilities. The firm estimates a global investment of $7.6 trillion in AI infrastructure from 2026 to 2031."
+    url: "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy"
+    source: "axios.com"
+    tag: "research"
+    significance: 3
