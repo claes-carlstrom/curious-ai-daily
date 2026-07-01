@@ -1,0 +1,32 @@
+date: "2026-07-01"
+stories:
+  - title: "US Lifts Export Controls on Anthropic's Fable and Mythos AI Models"
+    summary: "The US Commerce Department has lifted export controls on Anthropic's Fable and Mythos AI models, allowing the company to resume access to its advanced AI systems after a suspension due to national security concerns."
+    url: "https://www.dawn.com/news/2012133"
+    source: "dawn.com"
+    tag: "models"
+    significance: 4
+  - title: "Google's Gemini Omni Integrates Multimodal Inputs for Video Generation"
+    summary: "Google introduced Gemini Omni, a new family of multimodal models capable of generating high-quality videos by reasoning across images, audio, video, and text inputs, reflecting an understanding of physics, culture, history, and science."
+    url: "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Runway Unveils Aleph: AI Model for Advanced Video Editing"
+    summary: "Runway released Aleph, an AI video-to-video model capable of performing a wide range of edits on input videos, including adding, removing, and transforming objects, as well as changing environments and time of day."
+    url: "https://www.gadgets360.com/ai/news/runway-aleph-ai-video-editing-generation-model-post-production-unveiled-8965180"
+    source: "gadgets360.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Pika Labs Launches 'Pikadditions' for Enhanced Video Editing"
+    summary: "Pika Labs introduced 'Pikadditions,' a video-to-video model that allows users to incorporate any person or object into existing videos, expanding creative possibilities for content creators."
+    url: "https://www.tomsguide.com/ai/ai-image-video/pika-labs-launches-pikadditions-to-add-anything-and-anyone-to-any-video-heres-how"
+    source: "tomsguide.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "ElevenLabs Unveils Integrated AI Content Creation Platform"
+    summary: "ElevenLabs launched its 'Image & Video Platform,' integrating image generation, video generation, voice synthesis, music creation, and sound effect design, enabling creators to produce commercial-grade videos from script to final product within a single interface."
+    url: "https://aitoolly.com/ai-news/article/2025-11-18-elevenlabs-unveils-image-video-platform-a-super-ai-content-factory-for-integrated-visuals-audio-and"
+    source: "aitoolly.com"
+    tag: "content-creation"
+    significance: 4
