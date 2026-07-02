@@ -1,0 +1,32 @@
+date: "2026-07-02"
+stories:
+  - title: "UN Launches 'AI for Good' Global Commission"
+    summary: "The United Nations, in collaboration with the International Telecommunication Union, has established the 'AI for Good Global Commission' to unite global tech leaders and heads of state in shaping international AI strategies. The inaugural meeting is scheduled for July 8 in Geneva, Switzerland."
+    url: "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders"
+    source: "axios.com"
+    tag: "community"
+    significance: 4
+  - title: "Goldman Sachs Predicts AI Investment Shift to Physical Economy"
+    summary: "Goldman Sachs forecasts that the next major wave of AI development and investment will transition from digital applications to sectors like factories, mines, utilities, and oil rigs. The firm estimates approximately $7.6 trillion will be invested globally in AI infrastructure from 2026 to 2031."
+    url: "https://www.axios.com/2026/06/26/goldman-sachs-ai-physical-economy"
+    source: "axios.com"
+    tag: "research"
+    significance: 3
+  - title: "CraftStory Releases Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory has launched its Image-to-Video model, enabling users to generate up to five-minute, studio-quality human videos from a single image and a written script. This advancement aims to streamline content creation for product explainers, training videos, and educational content."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Midjourney Introduces V1 AI Video Generation Model"
+    summary: "Midjourney has unveiled its first AI video generation model, V1, allowing users to upload an image and receive four five-second videos based on it. V1 is accessible through Discord and is priced at $10 per month."
+    url: "https://techcrunch.com/2025/06/18/midjourney-launches-its-first-ai-video-generation-model-V1/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Luma Launches Creative AI Agents Powered by 'Unified Intelligence' Models"
+    summary: "Luma has introduced Luma Agents, designed to handle end-to-end creative work across text, image, video, and audio. Powered by the company's Unified Intelligence models, these agents aim to assist ad agencies, marketing teams, and design studios in streamlining their creative processes."
+    url: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 4
