@@ -1,0 +1,32 @@
+date: "2026-07-03"
+stories:
+  - title: "LumeFlow AI Integrates Seedance 2.0 Mini and 4K Video Generation"
+    summary: "LumeFlow AI has updated its platform to include ByteDance's Seedance 2.0 Mini model and native 4K support, enhancing AI video generation capabilities for creators and marketers."
+    url: "https://citizenwire.com/2026/06/27/news-lumeflow-ai-launches-major-platform-update-with-seedance-2-0-mini-4k-video-generation-and-marketing-studio-citizenwire/"
+    source: "citizenwire.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "UN Launches 'AI for Good' Global Commission"
+    summary: "The United Nations, in collaboration with the International Telecommunication Union, has established the 'AI for Good Global Commission' to unite tech leaders and heads of state in developing international AI strategies."
+    url: "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders"
+    source: "axios.com"
+    tag: "community"
+    significance: 3
+  - title: "CraftStory Releases Image-to-Video AI Model 2.0"
+    summary: "CraftStory has launched Model 2.0, enabling users to generate up to five-minute, studio-quality human videos from a single image and a written script, streamlining content creation processes."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "xAI Introduces Grok Imagine 1.0 for 10-Second 720p Video Generation"
+    summary: "xAI has released Grok Imagine 1.0, allowing users to generate 10-second, 720p videos directly on the X platform, marking a significant advancement in accessible AI video creation."
+    url: "https://www.techspot.com/news/111169-xai-launches-grok-imagine-10-10-second-720p.html"
+    source: "techspot.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Luma Launches Creative AI Agents Powered by Unified Intelligence Models"
+    summary: "Luma has introduced Luma Agents, designed to handle end-to-end creative work across text, image, video, and audio, powered by its new 'Unified Intelligence' family of models."
+    url: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 4
