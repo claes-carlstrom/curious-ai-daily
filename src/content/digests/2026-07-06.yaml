@@ -1,0 +1,32 @@
+date: "2026-07-06"
+stories:
+  - title: "Google Introduces Gemini Omni for AI-Powered Video Creation"
+    summary: "Google has unveiled Gemini Omni, an AI model capable of generating and editing cinematic videos from text, images, audio, and video inputs. Integrated into the Gemini app, it offers conversational prompts for intuitive video creation and is accessible across various smartphones, with feature availability depending on the user's Google AI subscription tier."
+    url: "https://www.androidcentral.com/apps-software/ai/gemini-omni-explained-how-to-use"
+    source: "androidcentral.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "PixVerse Launches V6 Model Enhancing AI Video Generation"
+    summary: "PixVerse has released V6, the latest version of its AI video generation platform, introducing advanced camera control, improved character performance, and multi-shot video generation with native audio. These enhancements aim to benefit both creative and commercial applications by delivering complex scenes with coherent motion and consistent detail."
+    url: "https://www.prnewswire.com/apac/news-releases/pixverse-launches-v6-advancing-ai-video-generation-across-creative-and-agentic-workflows-302728409.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Microsoft Releases AI Models for Image, Audio, and Transcription"
+    summary: "Microsoft has introduced three specialized AI models: MAI-Transcribe-1 for speech-to-text transcription, MAI-Voice-1 for realistic speech generation, and MAI-Image-2 for image creation. These models are available through Microsoft Foundry and MAI Playground, with MAI-Image-2 being integrated into Copilot, Bing, and PowerPoint."
+    url: "https://www.gadgets360.com/ai/news/microsoft-mai-image-voice-transcribe-ai-models-rival-openai-google-released-11307444"
+    source: "gadgets360.com"
+    tag: "models"
+    significance: 4
+  - title: "Kling AI Launches Video 2.6 Model with Simultaneous Audio-Visual Generation"
+    summary: "Kling AI has released the Video 2.6 Model, introducing 'simultaneous audio-visual generation' that allows for the concurrent creation of visuals, voiceovers, sound effects, and ambient sounds. This advancement aims to streamline AI video production workflows and enhance creative efficiency."
+    url: "https://www.prnewswire.com/apac/news-releases/kling-ai-launches-video-2-6-model-with-simultaneous-audio-visual-generation-capability-redefining-ai-video-creation-workflow-302634070.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Luma Releases Ray3 Modify for AI-Powered Video Editing"
+    summary: "Luma has introduced Ray3 Modify, an AI model that enables users to modify existing footage by providing character reference images while preserving the original performance. The model allows for the generation of transitional footage between specified start and end frames, maintaining the actor's motion, timing, and emotional delivery."
+    url: "https://m.techcrunch.com/2025/12/18/luma-releases-a-new-ai-model-that-lets-users-generate-a-video-from-a-start-and-end-frame/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
