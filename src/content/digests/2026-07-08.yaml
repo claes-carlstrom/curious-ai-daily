@@ -1,0 +1,32 @@
+date: "2026-07-08"
+stories:
+  - title: "Google's Gemini Omni Enhances AI Video Creation with Multimodal Inputs"
+    summary: "Google's Gemini Omni, introduced at Google I/O 2026, allows users to generate videos by combining text, images, audio, and video inputs. The model emphasizes ease of use through conversational prompts and is accessible across various devices, depending on the user's Google AI subscription level."
+    url: "https://www.androidcentral.com/apps-software/ai/gemini-omni-explained-how-to-use"
+    source: "androidcentral.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "UN Launches 'AI for Good' Global Commission to Shape AI Strategies"
+    summary: "The United Nations, in collaboration with the International Telecommunication Union, has established the 'AI for Good Global Commission' to unite global tech leaders and heads of state in developing international AI strategies. The commission aims to bridge divides in global AI regulation and will hold its inaugural meeting on July 8 in Geneva."
+    url: "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders"
+    source: "axios.com"
+    tag: "community"
+    significance: 3
+  - title: "Midjourney Introduces V1: Its First AI Video Generation Model"
+    summary: "Midjourney has launched V1, its inaugural AI video generation model, enabling users to upload an image and receive four five-second videos based on it. V1 is accessible through Discord and is available on the web, positioning Midjourney in competition with other AI video generation models."
+    url: "https://techcrunch.com/2025/06/18/midjourney-launches-its-first-ai-video-generation-model-V1/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Runway Releases GWM-1: Its First World Model for AI Video Generation"
+    summary: "Runway has unveiled GWM-1, its first world model designed to create simulations with an understanding of physics and real-world behavior over time. This model aims to enhance the realism and coherence of AI-generated videos, marking a significant advancement in AI video generation technology."
+    url: "https://techcrunch.com/2025/12/11/runway-releases-its-first-world-model-adds-native-audio-to-latest-video-model/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+  - title: "OpenAI's Sora 2 Enables User Integration into AI-Generated Videos with Sound"
+    summary: "OpenAI has announced Sora 2, its second-generation video-synthesis AI model that allows users to insert themselves into AI-generated videos featuring synchronized dialogue and sound effects. The accompanying iOS app enables users to create personalized AI videos through 'cameos,' enhancing user engagement and personalization."
+    url: "https://arstechnica.com/ai/2025/10/openais-sora-2-lets-users-insert-themselves-into-ai-videos-with-sound/"
+    source: "arstechnica.com"
+    tag: "content-creation"
+    significance: 4
