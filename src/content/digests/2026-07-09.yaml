@@ -1,0 +1,32 @@
+date: "2026-07-09"
+stories:
+  - title: "Google's Gemini Omni Flash Enhances AI Video Editing with Conversational Prompts"
+    summary: "Google has introduced Gemini Omni Flash, an AI model that allows users to edit videos using conversational prompts. Integrated into the Gemini app, it enables the creation of videos from text, images, and audio inputs, offering a user-friendly approach to video editing."
+    url: "https://www.androidcentral.com/apps-software/ai/gemini-omni-explained-how-to-use"
+    source: "androidcentral.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "CraftStory Releases Image-to-Video AI for Long-Form Human Videos"
+    summary: "CraftStory has launched Model 2.0, an AI that generates up to five-minute, studio-quality human videos from a single image and a script. This tool aims to streamline video production for businesses by creating expressive, long-form videos without the need for source footage."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Luma Introduces Creative AI Agents Powered by Unified Intelligence Models"
+    summary: "Luma has unveiled Luma Agents, designed to handle end-to-end creative work across text, image, video, and audio. Powered by the company's Unified Intelligence models, these agents aim to assist ad agencies, marketing teams, and design studios in streamlining their creative processes."
+    url: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+  - title: "Kling AI Launches 3.0 Model for Enhanced AI Video Generation"
+    summary: "Kling AI has released its 3.0 model series, including Video 3.0 and Image 3.0, offering improved consistency, photorealistic output, extended video duration up to 15 seconds, and native audio generation across multiple languages. The models support full multimodal input and output, streamlining AI workflows for creators."
+    url: "https://www.prnewswire.com/news-releases/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-302679944.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Runway Unveils Aleph, an AI Model for Video Editing via Text Prompts"
+    summary: "Runway has introduced Aleph, a video-to-video generation model that allows users to edit and transform elements within existing video footage using simple text prompts. Initially available to enterprise customers, Aleph enables alterations like object manipulation and scene changes while maintaining the original content's integrity."
+    url: "https://www.livemint.com/technology/tech-news/runway-unveils-aleph-a-new-ai-model-that-edits-and-transforms-videos-how-it-works/amp-11753704357946.html"
+    source: "livemint.com"
+    tag: "content-creation"
+    significance: 3
