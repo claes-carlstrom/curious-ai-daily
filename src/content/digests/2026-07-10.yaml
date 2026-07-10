@@ -1,0 +1,32 @@
+date: "2026-07-10"
+stories:
+  - title: "Google Introduces Nano Banana 2 Lite and Gemini Omni Flash for Enhanced AI Media Creation"
+    summary: "Google has unveiled Nano Banana 2 Lite, its fastest and most cost-efficient AI image generation model, alongside Gemini Omni Flash, a new video generation and editing model. These additions aim to accelerate AI-powered image and video creation, offering improved performance and affordability for developers and enterprises."
+    url: "https://m.economictimes.com/ai/ai-insights/google-launches-nano-banana-2-lite-and-gemini-omni-flash-to-make-ai-image-and-video-creation-faster-and-more-affordable/amp_articleshow/132112415.cms"
+    source: "m.economictimes.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Google Launches Gemini Omni Flash for AI Video Generation"
+    summary: "Google has introduced Gemini Omni Flash, a new AI model designed to create media from various inputs, including text, images, audio, and video. This model aims to generate high-quality videos grounded in Gemini’s broader world knowledge, marking a significant advancement in AI-driven media creation."
+    url: "https://www.techbooky.com/google-launches-gemini-omni-flash-to-turn-any-input-into-ai-generated-video/"
+    source: "techbooky.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Google Releases Lyria 3 Pro for Extended AI-Generated Music Tracks"
+    summary: "Google has released Lyria 3 Pro, an advanced music generation model capable of creating tracks up to three minutes long with structural awareness. The model understands musical composition elements, allowing users to prompt for specific song structures and complex transitions, enhancing AI-generated music capabilities."
+    url: "https://www.investing.com/news/stock-market-news/google-launches-lyria-3-pro-for-longer-aigenerated-music-tracks-93CH-4580493"
+    source: "investing.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Kuaishou's Kling AI Releases Video 2.6 Model with Simultaneous Audio-Visual Generation"
+    summary: "Kuaishou Technology's Kling AI has launched the Kling Video 2.6 Model, introducing 'simultaneous audio-visual generation.' This capability allows for the concurrent creation of visuals, natural voiceovers, sound effects, and ambient atmosphere in a single pass, significantly enhancing the efficiency of AI video production workflows."
+    url: "https://www.marketscreener.com/news/kuaishou-technology-launches-video-2-6-model-with-simultaneous-audio-visual-generation-capability-ce7d51dcd18cf22c"
+    source: "marketscreener.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Google Enhances Enterprise Cloud with Music-Generating AI Model Lyria"
+    summary: "Google has integrated its text-to-music model, Lyria, into its Vertex AI cloud platform, now available in preview for select customers. This update aims to provide enterprises with advanced AI tools for music generation, expanding Google's suite of generative AI offerings."
+    url: "https://techcrunch.com/2025/04/09/google-brings-a-music-generating-ai-model-to-its-enterprise-cloud/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 3
