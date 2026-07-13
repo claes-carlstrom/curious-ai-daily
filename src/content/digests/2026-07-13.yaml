@@ -1,0 +1,36 @@
+date: "2026-07-13"
+stories:
+  - title: "OpenAI launches GPT-5.6 with three model variants"
+    summary: "OpenAI has introduced GPT-5.6, featuring three variants: Sol, Terra, and Luna. Sol is noted for being 54% more token efficient in AI coding tasks, and the models are designed to enhance enterprise work, coding, and scientific research."
+    url: "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+    source: "techcrunch.com"
+    tag: "models"
+    significance: 4
+
+  - title: "Meta unveils Muse Image, its first AI image generator"
+    summary: "Meta has launched Muse Image, the first image-generation model from Meta Superintelligence Labs. The model is integrated into the Meta AI app, Instagram Stories, and WhatsApp, allowing users to create images using AI."
+    url: "https://timesof.ai/2026/07/meta-muse-image-superintelligence-labs"
+    source: "timesof.ai"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Meta releases Muse Spark 1.1 for agentic coding"
+    summary: "Meta has publicly launched Muse Spark 1.1, a multimodal AI model designed for agentic coding. The model can handle complex processes, manage digital workflows, and deploy new features in enterprise systems."
+    url: "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/"
+    source: "techcrunch.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Adwave introduces Wavemaker, an AI video generator for creators and marketers"
+    summary: "Adwave has launched Wavemaker, an AI video generation platform that transforms text prompts, URLs, or uploaded files into scripted, voiced, and scored videos within minutes. The platform aims to streamline video content production for creators and marketers."
+    url: "https://tvnewscheck.com/ai/article/adwave-launches-wavemaker-an-ai-video-generator-for-creators-marketers/"
+    source: "tvnewscheck.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "OpenAI reverts Codex context window to 272K tokens after overbilling errors"
+    summary: "OpenAI has reverted the Codex context window to 272,000 tokens and adjusted GPT-5.6 reasoning costs following overbilling errors. This change aims to address billing inaccuracies and improve cost efficiency for users."
+    url: "https://huggingnews.com/"
+    source: "huggingnews.com"
+    tag: "models"
+    significance: 2
