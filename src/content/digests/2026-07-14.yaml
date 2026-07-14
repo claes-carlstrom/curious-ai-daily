@@ -1,0 +1,36 @@
+date: "2026-07-14"
+stories:
+  - title: "Meta Launches Muse Image, Integrating AI Image Generation Across Platforms"
+    summary: "On July 7, 2026, Meta introduced Muse Image, its first image-generation model from Meta Superintelligence Labs. Muse Image is integrated into the Meta AI app, Instagram Stories, and WhatsApp, allowing users to create AI-generated images and apply AI effects directly within these platforms. The model also enables users to manipulate public Instagram photos using AI, though this feature has raised privacy concerns."
+    url: "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
+    source: "techcrunch.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Apple Files Lawsuit Against OpenAI Over Alleged Trade Secret Theft"
+    summary: "Apple has filed a lawsuit against OpenAI, accusing the AI company of stealing trade secrets and obtaining confidential information regarding unreleased products. The case focuses on specific employees allegedly accessing Apple's proprietary materials during job interviews."
+    url: "https://standarity.com/ai-news/2026-07-14"
+    source: "standarity.com"
+    tag: "community"
+    significance: 4
+
+  - title: "OpenAI's ChatGPT Returns to WhatsApp in EEA, Expands to Kakao and Viber"
+    summary: "OpenAI has reintroduced ChatGPT to WhatsApp users in the European Economic Area and expanded its availability to messaging platforms Kakao and Viber. This strategic expansion highlights the growing importance of AI in global digital communication ecosystems."
+    url: "https://cryptobriefing.com/chatgpt-returns-to-whatsapp-in-eea-expands-to-kakao-and-viber-in-global-messaging-push/"
+    source: "cryptobriefing.com"
+    tag: "tools"
+    significance: 3
+
+  - title: "Dreamega.ai Launches Unified Platform with 50+ AI Models for Creative Content"
+    summary: "Dreamega has launched Dreamega.ai, an all-in-one AI creative platform integrating over 50 AI models for image generation, video production, music composition, and media enhancement. The platform unifies tools from OpenAI, Google, ByteDance, Alibaba, and Black Forest Labs in a single workspace, offering features like batch generation and consistent character maintenance across outputs."
+    url: "https://app.dealroom.co/news/feed/dreamega-ai-launches-unified-platform-with-50-ai-models-for-image-video-and-music-creation"
+    source: "dealroom.co"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Economists Urge Immediate Action on AI's Economic Impact and Job Displacement Risks"
+    summary: "Hundreds of economists have signed an open letter urging institutions to address how artificial intelligence could transform the economy and potentially displace many workers. The statement emphasizes the need for proactive measures to manage AI's impact on employment and economic structures."
+    url: "https://abcnews.go.com/Technology/wireStory/hundreds-economists-act-now-ais-economic-impact-job-134719082"
+    source: "abcnews.go.com"
+    tag: "community"
+    significance: 3
