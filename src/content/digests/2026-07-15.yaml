@@ -1,0 +1,32 @@
+date: "2026-07-15"
+stories:
+  - title: "Meta Unveils Muse Image and Muse Video with Self-Correcting AI Capabilities"
+    summary: "Meta's Superintelligence Labs has introduced Muse Image and Muse Video, AI models capable of generating and editing images and videos. These models feature an agentic architecture that allows them to internally correct their own mistakes without user intervention. Muse Image is available immediately, while Muse Video is in preview for selected creators."
+    url: "https://24-ai.news/en/news/2026-07-07/meta-muse-image-video/"
+    source: "24-ai.news"
+    tag: "content-creation"
+    significance: 4
+  - title: "PixVerse Releases V6, Enhancing AI Video Generation with Advanced Features"
+    summary: "PixVerse has launched V6, the latest version of its AI video generation platform, introducing improvements in camera control, character performance, and multi-shot video generation with native audio. V6 is accessible to developers through a command-line interface, supporting integration with coding agents like Claude Code and Codex."
+    url: "https://pixverse.ai/en/blog/pixverse-launches-v6-advancing-ai-video-generation"
+    source: "pixverse.ai"
+    tag: "content-creation"
+    significance: 3
+  - title: "Open Models Gain Traction as Enterprises Seek Alternatives to Proprietary AI"
+    summary: "Hugging Face reports a shift in enterprise AI demand towards open models, as businesses aim to reduce costs, gain more control, and avoid dependence on proprietary AI APIs. This trend indicates a growing preference for open-source solutions in the AI industry."
+    url: "https://creati.ai/ai-news/2026-07-15/"
+    source: "creati.ai"
+    tag: "models"
+    significance: 3
+  - title: "Anthropic Releases Fable 5, Its First Public Mythos-Class AI Model"
+    summary: "Anthropic has made Fable 5, its first Mythos-class AI model, available to the general public. Initially considered too powerful for release due to its advanced capabilities, Fable 5 marks a significant step in Anthropic's AI offerings."
+    url: "https://fortune.com/2026/06/09/anthropic-releases-its-first-mythos-model-to-the-public/"
+    source: "fortune.com"
+    tag: "models"
+    significance: 4
+  - title: "Adobe Firefly Introduces AI Audio and Video Generation Tools"
+    summary: "Adobe's Firefly has expanded its AI capabilities to include audio and video generation tools. The new features allow users to generate soundtracks and voiceovers, enhancing the creative possibilities within Adobe's suite of applications."
+    url: "https://news.adobe.com/news/2025/10/adobe-max-2025-firefly"
+    source: "adobe.com"
+    tag: "content-creation"
+    significance: 3
