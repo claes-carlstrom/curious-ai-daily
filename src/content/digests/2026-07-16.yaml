@@ -1,0 +1,36 @@
+date: "2026-07-16"
+stories:
+  - title: "OpenAI Introduces GPT-Red to Enhance GPT-5.6's Prompt Injection Resistance"
+    summary: "OpenAI has unveiled GPT-Red, an internal red-teaming system designed to improve GPT-5.6's defenses against prompt injection attacks. This system aims to scale safety measures in line with the model's capabilities."
+    url: "https://creati.ai/ai-news/2026-07-16/"
+    source: "creati.ai"
+    tag: "models"
+    significance: 4
+
+  - title: "NVIDIA Proposes AI Agents for Efficient OpenUSD Runtime Generation"
+    summary: "NVIDIA has introduced nanousd-labs, suggesting that AI agents can generate lightweight OpenUSD runtimes from the USD Core Specification. This approach aims to expedite tailored physical AI deployments."
+    url: "https://creati.ai/ai-news/2026-07-16/"
+    source: "creati.ai"
+    tag: "tools"
+    significance: 3
+
+  - title: "MiniMax Releases Hailuo 2.3 Video Model with Enhanced Motion and Style Support"
+    summary: "Chinese AI startup MiniMax has launched Hailuo 2.3, an upgraded video generation model offering improved motion rendering, expanded style support for anime and CG, and more natural facial expressions. The accompanying Media Agent enables users to create videos from text, images, and audio with a single click."
+    url: "https://www.seventnews.com/en/articles/minimax-launches-hailuo-23-video-model-with-enhanced-motion-and-style-support"
+    source: "seventnews.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Meta Introduces Muse Image, Its First Image-Generation Model"
+    summary: "On July 7, 2026, Meta launched Muse Image, the first image-generation model from Meta Superintelligence Labs. Muse Image utilizes agentic tool use, multi-reference composition, and Instagram social context, and is rolling out in Meta AI, Instagram Stories, and WhatsApp in select countries."
+    url: "https://timesof.ai/2026/07/meta-muse-image-superintelligence-labs"
+    source: "timesof.ai"
+    tag: "models"
+    significance: 4
+
+  - title: "Google Launches Gemini Omni Video Model with Conversational Editing Capabilities"
+    summary: "Google has introduced Gemini Omni, a multimodal model capable of generating and editing video from various inputs, including text, images, audio, and video. The first model in this family, Gemini Omni Flash, is now rolling out, offering conversational video generation and editing through the Gemini API, Google AI Studio, and Enterprise Agent Platform."
+    url: "https://www.techtimes.com/articles/316859/20260519/google-launches-gemini-omni-video-model-holds-back-its-riskiest-feature.htm"
+    source: "techtimes.com"
+    tag: "content-creation"
+    significance: 4
