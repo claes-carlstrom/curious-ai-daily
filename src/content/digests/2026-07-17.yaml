@@ -1,0 +1,32 @@
+date: "2026-07-17"
+stories:
+  - title: "Meta Introduces Muse Image, Its First Image-Generation Model"
+    summary: "On July 7, 2026, Meta launched Muse Image, the inaugural image-generation model from Meta Superintelligence Labs. Muse Image employs agentic tool use, multi-reference composition, and integrates Instagram social context. It's currently available in Meta AI, Instagram Stories, and WhatsApp in select countries."
+    url: "https://timesof.ai/2026/07/meta-muse-image-superintelligence-labs"
+    source: "timesof.ai"
+    tag: "models"
+    significance: 4
+  - title: "Google Releases Lyria 3 Pro for Extended AI-Generated Music Tracks"
+    summary: "In March 2026, Google unveiled Lyria 3 Pro, an advanced music generation model capable of creating tracks up to three minutes long with structural awareness. The model understands musical composition elements like intros, verses, choruses, and bridges, allowing users to prompt for specific song structures and complex transitions."
+    url: "https://www.investing.com/news/stock-market-news/google-launches-lyria-3-pro-for-longer-aigenerated-music-tracks-93CH-4580493"
+    source: "investing.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "xAI Releases Grok Imagine 1.0, Advancing Video Generation AI"
+    summary: "On February 2, 2026, xAI introduced Grok Imagine 1.0, a video generation AI capable of producing 720p videos up to 10 seconds long. The model supports both text-to-video and image-to-video generation, and can generate audio simultaneously, enhancing the quality of the produced videos."
+    url: "https://gigazine.net/gsc_news/en/20260203-grok-imagine-video-generation-ai"
+    source: "gigazine.net"
+    tag: "models"
+    significance: 4
+  - title: "Kling AI Launches 3.0 Models with Enhanced Video and Audio Capabilities"
+    summary: "In February 2026, Kling AI announced its 3.0 model series, including Video 3.0, Video 3.0 Omni, Image 3.0, and Image 3.0 Omni. These models offer improved consistency, photorealistic output, extended video duration up to 15 seconds, and native audio generation across multiple languages and accents."
+    url: "https://www.prnewswire.com/news-releases/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-302679944.html"
+    source: "prnewswire.com"
+    tag: "models"
+    significance: 4
+  - title: "CraftStory Introduces Image-to-Video AI for Long-Form Human Videos"
+    summary: "In January 2026, CraftStory unveiled its Image-to-Video model, an expansion of Model 2.0, enabling users to generate up to five-minute, studio-quality human videos from a single image and a written script. The model produces natural facial expressions, body language, and gestures, making it suitable for various content creation needs."
+    url: "https://www.prnewswire.com/news-releases/craftstory-launches-image-to-video-ai-for-long-form-studio-quality-human-videos-302656391.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
