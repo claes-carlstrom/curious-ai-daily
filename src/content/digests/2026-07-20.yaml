@@ -1,0 +1,32 @@
+date: "2026-07-20"
+stories:
+  - title: "Meta Introduces Muse Image, Its First AI Image Generation Model"
+    summary: "On July 7, 2026, Meta launched Muse Image, the inaugural image-generation model from Meta Superintelligence Labs. Muse Image utilizes agentic tool use, multi-reference composition, and Instagram social context, and is being rolled out in Meta AI, Instagram Stories, and WhatsApp in select countries."
+    url: "https://timesof.ai/2026/07/meta-muse-image-superintelligence-labs"
+    source: "timesof.ai"
+    tag: "models"
+    significance: 4
+  - title: "Google Unveils Gemini Omni Flash Model for Video Generation with Synchronized Audio"
+    summary: "In May 2026, Google introduced the Gemini Omni Flash model, capable of generating short video clips up to 10 seconds long with synchronized audio, physics-aware motion, and conversational editing, all within a unified tool."
+    url: "https://www.technobezz.com/news/google-launches-gemini-omni-flash-model-that-generates-video-with-synchronized-audio"
+    source: "technobezz.com"
+    tag: "models"
+    significance: 4
+  - title: "xAI Releases Grok Imagine 1.0, Advancing AI Video Generation"
+    summary: "On February 2, 2026, xAI launched Grok Imagine 1.0, a video generation AI capable of producing 720p videos up to 10 seconds long, supporting both text-to-video and image-to-video generation with enhanced audio quality."
+    url: "https://gigazine.net/gsc_news/en/20260203-grok-imagine-video-generation-ai"
+    source: "gigazine.net"
+    tag: "models"
+    significance: 4
+  - title: "Kling AI Launches 3.0 Model Series, Enhancing AI Video Creation"
+    summary: "In February 2026, Kling AI announced the 3.0 model series, including Video 3.0 and Image 3.0, offering improved consistency, photorealistic output, extended video duration up to 15 seconds, and native audio generation across multiple languages and accents."
+    url: "https://www.prnewswire.com/news-releases/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-302679944.html"
+    source: "prnewswire.com"
+    tag: "models"
+    significance: 4
+  - title: "OpenAI's Sora 2 Enables User Integration into AI-Generated Videos with Sound"
+    summary: "In October 2025, OpenAI introduced Sora 2, an AI model that generates videos with synchronized dialogue and sound effects, allowing users to insert themselves into AI-generated videos through 'cameos' using a new iOS social app."
+    url: "https://arstechnica.com/ai/2025/10/openais-sora-2-lets-users-insert-themselves-into-ai-videos-with-sound/"
+    source: "arstechnica.com"
+    tag: "models"
+    significance: 3
