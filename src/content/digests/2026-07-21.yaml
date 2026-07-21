@@ -1,0 +1,32 @@
+date: "2026-07-21"
+stories:
+  - title: "Microsoft's July 2026 Update Fixes 570 Vulnerabilities with AI Assistance"
+    summary: "Microsoft's July 2026 Patch Tuesday update for Windows 11 addresses 570 vulnerabilities, significantly surpassing previous counts. This increase is attributed to AI tools like MDASH, which enhance vulnerability detection and validation, leading to more comprehensive security updates."
+    url: "https://www.windowscentral.com/microsoft/windows-11/windows-11s-massive-july-2026-update-shows-how-ai-is-changing-patch-tuesday"
+    source: "windowscentral.com"
+    tag: "tools"
+    significance: 4
+  - title: "Meta Introduces Muse Image and Muse Video with Self-Correcting AI"
+    summary: "Meta's Superintelligence Labs has unveiled Muse Image and Muse Video, AI models capable of self-correcting errors without user intervention. Muse Image is now publicly available, while Muse Video is in preview for selected creators, both featuring agentic architectures for enhanced content generation."
+    url: "https://24-ai.news/en/news/2026-07-07/meta-muse-image-video/"
+    source: "24-ai.news"
+    tag: "models"
+    significance: 4
+  - title: "Google Launches Gemini Omni for Multimodal AI Video Creation"
+    summary: "At Google I/O 2026, Google introduced Gemini Omni, a multimodal AI model designed for cinematic video generation and editing. Gemini Omni integrates text, images, audio, and video inputs to produce high-quality videos, offering conversational editing capabilities and realistic physics simulations."
+    url: "https://www.business-standard.com/technology/tech-news/gemini-omni-explained-google-s-ai-model-for-video-creation-from-any-input-126052000798_1.html"
+    source: "business-standard.com"
+    tag: "models"
+    significance: 4
+  - title: "PixVerse Releases V6, Enhancing AI Video Generation with Native Audio"
+    summary: "PixVerse has launched V6, the latest version of its AI video generation platform, featuring improved camera control, character performance, and multi-shot video generation with native audio. V6 aims to advance both creative and commercial applications of AI-generated video content."
+    url: "https://www.prnewswire.com/apac/news-releases/pixverse-launches-v6-advancing-ai-video-generation-across-creative-and-agentic-workflows-302728409.html"
+    source: "prnewswire.com"
+    tag: "content-creation"
+    significance: 3
+  - title: "Kling AI Unveils 3.0 Model Series for Enhanced AI Video Production"
+    summary: "Kling AI has announced the launch of its 3.0 model series, including Video 3.0 and Image 3.0, offering creators greater narrative control and consistency in AI video generation. The models support extended video durations up to 15 seconds and native audio generation across multiple languages."
+    url: "https://en.prnasia.com/releases/global/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-521494.shtml"
+    source: "prnasia.com"
+    tag: "content-creation"
+    significance: 3
