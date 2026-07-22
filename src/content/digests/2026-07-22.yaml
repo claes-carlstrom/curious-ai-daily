@@ -1,0 +1,36 @@
+date: "2026-07-22"
+stories:
+  - title: "Microsoft Increases 2027 AI Infrastructure Budget by $45 Billion"
+    summary: "Microsoft has raised its 2027 AI infrastructure budget to $95 billion, adding $45 billion to fund new data centers in Texas and Arizona. Azure AI revenue grew 78% year-over-year in Q2."
+    url: "https://neuralstack.network/"
+    source: "neuralstack.network"
+    tag: "models"
+    significance: 4
+
+  - title: "Hugging Face Releases Transformers 5.0 with Native Multimodal Support"
+    summary: "Hugging Face has launched Transformers 5.0, introducing first-class support for multimodal models and automatic pipeline optimization, enhancing the framework's versatility for developers."
+    url: "https://neuralstack.network/"
+    source: "neuralstack.network"
+    tag: "tools"
+    significance: 4
+
+  - title: "Meta Introduces Muse Image and Muse Video with Self-Correcting AI"
+    summary: "Meta's Superintelligence Labs unveiled Muse Image and Muse Video, agentic AI models capable of internally correcting their own mistakes without user intervention, aiming to improve content generation accuracy."
+    url: "https://24-ai.news/en/news/2026-07-07/meta-muse-image-video/"
+    source: "24-ai.news"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "InVideo AI Video Editor Enhances Professional-Grade Capabilities"
+    summary: "InVideo's latest AI video editor features Agent One, a conversational AI assistant enabling detailed, context-aware video creation through simple English instructions, supporting over 200 AI models."
+    url: "https://www.techradar.com/reviews/invideo-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 3
+
+  - title: "Adobe Firefly AI Video Editor Offers Advanced Features at Affordable Pricing"
+    summary: "Adobe Firefly has introduced advanced features like Generative Fill, Background Removal, and AI Markup in its AI-powered video and image editing tool, with pricing starting at $8.49/month."
+    url: "https://www.techradar.com/computing/creative-software/adobe-firefly-ai-video-editor-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 3
