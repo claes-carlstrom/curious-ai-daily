@@ -1,0 +1,32 @@
+date: "2026-07-23"
+stories:
+  - title: "InVideo AI Video Editor Introduces Agent One for Context-Aware Video Creation"
+    summary: "InVideo's latest AI video editor features Agent One, a conversational AI assistant that enables detailed, context-aware video creation through simple English instructions. Trusted by companies like Netflix and Google, it supports over 200 AI models and offers customizable templates and animation styles. Pricing ranges from a free plan to elite plans up to $9,000/month, based on usage credits."
+    url: "https://www.techradar.com/reviews/invideo-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "Adobe Firefly Enhances AI Video Editing with Real-Time Outputs and Collaborative Tools"
+    summary: "Adobe's Firefly AI video editor now offers realistic, real-time outputs and introduces Firefly Boards for collaborative brainstorming. The platform provides core AI features like Generative Fill and Background Removal in its free plan, with paid plans starting at $8.49/month. While some video and audio capabilities are still evolving, Firefly stands out for its affordability and rich feature set."
+    url: "https://www.techradar.com/computing/creative-software/adobe-firefly-ai-video-editor-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 4
+  - title: "AMD's Advancing AI 2026 Event Highlights Helios Architecture and MI450 GPUs"
+    summary: "At the Advancing AI 2026 event, AMD is expected to provide updates on its Helios architecture and launch the MI450 GPUs, codenamed 'Altair.' Partnerships with HPE, Oracle, and AI startup Anthropic are anticipated, emphasizing AMD's strategic push into AI infrastructure despite Nvidia's market dominance."
+    url: "https://www.itpro.com/infrastructure/what-to-expect-at-amd-advancing-ai-2026"
+    source: "itpro.com"
+    tag: "models"
+    significance: 4
+  - title: "Senator Mark Warner Introduces Comprehensive AI Legislative Framework"
+    summary: "Senator Mark Warner (D-Va.) has unveiled a legislative framework focused on artificial intelligence, emphasizing government-mandated testing of advanced AI models to ensure safety and accountability. The plan reflects Virginia's pivotal role in national AI discussions, particularly concerning data centers and job impacts."
+    url: "https://www.axios.com/2026/07/21/mark-warner-ai-plan"
+    source: "axios.com"
+    tag: "community"
+    significance: 3
+  - title: "Microsoft's July 2026 Patch Tuesday Addresses 570 Vulnerabilities with AI-Enhanced Detection"
+    summary: "Microsoft's July 2026 Patch Tuesday update for Windows 11 fixes 570 vulnerabilities, significantly surpassing previous counts. This increase is attributed to improved vulnerability detection through AI tools like MDASH, highlighting AI's growing role in cybersecurity and the need for prompt updates to counter AI-assisted exploits."
+    url: "https://www.windowscentral.com/microsoft/windows-11/windows-11s-massive-july-2026-update-shows-how-ai-is-changing-patch-tuesday"
+    source: "windowscentral.com"
+    tag: "tools"
+    significance: 3
