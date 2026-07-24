@@ -1,0 +1,36 @@
+date: "2026-07-24"
+stories:
+  - title: "InVideo AI Video Editor Enhances Context-Aware Creation with Agent One"
+    summary: "InVideo's latest AI video editor introduces Agent One, a conversational AI assistant that enables detailed, context-aware video creation through simple English instructions. Trusted by companies like Netflix and Google, it supports over 200 AI models and offers customizable templates and animation styles. Pricing ranges from a free plan to elite plans up to $9,000/month."
+    url: "https://www.techradar.com/reviews/invideo-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "Adobe Firefly AI Video Editor Expands Free Features and Enhances Collaboration"
+    summary: "Adobe's Firefly AI video editor now offers realistic, real-time outputs with an updated interface. Free users gain access to core AI features like Generative Fill and Background Removal, while paid plans start at $8.49/month. New features include Firefly Boards for collaborative brainstorming and support for over ten AI models."
+    url: "https://www.techradar.com/computing/creative-software/adobe-firefly-ai-video-editor-review"
+    source: "techradar.com"
+    tag: "content-creation"
+    significance: 4
+
+  - title: "AMD's Advancing AI 2026 Event Highlights Helios Architecture and MI450 GPUs"
+    summary: "At the Advancing AI 2026 event, AMD is expected to provide updates on its Helios architecture and launch the MI450 GPUs, codenamed 'Altair.' Partnerships with HPE, Oracle, and AI startup Anthropic are anticipated to be key focuses, as AMD continues to expand its presence in AI infrastructure."
+    url: "https://www.itpro.com/infrastructure/what-to-expect-at-amd-advancing-ai-2026"
+    source: "itpro.com"
+    tag: "models"
+    significance: 3
+
+  - title: "Meta Introduces Muse Image and Muse Video with Self-Correcting Agentic AI"
+    summary: "Meta Superintelligence Labs has unveiled Muse Image and Muse Video, generative AI models that internally correct their own mistakes without user intervention. Muse Image is publicly available, while Muse Video is in a preview phase for selected creators. Both models aim to enhance image and video content creation through advanced agentic architecture."
+    url: "https://24-ai.news/en/news/2026-07-07/meta-muse-image-video/"
+    source: "24-ai.news"
+    tag: "models"
+    significance: 4
+
+  - title: "Google's Gemini Omni Model Enables Video Creation from Diverse Inputs"
+    summary: "Google introduced Gemini Omni, a new AI video model capable of creating and editing cinematic clips using text, images, audio, and video inputs. The model understands real-world physics, allowing for realistic motion and fluid dynamics in generated videos. Gemini Omni aims to simplify video creation for a wide range of users."
+    url: "https://www.business-standard.com/technology/tech-news/gemini-omni-explained-google-s-ai-model-for-video-creation-from-any-input-126052000798_1.html"
+    source: "business-standard.com"
+    tag: "models"
+    significance: 4
